@@ -13,7 +13,7 @@
 
 .second {
   @apply w-full min-w-full flex items-center flex-col-reverse px-4 md:px-6
-  lg:justify-between lg:flex-row mt-10 border relative;
+  lg:justify-between lg:flex-row mt-10 relative;
 }
 
 .second_left {
