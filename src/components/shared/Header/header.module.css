@@ -1,6 +1,6 @@
 .header {
-  background: linear-gradient(212deg, var(--newPurple-bluish) 0%, var(--newPurple-blue) 51.04%);
-  @apply flex items-center w-screen border-b-4 border-pink-500 h-24 max-h-24;
+  /* background: linear-gradient(212deg, var(--newPurple-bluish) 0%, var(--newPurple-blue) 51.04%); */
+  @apply bg-header flex items-center w-screen border-b-4 border-pink-500 h-24 max-h-24;
 }
 
 .container {
@@ -12,11 +12,11 @@
 }
 
 .logo_emty {
-  @apply ml-2 hidden sm:flex;
+  @apply ml-2 hidden sm:flex sm:duration-500;
 }
 
 .navbar {
-  @apply flex justify-end items-center flex-row gap-6 lg:gap-8;
+  @apply flex justify-end items-center flex-row gap-6 lg:gap-8 duration-200;
 }
 
 .nav_links {
@@ -44,9 +44,9 @@
 }
 
 .nav_icon {
-  @apply md:hidden;
+  @apply duration-300 md:hidden;
 }
 
 .nav_title {
-  @apply hidden md:flex;
+  @apply duration-300 hidden md:flex;
 }

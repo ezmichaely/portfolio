@@ -1,0 +1,4 @@
+.main {
+  /* @apply min-h-[calc(100vh_-_200px)] h-[calc(100vh_-_200px)]; */
+  @apply grow;
+}

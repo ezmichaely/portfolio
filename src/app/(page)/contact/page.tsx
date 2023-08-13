@@ -1,9 +1,9 @@
-import React from 'react'
+import styles from './contact.module.css';
 
 export default function pages() {
   return (
-    <div>
+    <main className={styles.main}>
       <h1>CONTACT</h1>
-    </div>
+    </main>
   )
 }

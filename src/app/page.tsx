@@ -1,9 +1,13 @@
-import Image from 'next/image'
+import styles from '@/app/(page)/home/home.module.css'
 
 export default function Home() {
   return (
-    <>
-      <h1>HOME</h1>
-    </>
+    <main className={styles.main}>
+      HOME
+      {/* <Index />
+      <About />
+      <Projects />
+      <Contact />  */}
+    </main>
   )
 }

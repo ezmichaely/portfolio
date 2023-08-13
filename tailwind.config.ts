@@ -8,7 +8,9 @@ const config: Config = {
   ],
   theme: {
     backgroundImage: {
-      'body': 'url("/images/bg/bg_body.jpg")',
+      body: 'url("/images/bg/bg_body2.jpg")',
+      header: 'linear-gradient(212deg, #723BE5 0%, #4C16BF 51.04%)',
+      footer: 'linear-gradient(-264deg, #4C16BF 0%, #C213EE 160%)'
     },
     fontFamily: {
       inter: ['Inter', 'sans-serif'],

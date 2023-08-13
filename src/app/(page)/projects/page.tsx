@@ -1,9 +1,10 @@
-import React from 'react'
+import styles from './projects.module.css';
 
 export default function page() {
   return (
-    <div>
+    <main className={styles.main}>
       <h1>PROJECTS</h1>
-    </div>
+
+    </main>
   )
 }
