@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .filter-solid {
+    filter: grayscale(100%);
+  }
+}
+
+
 :root {
   --newPurple-neon: #C213EE;
   --newPurple-bluish: #723BE5;

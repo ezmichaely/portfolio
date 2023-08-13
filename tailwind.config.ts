@@ -13,8 +13,8 @@ const config: Config = {
       footer: 'linear-gradient(-264deg, #4C16BF 0%, #C213EE 160%)'
     },
     fontFamily: {
-      inter: ['Inter', 'sans-serif'],
-      roboto_slab: ['Roboto_Slab', 'serif'],
+      inter: ['var(--font-inter)'],
+      roboto_slab: ['var(--font-roboto_slab)'],
     },
     extend: {
       colors: {

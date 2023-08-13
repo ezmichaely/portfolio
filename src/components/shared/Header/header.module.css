@@ -1,6 +1,6 @@
 .header {
   /* background: linear-gradient(212deg, var(--newPurple-bluish) 0%, var(--newPurple-blue) 51.04%); */
-  @apply bg-header flex items-center w-screen border-b-4 border-pink-500 h-24 max-h-24;
+  @apply bg-header flex items-center w-screen border-b-4 border-pink-500 h-24 max-h-24 select-none;
 }
 
 .container {
@@ -12,7 +12,7 @@
 }
 
 .logo_emty {
-  @apply ml-2 hidden sm:flex sm:duration-500;
+  @apply ml-2 hidden sm:flex sm:duration-500 ;
 }
 
 .navbar {
@@ -44,7 +44,7 @@
 }
 
 .nav_icon {
-  @apply duration-300 md:hidden;
+  @apply duration-300 md:hidden drop-shadow-md;
 }
 
 .nav_title {

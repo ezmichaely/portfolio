@@ -1,4 +1,75 @@
 .main {
-  /* @apply min-h-[calc(100vh_-_200px)] h-[calc(100vh_-_200px)]; */
-  @apply grow;
+  @apply grow w-screen max-w-screen-2xl mx-auto py-10 relative;
+}
+
+.first {
+  @apply text-5xl font-roboto_slab font-bold text-center
+    flex justify-center flex-col gap-8
+}
+
+.subtitle2 {
+  @apply text-pink-500 tracking-widest
+}
+
+.second {
+  @apply w-full min-w-full flex items-center flex-col-reverse px-4 md:px-6
+  lg:justify-between lg:flex-row mt-10 border relative;
+}
+
+.second_left {
+  @apply flex justify-start items-center flex-col gap-10;
+}
+
+.web {
+  background: linear-gradient(180deg, #4C16BF 0%, #C213EE 120%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px #fff;
+  @apply font-roboto_slab font-bold text-[160px] lg:text-[200px] tracking-wide leading-none
+}
+
+.developer {
+  /* -webkit-text-stroke: 1px #fff; */
+  text-shadow: rgb(255, 255, 255) 2px 0px 0px, rgb(255, 255, 255) 1.75517px 0.958851px 0px, rgb(255, 255, 255) 1.0806px 1.68294px 0px, rgb(255, 255, 255) 0.141474px 1.99499px 0px, rgb(255, 255, 255) -0.832294px 1.81859px 0px, rgb(255, 255, 255) -1.60229px 1.19694px 0px, rgb(255, 255, 255) -1.97998px 0.28224px 0px, rgb(255, 255, 255) -1.87291px -0.701566px 0px, rgb(255, 255, 255) -1.30729px -1.5136px 0px, rgb(255, 255, 255) -0.421592px -1.95506px 0px, rgb(255, 255, 255) 0.567324px -1.91785px 0px, rgb(255, 255, 255) 1.41734px -1.41108px 0px, rgb(255, 255, 255) 1.92034px -0.558831px 0px;
+  @apply text-newPurple-bluish font-roboto_slab font-bold text-6xl lg:text-7xl tracking-widest text-center mt-3
+}
+
+.socials {
+  @apply flex justify-center items-center flex-row gap-8;
+}
+
+.profile_container {
+  @apply relative border;
+}
+
+.morphing_shape {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-color: #3498db;
+  clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+  animation: morph 3s infinite alternate; */
+}
+
+.profile {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+  animation: morph 3s infinite alternate; */
+}
+
+@keyframes morph {
+  0% {
+    clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+  }
+  100% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+  }
 }

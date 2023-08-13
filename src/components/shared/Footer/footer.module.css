@@ -32,7 +32,7 @@
 }
 
 .content {
-  @apply font-semibold tracking-widest;
+  @apply font-semibold tracking-widest font-roboto_slab;
 }
 
 .right {
@@ -40,11 +40,11 @@
 }
 
 .socials {
-  @apply flex justify-center items-center flex-row gap-8;
+  @apply flex justify-center items-center flex-row gap-8 select-none;
 }
 
 .links {
-  @apply border-2 border-white
+  @apply border-4 border-white
 }
 
 .copyrights {

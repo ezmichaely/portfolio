@@ -4,7 +4,7 @@ import {
   logo_emty, logo_face, 
   facebook, gmail, github, linkedin  } from '@/constants/images';
 import styles from './footer.module.css';
-import { footerDetails, copyRights, socials } from '@/constants/footerDetails';
+import { footerDetails, copyRights, socials } from '@/constants/details';
 
 const socialImages = {
   facebook, gmail, github, linkedin
