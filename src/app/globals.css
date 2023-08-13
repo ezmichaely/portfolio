@@ -18,5 +18,5 @@
 }
 
 body {
-  @apply bg-body bg-no-repeat bg-cover text-white max-w-screen w-screen min-h-screen relative flex flex-col;
+  @apply bg-body bg-no-repeat bg-cover text-white overflow-x-hidden w-screen min-h-screen relative flex flex-col;
 }

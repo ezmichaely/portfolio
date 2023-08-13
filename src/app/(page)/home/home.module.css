@@ -40,7 +40,7 @@
 }
 
 .profile_container {
-  @apply relative border;
+  @apply relative;
 }
 
 .morphing_shape {
