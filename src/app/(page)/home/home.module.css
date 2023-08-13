@@ -2,7 +2,7 @@
   @apply grow w-screen max-w-screen-2xl mx-auto py-10 relative overflow-x-hidden;
 }
 
-.first {
+.title {
   @apply text-5xl font-roboto_slab font-bold text-center
     flex justify-center flex-col gap-8
 }

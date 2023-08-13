@@ -14,7 +14,7 @@ const socialImages = {
 export default function Home() {
   return (
     <main className={styles.main}>
-      <section className={styles.first}>
+      <section className={styles.title}>
         <h1 className={styles.subtitle1}>
           Hi there 👋, I am
         </h1>
