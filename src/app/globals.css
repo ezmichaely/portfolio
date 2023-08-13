@@ -20,3 +20,24 @@
 body {
   @apply bg-body bg-no-repeat bg-cover text-white overflow-x-hidden w-screen min-h-screen relative flex flex-col;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-mirage-dark;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-newPurple-neon rounded;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-newPurple-bluish;
+}
