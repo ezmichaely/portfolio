@@ -1,5 +1,5 @@
 .main {
-  @apply grow w-screen max-w-screen-2xl mx-auto py-10 relative;
+  @apply grow w-screen max-w-screen-2xl mx-auto py-10 relative overflow-x-hidden;
 }
 
 .first {
