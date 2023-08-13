@@ -7,11 +7,6 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    backgroundImage: {
-      body: 'url("/images/bg/bg_body2.jpg")',
-      header: 'linear-gradient(212deg, #723BE5 0%, #4C16BF 51.04%)',
-      footer: 'linear-gradient(-264deg, #4C16BF 0%, #C213EE 160%)'
-    },
     fontFamily: {
       inter: ['var(--font-inter)'],
       roboto_slab: ['var(--font-roboto_slab)'],
@@ -27,6 +22,11 @@ const config: Config = {
           light: '#1C1C27',
           dark: '#191924',
         },
+      },
+      backgroundImage: {
+        body: 'url("/images/bg/bg_body2.jpg")',
+        header: 'linear-gradient(212deg, #723BE5 0%, #4C16BF 51.04%)',
+        footer: 'linear-gradient(-264deg, #4C16BF 0%, #C213EE 160%)'
       },
     },
   },
