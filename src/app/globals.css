@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --newPurple-neon: #C213EE;
+  --newPurple-bluish: #723BE5;
+  --newPurple-blue: #4C16BF;
+  --mirage-light: #1C1C27;
+  --mirage-dark: #191924;
+
+}
+
+body {
+  @apply bg-body bg-no-repeat bg-cover text-white w-screen;
+}
