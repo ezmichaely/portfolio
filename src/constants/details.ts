@@ -43,11 +43,11 @@ export const socials = [
 export const about = [
   {
     title: 'intro',
-    content: '👋 Greetings! I&apos;m EZ Michael Yucor, an enthusiastic web developer dedicated to crafting remarkable digital experiences. Proficient in HTML, CSS, and JavaScript, I specialize in designing visually captivating and highly functional websites. Whether it&apos;s harnessing the power of front-end frameworks like React or leveraging back-end tools such as Node.js and MongoDB, I possess the skills to provide end-to-end solutions.'
+    content: "👋 Greetings! I'm EZ Michael Yucor, an enthusiastic web developer dedicated to crafting remarkable digital experiences. Proficient in HTML, CSS, and JavaScript, I specialize in designing visually captivating and highly functional websites. Whether it's harnessing the power of front-end frameworks like React or leveraging back-end tools such as Node.js and MongoDB, I possess the skills to provide end-to-end solutions."
   },
   {
     title: 'design',
-    content: '🎨 Placing a strong emphasis on design, I ensure that each project not only operates seamlessly but also captivates users aesthetically. My portfolio showcases a diverse array of projects, underscoring my commitment to collaborative work, effective communication, and consistently delivering exceptional outcomes. Feel free to explore my work, and don&apos;t hesitate to reach out so we can discuss how we might bring your web development visions to reality!'
+    content: "🎨 Placing a strong emphasis on design, I ensure that each project not only operates seamlessly but also captivates users aesthetically. My portfolio showcases a diverse array of projects, underscoring my commitment to collaborative work, effective communication, and consistently delivering exceptional outcomes. Feel free to explore my work, and don't hesitate to reach out so we can discuss how we might bring your web development visions to reality!"
   }
 ];
 
