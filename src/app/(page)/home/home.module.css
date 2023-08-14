@@ -7,6 +7,10 @@
     flex justify-center flex-col gap-8
 }
 
+.subtitle1 {
+  @apply whitespace-normal;
+}
+
 .subtitle2 {
   @apply text-pink-500 tracking-widest
 }

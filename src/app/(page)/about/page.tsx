@@ -29,22 +29,21 @@ export default function page() {
       </section>
 
 
-      {/* <section className={styles.third}>
+      <section className={styles.third}>
         <h1 className="text-xl font-roboto_slab font-semibold text-pink-500 mb-2">Tech Stack: </h1>
         <div className="flex justify-start items-center gap-x-2">
           {techStacks.map((data) => {
             return (
               <Link key={data.key} href={data.url} 
-                target='_blank' className={styles.third_img}>
+                target='_blank' >
                 <Image src={data.icon} alt={data.key} 
                   height={data.height} width={data.width} 
-                  style={{ objectFit: "contain" }}
-                   />
+                  className={styles.third_img} />
               </Link>
             )
           })}
         </div>
-      </section> */}
+      </section>
     </main>
   )
 }

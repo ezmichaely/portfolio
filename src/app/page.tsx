@@ -16,7 +16,8 @@ export default function Home() {
     <main className={styles.main}>
       <section className={styles.title}>
         <h1 className={styles.subtitle1}>
-          Hi there 👋, I am
+          <span className="whitespace-nowrap">Hi there 👋, </span>
+          <span className="whitespace-nowrap">I am</span>
         </h1>
         <h1 className={styles.subtitle2}>
           EZ MICHAEL YUCOR
@@ -47,7 +48,6 @@ export default function Home() {
           <div className={styles.morphing_shape} />
           <Image src={profile} alt="profile" className={styles.profile} />
         </div>
-
       </section>
     </main>
   )

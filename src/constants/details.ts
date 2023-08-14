@@ -1,3 +1,26 @@
+export const routers = [
+  {
+    title: 'HOME',
+    url: '/',
+    icon: 'TbSmartHome'
+  },
+  {
+    title: 'ABOUT',
+    url: '/about',
+    icon: 'TbUserHeart'
+  },
+  {
+    title: 'PROJECTS',
+    url: '/projects',
+    icon: 'TbCode'
+  },
+  {
+    title: 'CONTACT',
+    url: '/contact',
+    icon: 'TbPhone'
+  }, 
+]
+
 export const footerDetails = [
   {
     title: 'Name',
@@ -38,7 +61,6 @@ export const socials = [
     icon: 'gmail'
   },
 ];
-
 
 export const about = [
   {
@@ -292,5 +314,71 @@ export const techStacks = [
     icon: 'https://cdn.worldvectorlogo.com/logos/adobe-illustrator-cc-icon.svg',
     height: 30,
     width: 30,
+  },
+]
+
+
+export const projects = [
+  {
+    key: 'lodong',
+    name: 'Lodong.co.kr',
+    logo: '',
+    desc: '',
+    site: 'www.lodong.co.kr/',
+    stack: [
+      { name: 'HTML5', icon: '' },
+      { name: 'CSS3', icon: '' },
+      { name: 'TailwindCSS', icon: '' },
+      { name: 'SCSS', icon: '' },
+      { name: 'JS', icon: '' },
+      { name: 'Spring Boot', icon: ''}
+    ]
+  },
+  {
+    key: 'garbagecollection',
+    name: 'Garbage Collection',
+    logo: '',
+    desc: '',
+    site: '',
+    stack: [
+      { name: 'HTML5', icon: '' },
+      { name: 'CSS3', icon: '' },
+      { name: 'Bootstrap', icon: '' },
+      { name: 'SCSS', icon: '' },
+      { name: 'JS', icon: '' },
+      { name: 'PHP', icon: ''},
+      { name: 'MySQL', icon: ''},
+    ]
+  },
+  {
+    key: 'bhcm',
+    name: 'Brgy. Health Center Management',
+    logo: '',
+    desc: '',
+    site: '',
+    stack: [
+      { name: 'HTML5', icon: '' },
+      { name: 'CSS3', icon: '' },
+      { name: 'Bootstrap', icon: '' },
+      { name: 'JS', icon: '' },
+      { name: 'Ajax', icon: '' },
+      { name: 'Jquery', icon: '' },
+      { name: 'PHP', icon: ''},
+      { name: 'MySQL', icon: ''},
+    ]
+  },
+  {
+    name: 'NORSU-eLCMS',
+    logo: '',
+    desc: '',
+    site: '',
+    stack: [
+      { name: 'HTML5', icon: '' },
+      { name: 'CSS3', icon: '' },
+      { name: 'Bootstrap', icon: '' },
+      { name: 'JS', icon: '' },
+      { name: 'PHP', icon: ''},
+      { name: 'MySQL', icon: ''},
+    ]
   },
 ]

@@ -4,7 +4,7 @@
 
 .title {
   @apply text-5xl font-roboto_slab font-bold text-center
-    flex justify-center flex-col gap-8
+    flex justify-center flex-col gap-8;
 }
 
 .subtitle2 {
@@ -13,12 +13,12 @@
 
 
 .second {
-  @apply w-full min-w-full flex items-center flex-col px-4 md:px-6 gap-x-24 gap-y-12
+  @apply w-screen mx-auto flex items-center flex-col px-4 md:px-6 gap-x-24 gap-y-12
   lg:justify-between lg:flex-row relative;
 }
 
 .third {
-  @apply px-4 md:px-8;
+  @apply w-screen mx-auto px-4 md:px-8;
 }
 
 .third_img {

@@ -1,4 +1,12 @@
 .main {
-  /* @apply min-h-[calc(100vh_-_200px)] h-[calc(100vh_-_200px)]; */
-  @apply grow;
+  @apply grow w-screen max-w-screen-2xl mx-auto py-10 relative overflow-x-hidden flex flex-col justify-start gap-16;
+}
+
+.title {
+  @apply text-5xl font-roboto_slab font-bold text-center
+    flex justify-center flex-col gap-8;
+}
+
+.subtitle2 {
+  @apply text-pink-500 tracking-widest
 }

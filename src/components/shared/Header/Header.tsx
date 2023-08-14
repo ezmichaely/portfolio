@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { logo_emty, logo_face } from '@/constants/images';
 import styles from './header.module.css';
 import { TbCode, TbPhone, TbSmartHome, TbUserHeart } from 'react-icons/tb';
-import { routers } from '@/constants/routers';
+import { routers } from '@/constants/details';
 import { usePathname } from 'next/navigation';
 
 const iconComponents = {
