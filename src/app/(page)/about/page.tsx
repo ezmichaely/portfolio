@@ -36,9 +36,8 @@ export default function page() {
             return (
               <Link key={data.key} href={data.url} 
                 target='_blank' >
-                <Image src={data.icon} alt={data.key} 
-                  height={data.height} width={data.width} 
-                  className={styles.third_img} />
+                <Image src={data.icon} alt={data.key} height={50} width={50}
+                  className={styles.stack_img} />
               </Link>
             )
           })}

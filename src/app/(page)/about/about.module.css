@@ -21,9 +21,11 @@
   @apply w-screen mx-auto px-4 md:px-8;
 }
 
-.third_img {
-  max-height: 60px;
-  min-height: 60px;
+.stack_img {
+  max-height: 60px !important;
+  min-height: 60px !important;
+  width: auto !important;
   border: 1px solid red;
-
+  object-fit: contain !important;
+  @apply 
 }
