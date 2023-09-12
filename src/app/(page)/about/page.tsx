@@ -10,7 +10,7 @@ export default function page() {
     <main className={styles.main}>
       <section className={styles.title}>
         <h1 className={styles.subtitle2}>
-          About me
+          ABOUT ME
         </h1>
       </section>
 

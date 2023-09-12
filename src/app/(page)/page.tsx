@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from '@/app/home.module.css'
+import styles from '@/styles/home.module.css'
 import {
   facebook, gmail, github, linkedin, profile
 } from '@/constants/images';

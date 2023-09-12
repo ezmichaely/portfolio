@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import './globals.css';
+import '@/styles/globals.css';
 import { inter, roboto_slab } from '@/constants/fonts';
 import { Header, Footer } from '@/components/shared';
 
