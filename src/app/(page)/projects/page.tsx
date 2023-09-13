@@ -1,6 +1,13 @@
+import type { Metadata } from 'next'
+
 import { projects } from '@/constants/details';
 import styles from './projects.module.css';
 import ProjectCard from '@/components/ui/ProjectCard/ProjectCard';
+
+export const metadata: Metadata = {
+  title: 'Projects | EZ MICHAEL',
+  description: 'A personal portfolio of EZ MICHAEL YUCOR',
+}
 
 export default function page() {
   return (
@@ -15,7 +22,7 @@ export default function page() {
         {projects.map((data) => {
           return (
             // @ts-ignore
-            <ProjectCard key={data.name} props={data}/>
+            <ProjectCard key={data.name} props={data} />
           )
         })}
       </section>

@@ -8,12 +8,19 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      inter: ['var(--font-inter)'],
-      roboto_slab: ['var(--font-roboto_slab)'],
+      beaufort: ['var(--font-beaufort)'],
+      markpro: ['var(--font-markpro)'],
+    },
+    container: {
+      padding: '3rem',
+      center: true,
     },
     extend: {
+      screen: {
+        '3xl': '1920px',
+      },
       colors: {
-        newPurple: {
+        plum: {
           neon: '#C213EE',
           bluish: '#723BE5',
           blue: '#4C16BF'

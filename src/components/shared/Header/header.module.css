@@ -1,5 +1,5 @@
 .header {
-  /* background: linear-gradient(212deg, var(--newPurple-bluish) 0%, var(--newPurple-blue) 51.04%); */
+  /* background: linear-gradient(212deg, var(--plum-bluish) 0%, var(--plum-blue) 51.04%); */
   @apply bg-header flex items-center w-screen border-b-4 border-pink-500 h-24 max-h-24 select-none;
 }
 
@@ -48,5 +48,5 @@
 }
 
 .nav_title {
-  @apply duration-300 hidden md:flex;
+  @apply font-markpro duration-300 hidden md:flex;
 }

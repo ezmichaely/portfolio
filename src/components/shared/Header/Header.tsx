@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { logo_emty, logo_face } from '@/constants/images';
+import { logo_emty, logo_face } from '@/assets/images';
 import styles from './header.module.css';
 import { TbCode, TbPhone, TbSmartHome, TbUserHeart } from 'react-icons/tb';
 import { routers } from '@/constants/details';
@@ -32,7 +32,7 @@ export default function Header() {
             // @ts-ignore
             const IconComponent = iconComponents[link.icon];
             return (
-              <Link key={link.title} href={link.url} 
+              <Link key={link.title} href={link.url}
                 className={`${styles.nav_links} ${isActive && styles.nav_links_active}`} >
                 {IconComponent && <IconComponent className={styles.nav_icon} />}
                 <span className={styles.nav_title}>{link.title}</span>

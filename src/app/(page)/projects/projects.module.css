@@ -3,7 +3,7 @@
 }
 
 .title {
-  @apply text-5xl font-roboto_slab font-bold text-center
+  @apply text-5xl font-beaufort font-bold text-center
     flex justify-center flex-col gap-8;
 }
 

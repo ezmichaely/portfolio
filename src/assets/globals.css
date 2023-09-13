@@ -10,15 +10,15 @@
 
 
 :root {
-  --newPurple-neon: #C213EE;
-  --newPurple-bluish: #723BE5;
-  --newPurple-blue: #4C16BF;
+  --plum-neon: #C213EE;
+  --plum-bluish: #723BE5;
+  --plum-blue: #4C16BF;
   --mirage-light: #1C1C27;
   --mirage-dark: #191924;
 }
 
 body {
-  @apply bg-body bg-no-repeat bg-cover text-white overflow-x-hidden w-screen min-h-screen relative flex flex-col;
+  @apply bg-body bg-no-repeat bg-cover text-white overflow-x-hidden w-screen min-h-screen relative;
 }
 
 /* width */
@@ -34,10 +34,10 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  @apply bg-gradient-to-t from-newPurple-neon to-newPurple-blue;
+  @apply bg-gradient-to-t from-plum-neon to-plum-blue;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-gradient-to-t from-newPurple-neon to-newPurple-blue opacity-80;
+  @apply bg-gradient-to-t from-plum-neon to-plum-blue opacity-80;
 }

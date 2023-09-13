@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { 
-  logo_emty, logo_face, 
-  facebook, gmail, github, linkedin  } from '@/constants/images';
+import {
+  logo_emty, logo_face,
+  facebook, gmail, github, linkedin
+} from '@/assets/images';
 import styles from './footer.module.css';
 import { footerDetails, copyRights, socials } from '@/constants/details';
 
@@ -17,9 +18,9 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.left}>
           <Link href="/" className={styles.brand}>
-            <Image src={logo_face} alt="logo_face" priority 
+            <Image src={logo_face} alt="logo_face" priority
               height={80} />
-            <Image src={logo_emty} alt="logo_emty" priority 
+            <Image src={logo_emty} alt="logo_emty" priority
               className={styles.logo_emty} />
           </Link>
 

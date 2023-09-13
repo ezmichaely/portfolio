@@ -1,12 +1,9 @@
-import type { Metadata } from 'next'
-import '@/styles/globals.css';
-import { inter, roboto_slab } from '@/constants/fonts';
+
+import '@/assets/globals.css';
+import { beaufort, markpro } from '@/assets/fonts';
 import { Header, Footer } from '@/components/shared';
 
-export const metadata: Metadata = {
-  title: 'Portfolio | EZ MICHAEL',
-  description: 'A personal portfolio of EZ MICHAEL YUCOR',
-}
+
 
 export default function RootLayout({
   children,
@@ -14,8 +11,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" 
-      className={`${inter.variable} ${roboto_slab.variable}`}>
+    <html lang="en"
+      className={`${beaufort.variable} ${markpro.variable}`}>
       <body>
         <Header />
         {children}

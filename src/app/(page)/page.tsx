@@ -1,10 +1,18 @@
+import type { Metadata } from 'next'
+
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from '@/styles/home.module.css'
+import styles from './home.module.css'
 import {
   facebook, gmail, github, linkedin, profile
-} from '@/constants/images';
+} from '@/assets/images';
 import { socials } from '@/constants/details';
+
+export const metadata: Metadata = {
+  title: 'Portfolio | EZ MICHAEL',
+  description: 'A personal portfolio of EZ MICHAEL YUCOR',
+}
+
 
 const socialImages = {
   facebook, gmail, github, linkedin

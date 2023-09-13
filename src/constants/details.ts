@@ -17,7 +17,7 @@ export const routers = [
   {
     title: 'CONTACT',
     url: '/contact',
-    icon: 'TbPhone'
+    icon: '<TbPhone />'
   }, 
 ]
 

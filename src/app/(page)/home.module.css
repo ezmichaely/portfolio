@@ -3,7 +3,7 @@
 }
 
 .title {
-  @apply text-5xl font-roboto_slab font-bold text-center
+  @apply text-5xl font-beaufort font-bold text-center
     flex justify-center flex-col gap-8
 }
 
@@ -30,13 +30,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 3px #fff;
-  @apply font-roboto_slab font-bold text-[160px] lg:text-[200px] tracking-wide leading-none
+  @apply font-beaufort font-bold text-[160px] lg:text-[200px] tracking-wide leading-none
 }
 
 .developer {
   /* -webkit-text-stroke: 1px #fff; */
   text-shadow: rgb(255, 255, 255) 2px 0px 0px, rgb(255, 255, 255) 1.75517px 0.958851px 0px, rgb(255, 255, 255) 1.0806px 1.68294px 0px, rgb(255, 255, 255) 0.141474px 1.99499px 0px, rgb(255, 255, 255) -0.832294px 1.81859px 0px, rgb(255, 255, 255) -1.60229px 1.19694px 0px, rgb(255, 255, 255) -1.97998px 0.28224px 0px, rgb(255, 255, 255) -1.87291px -0.701566px 0px, rgb(255, 255, 255) -1.30729px -1.5136px 0px, rgb(255, 255, 255) -0.421592px -1.95506px 0px, rgb(255, 255, 255) 0.567324px -1.91785px 0px, rgb(255, 255, 255) 1.41734px -1.41108px 0px, rgb(255, 255, 255) 1.92034px -0.558831px 0px;
-  @apply text-newPurple-bluish font-roboto_slab font-bold text-6xl lg:text-7xl tracking-widest text-center mt-3
+  @apply text-plum-bluish font-beaufort font-bold text-6xl lg:text-7xl tracking-widest text-center mt-3
 }
 
 .socials {

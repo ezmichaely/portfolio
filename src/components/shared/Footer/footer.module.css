@@ -32,7 +32,7 @@
 }
 
 .content {
-  @apply font-semibold tracking-widest font-roboto_slab;
+  @apply font-semibold tracking-widest font-beaufort;
 }
 
 .right {

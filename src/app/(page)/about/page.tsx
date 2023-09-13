@@ -1,9 +1,15 @@
+import type { Metadata } from 'next'
+
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './about.module.css';
-import { hex_shape } from '@/constants/images';
+import { hex_shape } from '@/assets/images';
 import { about, techStacks } from '@/constants/details'
 
+export const metadata: Metadata = {
+  title: 'Contact | EZ MICHAEL',
+  description: 'A personal portfolio of EZ MICHAEL YUCOR',
+}
 
 export default function page() {
   return (
@@ -20,7 +26,7 @@ export default function page() {
         <div className="lg:ml-24 text-xl flex flex-col gap-10">
           {about.map((data) => {
             return (
-              <p key={data.title} className="text-justify px-6"> 
+              <p key={data.title} className="text-justify px-6">
                 {data.content}
               </p>
             )
@@ -30,11 +36,11 @@ export default function page() {
 
 
       <section className={styles.third}>
-        <h1 className="text-xl font-roboto_slab font-semibold text-pink-500 mb-2">Tech Stack: </h1>
+        <h1 className="text-xl font-beaufort font-semibold text-pink-500 mb-2">Tech Stack: </h1>
         <div className="flex justify-start items-center gap-x-2">
           {techStacks.map((data) => {
             return (
-              <Link key={data.key} href={data.url} 
+              <Link key={data.key} href={data.url}
                 target='_blank' >
                 <Image src={data.icon} alt={data.key} height={50} width={50}
                   className={styles.stack_img} />
