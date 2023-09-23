@@ -1,3 +1,7 @@
+import {
+  facebook, gmail, github, linkedin,
+} from '@/assets/images';
+
 export const routers = [
   {
     title: 'HOME',
@@ -18,7 +22,7 @@ export const routers = [
     title: 'CONTACT',
     url: '/contact',
     icon: '<TbPhone />'
-  }, 
+  },
 ]
 
 export const footerDetails = [
@@ -38,27 +42,26 @@ export const footerDetails = [
 
 export const copyRights = 'Copyright ⓒ 2023 | EMTY. All Rights Reserved';
 
-
 export const socials = [
   {
     title: 'linkedin',
     url: 'https://www.linkedin.com/in/ez-michael-yucor-283068204/',
-    icon: 'linkedin'
+    icon: linkedin
   },
   {
     title: 'github',
     url: 'https://github.com/ezmichaely/',
-    icon: 'github'
+    icon: github
   },
   {
     title: 'facebook',
     url: 'https://www.facebook.com/ezmichaely/',
-    icon: 'facebook'
+    icon: facebook
   },
   {
     title: 'gmail',
     url: 'mailto:ezmichaely@gmail.com',
-    icon: 'gmail'
+    icon: gmail
   },
 ];
 
@@ -179,7 +182,7 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  {    
+  {
     key: 'cpp',
     name: 'C++',
     url: 'https://www.w3schools.com/cpp/',
@@ -187,7 +190,7 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  {    
+  {
     key: 'java',
     name: 'JAVA',
     url: 'https://dev.java/',
@@ -195,7 +198,7 @@ export const techStacks = [
     height: 30,
     width: 24,
   },
-  {    
+  {
     key: 'php',
     name: 'PHP',
     url: 'https://www.php.net/',
@@ -203,7 +206,7 @@ export const techStacks = [
     height: 30,
     width: 50,
   },
-  {    
+  {
     key: 'laravel',
     name: 'Laravel',
     url: 'https://laravel.com/',
@@ -211,7 +214,7 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  {    
+  {
     key: 'python',
     name: 'Python',
     url: 'https://www.python.org/',
@@ -219,7 +222,7 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  {    
+  {
     key: 'xampp',
     name: 'XAMPP',
     url: 'https://www.apachefriends.org/',
@@ -227,7 +230,7 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  {    
+  {
     key: 'mariadb',
     name: 'MariaDB',
     url: 'https://mariadb.org/',
@@ -235,7 +238,7 @@ export const techStacks = [
     height: 30,
     width: 50,
   },
-  {    
+  {
     key: 'mysql',
     name: 'MySQL',
     url: 'https://www.mysql.com/',
@@ -243,7 +246,7 @@ export const techStacks = [
     height: 30,
     width: 40,
   },
-  {    
+  {
     key: 'mongodb',
     name: 'MongoDB',
     url: 'https://www.mongodb.com/',
@@ -251,7 +254,7 @@ export const techStacks = [
     height: 35,
     width: 18,
   },
-  {    
+  {
     key: 'aws_dynamodb',
     name: 'AWS dynamoDB',
     url: 'https://aws.amazon.com/dynamodb/',
@@ -259,7 +262,7 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  {    
+  {
     key: 'vscode',
     name: 'VSCODE',
     url: 'https://code.visualstudio.com/',
@@ -267,7 +270,7 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  {    
+  {
     key: 'git',
     name: 'GIT',
     url: 'https://git-scm.com/',
@@ -275,7 +278,7 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  {    
+  {
     key: 'github_desktop',
     name: 'GITHUB DESKTOP',
     url: 'https://desktop.github.com/',
@@ -283,7 +286,7 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  {    
+  {
     key: 'postman',
     name: 'POSTMAN',
     url: 'https://postman.com/',
@@ -291,7 +294,7 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  {    
+  {
     key: 'figma',
     name: 'FIGMA',
     url: 'https://www.figma.com/',
@@ -299,7 +302,7 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  {    
+  {
     key: 'photoshop',
     name: 'Photoshop',
     url: 'https://www.photoshop.com/en',
@@ -307,7 +310,7 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  {    
+  {
     key: 'illustrator',
     name: 'Illustrator',
     url: 'https://www.adobe.com/in/products/illustrator.html',
@@ -318,7 +321,7 @@ export const techStacks = [
 ]
 
 
-export const projects = [
+export const projectsData = [
   {
     key: 'lodong',
     name: 'Lodong.co.kr',
@@ -326,12 +329,12 @@ export const projects = [
     desc: '',
     site: 'www.lodong.co.kr/',
     stack: [
-      { name: 'HTML5', icon: '' },
-      { name: 'CSS3', icon: '' },
-      { name: 'TailwindCSS', icon: '' },
-      { name: 'SCSS', icon: '' },
-      { name: 'JS', icon: '' },
-      { name: 'Spring Boot', icon: ''}
+      // { name: 'HTML5', icon: '' },
+      // { name: 'CSS3', icon: '' },
+      // { name: 'TailwindCSS', icon: '' },
+      // { name: 'SCSS', icon: '' },
+      // { name: 'JS', icon: '' },
+      // { name: 'Spring Boot', icon: '' }
     ]
   },
   {
@@ -341,13 +344,13 @@ export const projects = [
     desc: '',
     site: '',
     stack: [
-      { name: 'HTML5', icon: '' },
-      { name: 'CSS3', icon: '' },
-      { name: 'Bootstrap', icon: '' },
-      { name: 'SCSS', icon: '' },
-      { name: 'JS', icon: '' },
-      { name: 'PHP', icon: ''},
-      { name: 'MySQL', icon: ''},
+      // { name: 'HTML5', icon: '' },
+      // { name: 'CSS3', icon: '' },
+      // { name: 'Bootstrap', icon: '' },
+      // { name: 'SCSS', icon: '' },
+      // { name: 'JS', icon: '' },
+      // { name: 'PHP', icon: '' },
+      // { name: 'MySQL', icon: '' },
     ]
   },
   {
@@ -357,14 +360,14 @@ export const projects = [
     desc: '',
     site: '',
     stack: [
-      { name: 'HTML5', icon: '' },
-      { name: 'CSS3', icon: '' },
-      { name: 'Bootstrap', icon: '' },
-      { name: 'JS', icon: '' },
-      { name: 'Ajax', icon: '' },
-      { name: 'Jquery', icon: '' },
-      { name: 'PHP', icon: ''},
-      { name: 'MySQL', icon: ''},
+      // { name: 'HTML5', icon: '' },
+      // { name: 'CSS3', icon: '' },
+      // { name: 'Bootstrap', icon: '' },
+      // { name: 'JS', icon: '' },
+      // { name: 'Ajax', icon: '' },
+      // { name: 'Jquery', icon: '' },
+      // { name: 'PHP', icon: '' },
+      // { name: 'MySQL', icon: '' },
     ]
   },
   {
@@ -373,12 +376,12 @@ export const projects = [
     desc: '',
     site: '',
     stack: [
-      { name: 'HTML5', icon: '' },
-      { name: 'CSS3', icon: '' },
-      { name: 'Bootstrap', icon: '' },
-      { name: 'JS', icon: '' },
-      { name: 'PHP', icon: ''},
-      { name: 'MySQL', icon: ''},
+      // { name: 'HTML5', icon: '' },
+      // { name: 'CSS3', icon: '' },
+      // { name: 'Bootstrap', icon: '' },
+      // { name: 'JS', icon: '' },
+      // { name: 'PHP', icon: '' },
+      // { name: 'MySQL', icon: '' },
     ]
   },
 ]

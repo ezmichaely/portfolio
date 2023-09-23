@@ -40,10 +40,9 @@ export default function Footer() {
           <div className={styles.socials}>
             {socials.map((data) => {
               // @ts-ignore
-              const socialImage = socialImages[data.icon];
               return (
                 <Link key={data.title} href={data.url} target='_blank'>
-                  <Image src={socialImage} alt={data.title} height={40} priority />
+                  <Image src={data.icon} alt={data.title} height={40} priority />
                 </Link>
               )
             })}

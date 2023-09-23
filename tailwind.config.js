@@ -1,22 +1,21 @@
-import type { Config } from 'tailwindcss'
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    fontFamily: {
-      beaufort: ['var(--font-beaufort)'],
-      markpro: ['var(--font-markpro)'],
-    },
     container: {
       padding: '3rem',
       center: true,
     },
     extend: {
-      screen: {
+      fontFamily: {
+        beaufort: ['var(--font-beaufort)'],
+        markpro: ['var(--font-markpro)'],
+      },
+      screens: {
         '3xl': '1920px',
       },
       colors: {
@@ -32,6 +31,7 @@ const config: Config = {
       },
       backgroundImage: {
         body: 'url("/images/bg/bg_body2.jpg")',
+        profile: 'url("/images/bg/profile.jpg")',
         header: 'linear-gradient(212deg, #723BE5 0%, #4C16BF 51.04%)',
         footer: 'linear-gradient(-264deg, #4C16BF 0%, #C213EE 160%)'
       },
@@ -39,4 +39,3 @@ const config: Config = {
   },
   plugins: [],
 }
-export default config

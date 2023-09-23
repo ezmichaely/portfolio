@@ -1,5 +1,7 @@
 .main {
-  @apply grow w-screen max-w-screen-2xl mx-auto py-10 relative overflow-x-hidden;
+  @apply
+  /* grow w-screen max-w-screen-2xl mx-auto py-10 relative overflow-x-hidden; */
+  border
 }
 
 .title {
@@ -21,9 +23,12 @@
 }
 
 .second_left {
-  @apply flex justify-start items-center flex-col gap-10;
+  @apply flex justify-center items-center flex-col gap-10;
 }
 
+.web_dev {
+  @apply w-fit flex justify-center items-center flex-col
+}
 .web {
   background: linear-gradient(180deg, #4C16BF 0%, #C213EE 120%);
   background-clip: text;
@@ -44,7 +49,7 @@
 }
 
 .profile_container {
-  @apply relative;
+  @apply relative flex justify-center border;
 }
 
 .morphing_shape {
@@ -56,6 +61,31 @@
   background-color: #3498db;
   clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
   animation: morph 3s infinite alternate; */
+  animation: morph 8s ease-in-out infinite;
+  border: 3px solid #2d2e32;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  background-size: cover;
+  transition: all 1s ease-in-out;
+  height: 35rem;
+  width: 35rem;
+
+  @apply bg-profile
+  /* h-[500px] w-[500px] */
+  border border-lime-500
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+
+  to {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
 }
 
 .profile {

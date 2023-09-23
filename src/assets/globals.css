@@ -8,7 +8,6 @@
   }
 } */
 
-
 :root {
   --plum-neon: #C213EE;
   --plum-bluish: #723BE5;
@@ -18,7 +17,19 @@
 }
 
 body {
-  @apply bg-body bg-no-repeat bg-cover text-white overflow-x-hidden w-screen min-h-screen relative;
+  @apply bg-body bg-no-repeat bg-cover text-white overflow-x-hidden min-h-screen relative;
+}
+
+main {
+  @apply min-h-screen w-screen
+  flex justify-start items-center flex-col gap-y-28
+  my-[120px]
+  border border-lime-600
+}
+
+section {
+  @apply max-w-screen-3xl mx-auto w-screen px-6 lg:px-14
+  /* min-h-screen my-[120px] flex justify-center items-center flex-col */
 }
 
 /* width */
@@ -41,3 +52,4 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-gradient-to-t from-plum-neon to-plum-blue opacity-80;
 }
+

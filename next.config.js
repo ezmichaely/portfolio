@@ -2,7 +2,7 @@
 const nextConfig = {
   images: {
     domains: [
-      'getbootstrap.com', 
+      'getbootstrap.com',
       'cdn-icons-png.flaticon.com',
     ],
   },

@@ -3,7 +3,7 @@
 }
 
 .container {
-  @apply w-screen max-w-screen-2xl mx-auto px-4 md:px-6 
+  @apply w-screen max-w-screen-3xl mx-auto px-6 lg:px-14
     flex items-center justify-between flex-col gap-6
     md:flex-row duration-200 md:gap-10;
 }
@@ -28,11 +28,11 @@
 }
 
 .title {
- @apply font-light;
+ @apply font-medium
 }
 
 .content {
-  @apply font-semibold tracking-widest font-beaufort;
+  @apply ml-3 font-extrabold tracking-widest font-beaufort;
 }
 
 .right {
@@ -48,5 +48,5 @@
 }
 
 .copyrights {
-  @apply font-semibold tracking-wide text-center;
+  @apply font-markpro font-semibold tracking-wide text-center;
 }
