@@ -9,7 +9,7 @@
 }
 
 .container {
-  @apply w-screen max-w-screen-3xl mx-auto px-6 lg:px-14
+  @apply w-screen max-w-screen-2xl mx-auto px-6 lg:px-14
   flex flex-row items-center justify-between;
 }
 

@@ -3,7 +3,7 @@
 }
 
 .container {
-  @apply w-screen max-w-screen-3xl mx-auto px-6 lg:px-14
+  @apply w-screen max-w-screen-2xl mx-auto px-6 lg:px-14
     flex items-center justify-between flex-col gap-6
     md:flex-row duration-200 md:gap-10;
 }
@@ -14,7 +14,9 @@
 }
 
 .brand {
-  @apply max-w-fit flex items-end justify-center flex-row
+  @apply max-w-fit
+    cursor-pointer
+    flex items-end justify-center flex-row
     md:flex-col md:items-center duration-200;
 }
 

@@ -2,34 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer utilities {
-  .filter-solid {
-    filter: grayscale(100%);
-  }
-} */
-
-:root {
-  --plum-neon: #C213EE;
-  --plum-bluish: #723BE5;
-  --plum-blue: #4C16BF;
-  --mirage-light: #1C1C27;
-  --mirage-dark: #191924;
-}
-
 body {
-  @apply bg-body bg-no-repeat bg-cover text-white overflow-x-hidden min-h-screen relative;
+  @apply bg-body bg-no-repeat bg-cover
+   text-white
+   overflow-x-hidden min-h-screen
+   w-screen
+   relative;
 }
 
 main {
-  @apply min-h-screen w-screen
-  flex justify-start items-center flex-col gap-y-28
+  @apply
+  max-w-screen-2xl mx-auto w-screen
+  flex justify-start items-center flex-col
+  gap-y-60
   my-[120px]
-  border border-lime-600
 }
 
 section {
-  @apply max-w-screen-3xl mx-auto w-screen px-6 lg:px-14
-  /* min-h-screen my-[120px] flex justify-center items-center flex-col */
+  @apply px-6 lg:px-14 w-full
 }
 
 /* width */

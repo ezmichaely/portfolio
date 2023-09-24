@@ -1,5 +1,8 @@
 .main {
-  @apply grow w-screen max-w-screen-2xl mx-auto py-10 relative overflow-x-hidden flex flex-col justify-start gap-16;
+  @apply w-full
+  flex justify-start items-center flex-col
+  gap-y-6
+  lg:gap-y-16
 }
 
 .title {
@@ -12,5 +15,6 @@
 }
 
 .second {
-  @apply flex justify-evenly items-start  flex-row flex-wrap gap-6;
+  @apply w-full grid grid-cols-1 gap-6
+  lg:grid-cols-2
 }

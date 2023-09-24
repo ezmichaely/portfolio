@@ -1,3 +1,5 @@
+"use client"
+
 import Image from 'next/image';
 import Link from 'next/link';
 import {
@@ -5,7 +7,11 @@ import {
   facebook, gmail, github, linkedin
 } from '@/assets/images';
 import styles from './footer.module.css';
-import { footerDetails, copyRights, socials } from '@/constants/details';
+import { footerDetails, copyRights, socials } from '@/constants';
+import { gsap } from "gsap";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin.js";
+
+gsap.registerPlugin(ScrollToPlugin);
 
 const socialImages = {
   facebook, gmail, github, linkedin
@@ -13,16 +19,22 @@ const socialImages = {
 
 
 export default function Footer() {
+
+  const handleLogo = () => {
+    gsap.to(window, { duration: 1, scrollTo: 0 });
+  }
+
+
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.left}>
-          <Link href="/" className={styles.brand}>
+          <div onClick={handleLogo} className={styles.brand}>
             <Image src={logo_face} alt="logo_face" priority
               height={80} />
             <Image src={logo_emty} alt="logo_emty" priority
               className={styles.logo_emty} />
-          </Link>
+          </div>
 
           <div className={styles.details}>
             {footerDetails.map((data) => {

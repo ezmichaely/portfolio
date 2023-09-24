@@ -11,6 +11,12 @@ module.exports = {
       center: true,
     },
     extend: {
+      height: {
+        '360': '360px'
+      },
+      width: {
+        '360': '360px'
+      },
       fontFamily: {
         beaufort: ['var(--font-beaufort)'],
         markpro: ['var(--font-markpro)'],

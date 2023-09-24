@@ -1,10 +1,15 @@
 .main {
-  @apply grow w-screen max-w-screen-2xl mx-auto py-10 relative overflow-x-hidden flex flex-col justify-start gap-16;
+  @apply w-full
+  flex justify-start items-center flex-col
+  gap-y-6
+  lg:gap-y-16
+
+  /* border border-lime-600 */
 }
 
 .title {
-  @apply text-5xl font-beaufort font-bold text-center
-    flex justify-center flex-col gap-8;
+  @apply text-6xl font-beaufort font-bold text-center
+    flex justify-center flex-col gap-8
 }
 
 .subtitle2 {
@@ -13,19 +18,61 @@
 
 
 .second {
-  @apply w-screen mx-auto flex items-center flex-col px-4 md:px-6 gap-x-24 gap-y-12
-  lg:justify-between lg:flex-row relative;
+  @apply w-full flex justify-between items-center flex-col
+  gap-y-12
+  lg:gap-x-36
+  lg:justify-between
+  lg:flex-row relative;
+}
+
+.imgContainer {
+  @apply h-[250px]
+  /* border */
+}
+
+.img {
+  @apply h-[250px] lg:h-[300px]
+  object-contain
+  /* border */
+}
+
+.detailsContainer {
+  @apply
+  text-xl flex flex-col
+  gap-y-10
+}
+
+.pText {
+  @apply text-left
+  /* border */
 }
 
 .third {
-  @apply w-screen mx-auto px-4 md:px-8;
+  @apply w-full mt-12
+}
+
+.title2 {
+  @apply text-2xl font-beaufort font-semibold text-pink-500 mb-2
+}
+
+.stacksContainer {
+  @apply w-full flex justify-start items-center flex-row flex-wrap gap-4
+  overflow-x-hidden
 }
 
 .stack_img {
-  max-height: 60px !important;
+  /* max-height: 60px !important;
   min-height: 60px !important;
   width: auto !important;
   border: 1px solid red;
-  object-fit: contain !important;
-  /* @apply  */
+  object-fit: contain !important; */
+  @apply object-contain w-fit
+  min-h-[50px] h-[50px]
+
+  border border-plum-neon
+  p-2 rounded
+  bg-mirage-dark shadow-lg
+
+  /* min-w-[60px] */
+  /* border border-lime-600 */
 }

@@ -35,7 +35,7 @@ export default function Header() {
             activeClass="nav_links_active"
             spy={true}
             smooth={true}
-            offset={-150}
+            offset={-120}
             duration={500}
             className={`nav_links`}>
             <TbSmartHome className={`nav_icon`} />
@@ -46,7 +46,7 @@ export default function Header() {
             activeClass="nav_links_active"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-120}
             duration={500}
             className={`nav_links`}>
           <TbUserHeart className={`nav_icon`} />
@@ -57,7 +57,7 @@ export default function Header() {
             activeClass="nav_links_active"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-120}
             duration={500}
             className={`nav_links`}>
             <TbCode className={`nav_icon`}/>
@@ -68,7 +68,7 @@ export default function Header() {
             activeClass="nav_links_active"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-120}
             duration={500}
             className={`nav_links`}>
             <TbPhone className={`nav_icon`}/>

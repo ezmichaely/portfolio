@@ -1,16 +1,16 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 
-// @ts-ignore
-export default function ProjectCard({ props }) {
-  console.log(props);
+export default function ProjectCard({details}) {
+  // console.log(details);
 
   return (
-    <div className='bg-white p-4 rounded w-1/5'>
+    <div className='w-full bg-white p-4 rounded'>
       {/* <Image src={props.logo} alt={props.key} height={300} /> */}
       <div>
-        <h4 className='text-xl text-mirage-dark'>
-          {props.name}
+        <h4 className='font-beaufort text-2xl font-bold text-mirage-dark'>
+          {details.name}
         </h4>
+        
 
       </div>
 
