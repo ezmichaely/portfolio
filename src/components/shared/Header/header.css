@@ -23,13 +23,13 @@
 }
 
 .navbar {
-  @apply flex justify-end items-center flex-row gap-6 lg:gap-8 duration-200;
+  @apply flex justify-end items-center flex-row gap-4 lg:gap-8 duration-200;
 }
 
 .nav_links {
   @apply cursor-pointer
     relative uppercase font-semibold tracking-widest md:text-lg
-    h-12 w-12 flex items-center justify-center text-3xl rounded-full
+    h-10 w-10 flex items-center justify-center text-3xl rounded-full
   hover:bg-white hover:text-pink-500 hover:duration-300
 
     md:w-fit md:py-2 md:px-0

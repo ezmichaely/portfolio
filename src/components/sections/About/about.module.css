@@ -8,8 +8,10 @@
 }
 
 .title {
-  @apply text-6xl font-beaufort font-bold text-center
-    flex justify-center flex-col gap-8
+    @apply font-beaufort font-bold text-center
+    flex justify-center flex-col
+    text-4xl lg:text-6xl
+    gap-8
 }
 
 .subtitle2 {
