@@ -13,5 +13,76 @@
 }
 
 .subtitle2 {
-  @apply text-pink-500 tracking-widest
+  @apply text-plum-neon tracking-widest
+}
+
+.second {
+  @apply w-full flex justify-between items-center flex-col
+  lg:justify-between lg:flex-row relative gap-14
+  /* border border-red-600; */
+}
+
+.secondLeft {
+  @apply w-full
+  lg:w-1/2
+  flex justify-start items-start flex-col gap-y-10;
+}
+
+.h3 {
+  @apply font-beaufort font-bold text-5xl
+}
+
+.p {
+  @apply font-markpro font-bold text-plum-neon text-2xl
+}
+
+.form {
+  @apply w-full lg:w-1/2 border-2 border-plum-neon p-5
+  flex justify-start items-start flex-col gap-y-6
+  rounded-xl bg-accent
+}
+
+.form_title {
+  @apply text-4xl text-mirage-dark font-beaufort font-bold
+  flex justify-start items-center flex-row gap-x-4
+}
+
+.form_control {
+  @apply w-full block
+   /* border border-lime-400 */
+  m-0 p-0
+}
+
+.form_label {
+  @apply text-mirage-dark text-lg font-beaufort font-bold
+}
+
+.input_forms {
+  @apply outline-none
+  w-full border-2 border-plum-bluish rounded-lg
+  text-mirage-dark font-markpro font-medium
+
+  focus:ring-0
+  /* focus:outline-plum-neon */
+  focus:border-plum-neon
+  caret-plum-neon
+}
+
+.textarea_forms {
+  @apply outline-none
+  resize-y
+  w-full border-2 border-plum-bluish rounded-lg
+  text-mirage-dark font-markpro font-medium
+  h-36
+  focus:ring-0
+  /* focus:outline-plum-neon */
+  focus:border-plum-neon
+  caret-plum-neon
+}
+
+.form_button {
+  @apply p-2 w-full text-center text-white font-beaufort font-bold tracking-widest
+  text-2xl bg-submit rounded-lg
+  hover:bg-reverse
+  ease-out duration-500
 }

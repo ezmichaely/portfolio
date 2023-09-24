@@ -10,7 +10,7 @@ export default function About() {
       <div className={`${styles.main}`}>
         <div className={styles.title}>
           <h1 className={styles.subtitle2}>
-            ABOUT ME
+            About me
           </h1>
         </div>
 

@@ -10,7 +10,7 @@ export default function Projects() {
       <div className={styles.main}>
         <div className={styles.title}>
           <h1 className={styles.subtitle2}>
-            PROJECTS
+            Projects
           </h1>
         </div>
 

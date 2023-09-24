@@ -25,6 +25,7 @@ module.exports = {
         '3xl': '1920px',
       },
       colors: {
+        accent: '#D9D9D9',
         plum: {
           neon: '#C213EE',
           bluish: '#723BE5',
@@ -39,9 +40,15 @@ module.exports = {
         body: 'url("/images/bg/bg_body2.jpg")',
         profile: 'url("/images/bg/profile.jpg")',
         header: 'linear-gradient(212deg, #723BE5 0%, #4C16BF 51.04%)',
-        footer: 'linear-gradient(-264deg, #4C16BF 0%, #C213EE 160%)'
+        footer: 'linear-gradient(-264deg, #4C16BF 0%, #C213EE 160%)',
+        submit: 'linear-gradient(90deg, #C213EE 0%, #4C16BF 101.7%)',
+        reverse: 'linear-gradient(90deg, #4C16BF 0%, #C213EE 101.7%)',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')({
+      strategy: 'base',
+    }),
+  ],
 }

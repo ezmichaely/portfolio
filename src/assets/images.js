@@ -9,6 +9,7 @@ import linkedin from '~/images/socials/linkedin.svg'
 import gmail from '~/images/socials/gmail.svg'
 import github from '~/images/socials/github.svg'
 import paper_plane from '~/images/icons/paper_plane.svg'
+import ScrollToTop from '~/images/icons/ScrollToTop.svg'
 
 
 import awsDynamodb from '~/images/stacks/awsDynamodb.svg'
@@ -43,7 +44,7 @@ import xampp from '~/images/stacks/xampp.svg'
 export {
   bg_body, bg_body2, profile, hex_shape, logo_emty, logo_face,
   facebook, github, gmail, linkedin,
-  paper_plane,
+  paper_plane, ScrollToTop,
 
   awsDynamodb, bootstrap, cplusplus, css3, figma, git, githubLogo,
   html5, java, javascript, jquery, laravel, mariadb, mysql, nextjs,

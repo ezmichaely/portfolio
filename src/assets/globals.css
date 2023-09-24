@@ -14,13 +14,18 @@ main {
   @apply
   max-w-screen-2xl mx-auto w-screen
   flex justify-start items-center flex-col
-  gap-y-60
+  gap-y-64
   my-[120px]
 }
 
 section {
   @apply px-6 lg:px-14 w-full
 }
+
+/* .form-textarea {
+  @apply m-0
+} */
+
 
 /* width */
 ::-webkit-scrollbar {
