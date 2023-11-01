@@ -1,7 +1,12 @@
 // import Link from 'next/link'
+import { redirect } from 'next/navigation'
+
+
 
 export default function ProjectCard({details}) {
   // console.log(details);
+
+
 
   return (
     <a href={details.url} target='_blank'

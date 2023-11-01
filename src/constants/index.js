@@ -321,7 +321,8 @@ export const projectsData = [
     name: 'Lodong.co.kr',
     // logo: '',
     // desc: '',
-    url: 'www.lodongsite.vercel.app',
+    url: 'lodong',
+    // href: 'https://www.lodongsite.vercel.app',
     // stack: [
     //   // { name: 'HTML5', icon: '' },
     //   // { name: 'CSS3', icon: '' },

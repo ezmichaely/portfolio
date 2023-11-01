@@ -6,6 +6,16 @@ const nextConfig = {
       'cdn-icons-png.flaticon.com',
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/lodong",
+        destination:
+          "https://blog.dundermifflin.com",
+        permanent: true,
+      },
+    ];
+  },
 }
 
 module.exports = nextConfig
