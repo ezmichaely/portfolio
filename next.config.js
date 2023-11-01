@@ -10,7 +10,7 @@ const nextConfig = {
     return [
       {
         source: "/lodong",
-        destination: "https://lodongsite.vercel.app",
+        destination: "lodongsite.vercel.app",
         permanent: true,
       },
     ];
