@@ -1,10 +1,10 @@
-import Link from 'next/link'
+// import Link from 'next/link'
 
 export default function ProjectCard({details}) {
   // console.log(details);
 
   return (
-    <Link href={details.url} target='_blank'
+    <a href={details.url} target='_blank'
       className='w-full bg-white p-4 rounded'>
       {/* <Image src={props.logo} alt={props.key} height={300} /> */}
       <div>
@@ -13,6 +13,6 @@ export default function ProjectCard({details}) {
         </h4>
       </div>
 
-    </Link>
+    </a>
   )
 }
