@@ -1,4 +1,4 @@
-// import Link from 'next/link'
+import Link from 'next/link'
 import { redirect } from 'next/navigation'
 
 
@@ -9,7 +9,7 @@ export default function ProjectCard({details}) {
 
 
   return (
-    <a href={details.url} target='_blank'
+    <Link href={details.url} target='_blank'
       className='w-full bg-white p-4 rounded'>
       {/* <Image src={props.logo} alt={props.key} height={300} /> */}
       <div>
@@ -18,6 +18,6 @@ export default function ProjectCard({details}) {
         </h4>
       </div>
 
-    </a>
+    </Link>
   )
 }
