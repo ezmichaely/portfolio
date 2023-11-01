@@ -321,7 +321,7 @@ export const projectsData = [
     name: 'Lodong.co.kr',
     // logo: '',
     // desc: '',
-    // site: 'www.lodong.co.kr/',
+    url: 'www.lodongsite.vercel.app',
     // stack: [
     //   // { name: 'HTML5', icon: '' },
     //   // { name: 'CSS3', icon: '' },
@@ -334,6 +334,7 @@ export const projectsData = [
   {
     key: 'garbagecollection',
     name: 'Garbage Collection',
+    url: null,
     // logo: '',
     // desc: '',
     // site: '',
@@ -350,6 +351,7 @@ export const projectsData = [
   {
     key: 'bhcm',
     name: 'Brgy. Health Center Management',
+    url: null,
     // logo: '',
     // desc: '',
     // site: '',
@@ -367,6 +369,7 @@ export const projectsData = [
   {
     key: 'norsuelcms',
     name: 'NORSU-eLCMS',
+    url: null,
     // logo: '',
     // desc: '',
     // site: '',

@@ -4,7 +4,7 @@ export default function ProjectCard({details}) {
   // console.log(details);
 
   return (
-    <Link href="www.lodongsite.vercel.app" target='_blank'
+    <Link href={details.url} target='_blank'
       className='w-full bg-white p-4 rounded'>
       {/* <Image src={props.logo} alt={props.key} height={300} /> */}
       <div>
