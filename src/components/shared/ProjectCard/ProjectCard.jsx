@@ -5,17 +5,17 @@ import { redirect } from 'next/navigation'
 
 export default function ProjectCard({details}) {
   // console.log(details);
-  const onRedirects = () => {
-    // async redirects () {
-      return redirect([
-        {
-          source: details.href,
-          destination: details.url,
-          permanent: true,
-        },
-      ]);
-    // },
-  }
+  // const onRedirects = () => {
+  //   // async redirects () {
+  //     return redirect([
+  //       {
+  //         source: details.href,
+  //         destination: details.url,
+  //         permanent: true,
+  //       },
+  //     ]);
+  //   // },
+  // }
 
 
 

@@ -6,15 +6,15 @@ const nextConfig = {
       'cdn-icons-png.flaticon.com',
     ],
   },
-  async redirects() {
-    return [
-      {
-        source: "/lodong",
-        destination: "https://lodongsite.vercel.app",
-        permanent: false,
-      },
-    ];
-  },
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: "/lodong",
+  //       destination: "https://lodongsite.vercel.app",
+  //       permanent: false,
+  //     },
+  //   ];
+  // },
 }
 
 module.exports = nextConfig
