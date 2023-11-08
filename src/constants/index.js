@@ -333,6 +333,11 @@ export const projectsData = [
     // ]
   },
   {
+    key: 'jungnanum',
+    name: 'Jungnanum',
+    url: 'http://210.99.223.38:20004/'
+  },
+  {
     key: 'garbagecollection',
     name: 'Garbage Collection',
     url: 'https://lodongsite.vercel.app',
