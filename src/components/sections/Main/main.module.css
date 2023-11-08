@@ -6,7 +6,7 @@
 }
 
 .title {
-  @apply font-beaufort font-bold text-center
+  @apply font-markpro font-bold text-center
     flex justify-center flex-col
     text-5xl lg:text-6xl
     gap-8

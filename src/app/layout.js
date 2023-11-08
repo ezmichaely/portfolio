@@ -1,5 +1,6 @@
 
 import '@/assets/globals.css';
+
 import { beaufort, markpro } from '@/assets/fonts';
 import {
   Header,
