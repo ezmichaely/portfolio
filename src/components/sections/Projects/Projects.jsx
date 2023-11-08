@@ -18,12 +18,12 @@ export default function Projects() {
         {/* <ProjectCard /> */}
         <div className={styles.second}>
           {projectsData.map((data) => (
-            <Link key={data.name}  href={details.url} target='_blank'
+            <Link key={data.name}  href={data.url} target='_blank'
               className='w-full bg-white p-4 rounded'>
               {/* <Image src={props.logo} alt={props.key} height={300} /> */}
               <div>
                 <h4 className='font-beaufort text-2xl font-bold text-mirage-dark'>
-                  {details.name}
+                  {data.name}
                 </h4>
               </div>
             </Link>
