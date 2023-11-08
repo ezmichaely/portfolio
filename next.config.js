@@ -11,7 +11,7 @@ const nextConfig = {
       {
         source: "/lodong",
         destination: "https://lodongsite.vercel.app",
-        permanent: true,
+        permanent: false,
       },
     ];
   },
