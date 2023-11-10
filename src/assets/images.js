@@ -73,7 +73,6 @@ import tayok_sessionistas from '~/designs/tayok_sessionistas.jpg'
 import tayok_tshirt from '~/designs/tayok_tshirt.jpg'
 import tayok_vibes from '~/designs/tayok_vibes.jpg'
 
-
 export {
   heroImage, aboutImage,
   bg_body, bg_body2, profile, hex_shape,

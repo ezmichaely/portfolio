@@ -38,7 +38,7 @@ export default function Home() {
             </div>
 
             <div className={styles.resume}>
-              <button> Resume / CV </button>
+              <a href="/EZ_MICHAEL_YUCOR-CV.pdf" > Resume / CV </a>
             </div>
           </div>
 

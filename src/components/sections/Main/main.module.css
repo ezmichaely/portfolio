@@ -88,7 +88,7 @@
   items-center
 }
 
-.resume button {
+.resume a {
   @apply bg-blues-dark py-4 px-6 rounded-xl border-2 border-blues-light
   uppercase font-markpro tracking-wider
   hover:bg-blues-light
