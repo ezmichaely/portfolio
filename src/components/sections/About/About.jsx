@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './about.module.css';
-import { hex_shape } from '@/assets/images';
+import { aboutImage, hex_shape } from '@/assets/images';
 import { about, techStacks } from '@/constants'
 
 export default function About() {
   return (
-    <section id="about">
-      <div className={`${styles.main}`}>
+    <section id="about" className={styles.main}>
+      <div className={`${styles.mainContent}`}>
         <div className={styles.title}>
           <h1 className={styles.subtitle2}>
             About me
@@ -15,7 +15,7 @@ export default function About() {
         </div>
 
         <div className={styles.second}>
-          <Image src={hex_shape} alt="hex shape"
+          <Image src={aboutImage} alt="hex shape"
             priority className={styles.img} />
 
           <div className={styles.detailsContainer}>
@@ -32,9 +32,10 @@ export default function About() {
           <div className={styles.stacksContainer}>
             {techStacks.map((data) => (
               <Link key={data.key} href={data.url}
-                target='_blank' >
+                target='_blank' className={styles.stacksDiv} >
                 <Image src={data.icon} alt={data.key}
                   className={styles.stack_img} />
+                <p>{data.name}</p>
                   {/* // height={data.height} width={data.width} */}
               </Link>
             ))}

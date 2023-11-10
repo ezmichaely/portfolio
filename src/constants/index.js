@@ -1,5 +1,6 @@
 import {
   facebook, gmail, github, linkedin, html5, css3, javascript, bootstrap, sass, tailwindcss, react, svelte, nextjs, node, jquery, typescript, cplusplus, java, php, laravel, python, xampp, mariadb, mysql, awsDynamodb, vscode, git, postman, figma, photoshop,
+  // illustrator
 } from '@/assets/images';
 
 export const routers = [
@@ -98,7 +99,7 @@ export const techStacks = [
   // },
   {
     key: 'js',
-    name: 'JS',
+    name: 'JAVASCRIPT',
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/',
     icon: javascript,
     height: 60,

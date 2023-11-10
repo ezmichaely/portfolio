@@ -1,7 +1,10 @@
 import bg_body from '~/images/bg/bg_body.jpg';
 import bg_body2 from '~/images/bg/bg_body2.jpg';
 import profile from '~/images/bg/profile.jpg';
+import heroImage from '~/images/bg/hero.png'
+import aboutImage from '~/images/bg/about.png'
 import hex_shape from '~/images/bg/hex_shape.png';
+import logo_ezy from '~/images/logo/logo_ezy.svg'
 import logo_emty from '~/images/logo/logo_emty.svg'
 import logo_face from '~/images/logo/logo_face.svg'
 import facebook from '~/images/socials/facebook.svg'
@@ -25,6 +28,7 @@ import javascript from '~/images/stacks/javascript.svg'
 import jquery from '~/images/stacks/jquery.svg'
 import laravel from '~/images/stacks/laravel.svg'
 import mariadb from '~/images/stacks/mariadb.svg'
+// import mongodb from '~/images/stacks/mongodb.svg'
 import mysql from '~/images/stacks/mysql.svg'
 import nextjs from '~/images/stacks/nextjs.svg'
 import node from '~/images/stacks/node.svg'
@@ -42,7 +46,9 @@ import xampp from '~/images/stacks/xampp.svg'
 
 
 export {
-  bg_body, bg_body2, profile, hex_shape, logo_emty, logo_face,
+  heroImage, aboutImage,
+  bg_body, bg_body2, profile, hex_shape,
+  logo_ezy, logo_emty, logo_face,
   facebook, github, gmail, linkedin,
   paper_plane, ScrollToTop,
 

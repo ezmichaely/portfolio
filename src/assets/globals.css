@@ -2,25 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+*, *::before, *::after {
+  @apply box-border
+}
+
 body {
-  @apply bg-body bg-no-repeat bg-cover
+  @apply
+  bg-mirage-dark
+    bg-no-repeat bg-cover
    text-white
    overflow-x-hidden min-h-screen
    w-screen
-   relative;
+   relative
+
+   /* border border-red-500; */
 }
 
 main {
   @apply
-  max-w-screen-2xl mx-auto w-screen
   flex justify-start items-center flex-col
-  gap-y-64
-  my-[120px]
+  /* gap-y-64 */
+  my-[96px]
 }
 
-section {
-  @apply px-6 lg:px-14 w-full
-}
+
 
 /* .form-textarea {
   @apply m-0
@@ -40,11 +45,11 @@ section {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  @apply bg-gradient-to-t from-plum-neon to-plum-blue;
+  @apply bg-gradient-to-t from-blues-light to-blues-dark;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-gradient-to-t from-plum-neon to-plum-blue opacity-80;
+  @apply bg-gradient-to-t from-blues-light to-blues-dark opacity-80;
 }
 

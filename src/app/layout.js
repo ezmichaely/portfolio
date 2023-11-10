@@ -1,13 +1,8 @@
-// import { Inter } from 'next/font/google'
-// import './globals.css'
 import {Providers} from "./providers";
 
-// const inter = Inter({ subsets: ['latin'] })
-
-
 import '@/assets/globals.css';
+import { beaufort, markpro, inter } from '@/assets/fonts';
 
-import { beaufort, markpro } from '@/assets/fonts';
 import {
   Header,
   Footer
@@ -21,20 +16,22 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en"
-      className={
-        `dark'
+      className={`
+        light
+        ${inter.variable}
         ${beaufort.variable}
-        ${markpro.variable}`}
-    >
+        ${markpro.variable}
+      `} >
 
-      <body className={inter.className}>
-        <Providers>
-          <Header />
+      <body >
+        {/* <Providers>
           {children}
-          <Footer />
-        </Providers>
-      </body>
+        </Providers> */}
 
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }

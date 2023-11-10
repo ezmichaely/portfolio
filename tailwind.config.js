@@ -10,13 +10,51 @@ module.exports = {
   ],
   theme: {
     extend: {
+      height: {
+        '360': '360px'
+      },
+      width: {
+        '360': '360px'
+      },
+      fontFamily: {
+        beaufort: ['var(--font-beaufort)'],
+        markpro: ['var(--font-markpro)'],
+        inter: ['var(--font-inter)'],
+      },
+      screens: {
+        '3xl': '1920px',
+      },
+      colors: {
+        blues: {
+          light: '#3163C4',
+          dark: '#193263',
+        },
+        accent: '#D9D9D9',
+        plum: {
+          neon: '#C213EE',
+          bluish: '#723BE5',
+          blue: '#4C16BF'
+        },
+        mirage: {
+          light: '#1C1C27',
+          dark: '#191924',
+        },
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        body: 'url("/images/bg/bg_body2.jpg")',
+        profile: 'url("/images/bg/profile.jpg")',
+        header: 'linear-gradient(212deg, #723BE5 0%, #4C16BF 51.04%)',
+        footer: 'linear-gradient(-264deg, #4C16BF 0%, #C213EE 160%)',
+        submit: 'linear-gradient(90deg, #C213EE 0%, #4C16BF 101.7%)',
+        reverse: 'linear-gradient(90deg, #4C16BF 0%, #C213EE 101.7%)',
       },
     },
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [
+    // nextui(),
+    require('@tailwindcss/forms')({
+      strategy: 'base',
+    }),
+  ],
 }

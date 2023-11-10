@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { Link } from 'react-scroll';
 import {
-  logo_emty, logo_face
+  logo_ezy, logo_face
 } from '@/assets/images';
 import {
   TbCode, TbPhone, TbSmartHome, TbUserHeart
@@ -25,9 +25,9 @@ export default function Header() {
       <div className={`container`}>
         <div onClick={handleLogo}
           className={`brand`}>
-          <Image src={logo_face} alt="logo_face" height={70} priority />
-          <Image src={logo_emty} alt="logo_emty" height={60} priority
-            className={`logo_emty`} />
+          <Image src={logo_face} alt="logo_face" height={70} priority className={`logo_face`}/>
+          <Image src={logo_ezy} alt="logo_ezy" height={60} priority className={`logo_ezy`} />
+          {/* <LogoEzy /> */}
         </div>
 
         <nav className={`navbar`}>
@@ -35,7 +35,7 @@ export default function Header() {
             activeClass="nav_links_active"
             spy={true}
             smooth={true}
-            offset={-120}
+            offset={-96}
             duration={500}
             className={`nav_links`}>
             <TbSmartHome className={`nav_icon`} />
@@ -46,7 +46,7 @@ export default function Header() {
             activeClass="nav_links_active"
             spy={true}
             smooth={true}
-            offset={-120}
+            offset={-96}
             duration={500}
             className={`nav_links`}>
           <TbUserHeart className={`nav_icon`} />

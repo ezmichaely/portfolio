@@ -1,12 +1,17 @@
-// app/providers.tsx
 'use client'
 
 import {NextUIProvider} from '@nextui-org/react'
+import {
+  Header,
+  Footer
+} from '@/components/shared'
 
 export function Providers({children}) {
   return (
     <NextUIProvider>
-      {children}
+      <Header />
+        {children}
+      <Footer />
     </NextUIProvider>
   )
 }
