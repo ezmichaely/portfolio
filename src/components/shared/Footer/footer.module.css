@@ -1,5 +1,6 @@
 .footer {
-  @apply bg-footer border-t-4 border-white flex items-center w-screen min-h-fit py-6;
+  @apply bg-accent
+  border-t-4 border-blues-light flex items-center w-screen min-h-fit py-6;
 }
 
 .container {
@@ -16,25 +17,28 @@
 .brand {
   @apply max-w-fit
     cursor-pointer
-    flex items-end justify-center flex-row
-    md:flex-col md:items-center duration-200;
+    flex md:items-center justify-center flex-row gap-x-4 gap-y-3
+    md:flex-col items-end duration-200
+    /* border border-red-500 */
 }
 
-.logo_emty {
-  @apply ml-2 w-28
-    md:mt-2 md:ml-0 duration-200;
+.logo_ezyDark {
+  @apply duration-200
+     /* border border-red-500 */
 }
 
 .details {
-  @apply duration-300 w-full md:ml-4 lg:ml-24 text-xl md:text-lg lg:text-xl whitespace-nowrap;
+  @apply duration-300 w-full md:ml-4 lg:ml-16 text-xl
+  md:text-lg lg:text-xl whitespace-nowrap
+  text-mirage-dark
 }
 
 .title {
- @apply font-medium
+ @apply font-medium font-inter
 }
 
 .content {
-  @apply ml-3 font-extrabold tracking-widest font-beaufort;
+  @apply ml-3 font-inter font-extrabold tracking-widest;
 }
 
 .right {
@@ -46,9 +50,9 @@
 }
 
 .links {
-  @apply border-4 border-white
+  @apply border-4 border-mirage-dark
 }
 
 .copyrights {
-  @apply font-markpro font-semibold tracking-wide text-center;
+  @apply font-markpro font-semibold tracking-wide text-center text-mirage-dark
 }

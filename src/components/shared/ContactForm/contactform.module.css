@@ -1,12 +1,12 @@
 
 .form {
-  @apply w-full lg:w-1/2 border-2 border-plum-neon p-5
+  @apply w-full lg:w-1/2 border-4 border-blues-light p-5
   flex justify-start items-start flex-col gap-y-6
   rounded-xl bg-accent
 }
 
 .form_title {
-  @apply text-3xl lg:text-4xl text-mirage-dark font-beaufort font-bold
+  @apply text-3xl lg:text-4xl text-mirage-dark font-markpro font-bold
   /* inline-flex gap-x-1 */
   flex justify-start items-center flex-row gap-x-4 lg:gap-x-5
   /* border */
@@ -19,34 +19,34 @@
 }
 
 .form_label {
-  @apply text-mirage-dark text-lg font-beaufort font-bold
+  @apply text-mirage-dark text-lg font-inter font-bold
 }
 
 .input_forms {
   @apply outline-none
-  w-full border-2 border-plum-bluish rounded-lg
+  w-full border-2 border-blues-light rounded-lg
   text-mirage-dark font-markpro font-medium
 
   focus:ring-0
-  /* focus:outline-plum-neon */
-  focus:border-plum-neon
-  caret-plum-neon
+  /* focus:outline-blues-light */
+  focus:border-blues-light
+  caret-blues-light
 }
 
 .textarea_forms {
   @apply outline-none
   resize-y
-  w-full border-2 border-plum-bluish rounded-lg
+  w-full border-2 border-blues-light rounded-lg
   text-mirage-dark font-markpro font-medium
   h-36
   focus:ring-0
-  /* focus:outline-plum-neon */
-  focus:border-plum-neon
-  caret-plum-neon
+  /* focus:outline-blues-light */
+  focus:border-blues-light
+  caret-blues-light
 }
 
 .form_button {
-  @apply p-2 w-full text-center text-white font-beaufort font-bold tracking-widest
+  @apply p-2 w-full text-center text-white font-markpro font-bold tracking-widest
   text-2xl bg-submit rounded-lg
   hover:bg-reverse
   ease-out duration-500

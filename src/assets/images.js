@@ -5,6 +5,7 @@ import heroImage from '~/images/bg/hero.png'
 import aboutImage from '~/images/bg/about.png'
 import hex_shape from '~/images/bg/hex_shape.png';
 import logo_ezy from '~/images/logo/logo_ezy.svg'
+import logo_ezyDark from '~/images/logo/logo_ezyDark.svg'
 import logo_emty from '~/images/logo/logo_emty.svg'
 import logo_face from '~/images/logo/logo_face.svg'
 import facebook from '~/images/socials/facebook.svg'
@@ -48,7 +49,7 @@ import xampp from '~/images/stacks/xampp.svg'
 export {
   heroImage, aboutImage,
   bg_body, bg_body2, profile, hex_shape,
-  logo_ezy, logo_emty, logo_face,
+  logo_ezy, logo_ezyDark, logo_emty, logo_face,
   facebook, github, gmail, linkedin,
   paper_plane, ScrollToTop,
 

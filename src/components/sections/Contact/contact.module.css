@@ -1,19 +1,34 @@
 .main {
-  @apply w-full h-full
+  @apply
+  py-16
+  w-screen bg-mirage-dark
+  lg:min-h-[calc(100vh_-_96px)]
+
+  /* border border-red-500 */
+}
+
+.mainContent {
+  @apply ease-linear duration-200
+  max-w-screen-2xl mx-auto
+  w-full
+  px-6 lg:px-14
   flex justify-start items-center flex-col
   gap-y-6
   lg:gap-y-16
+  mb-12 lg:mb-0
+  /* border border-red-500 */
 }
 
+
 .title {
-    @apply font-beaufort font-bold text-center
+    @apply font-markpro font-bold text-center
     flex justify-center flex-col
     text-5xl lg:text-6xl
     gap-8
 }
 
 .subtitle2 {
-  @apply text-pink-500 tracking-widest
+  @apply text-accent  uppercase
 }
 
 .second {
@@ -33,6 +48,6 @@
 }
 
 .p {
-  @apply font-markpro font-bold text-plum-neon text-lg lg:text-2xl tracking-widest
+  @apply font-markpro font-bold text-[#FEBE67] text-lg lg:text-2xl tracking-widest
 }
 

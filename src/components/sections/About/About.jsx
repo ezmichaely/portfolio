@@ -31,13 +31,11 @@ export default function About() {
           <h1 className={styles.title2}>Tech Stack: </h1>
           <div className={styles.stacksContainer}>
             {techStacks.map((data) => (
-              <Link key={data.key} href={data.url}
-                target='_blank' className={styles.stacksDiv} >
+              <div key={data.key} className={styles.stacksDiv} >
                 <Image src={data.icon} alt={data.key}
                   className={styles.stack_img} />
                 <p>{data.name}</p>
-                  {/* // height={data.height} width={data.width} */}
-              </Link>
+              </div>
             ))}
           </div>
         </div>

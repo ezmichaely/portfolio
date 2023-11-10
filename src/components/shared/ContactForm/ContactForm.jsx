@@ -23,10 +23,10 @@ export default function ContactForm() {
         <input type="text" className={`${styles.input_forms} form-input`}/>
       </div>
 
-      <div className={styles.form_control}>
+      {/* <div className={styles.form_control}>
         <label className={styles.form_label}>Subject</label>
         <input type="text" className={`${styles.input_forms} form-input`}/>
-      </div>
+      </div> */}
 
       <div className={styles.form_control}>
         <label className={styles.form_label}>Message</label>

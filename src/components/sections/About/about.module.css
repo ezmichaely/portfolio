@@ -5,7 +5,7 @@
   w-screen bg-mirage-dark
   lg:min-h-[calc(100vh_-_96px)]
 
-  border border-red-500
+  /* border border-red-500 */
 }
 
 .mainContent {

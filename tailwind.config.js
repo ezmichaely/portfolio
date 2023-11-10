@@ -45,8 +45,11 @@ module.exports = {
         profile: 'url("/images/bg/profile.jpg")',
         header: 'linear-gradient(212deg, #723BE5 0%, #4C16BF 51.04%)',
         footer: 'linear-gradient(-264deg, #4C16BF 0%, #C213EE 160%)',
-        submit: 'linear-gradient(90deg, #C213EE 0%, #4C16BF 101.7%)',
-        reverse: 'linear-gradient(90deg, #4C16BF 0%, #C213EE 101.7%)',
+        // submit: 'linear-gradient(90deg, #C213EE 0%, #4C16BF 101.7%)',
+        // reverse: 'linear-gradient(90deg, #4C16BF 0%, #C213EE 101.7%)',
+        submit: 'linear-gradient(90deg, #3163C4 0%, #193263 101.7%)',
+        reverse: 'linear-gradient(90deg, #193263 0%, #3163C4 101.7%)',
+
       },
     },
   },

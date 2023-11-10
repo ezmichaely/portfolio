@@ -7,8 +7,8 @@ import Link from 'next/link'
 export default function Projects() {
   // console.log(projects)
   return (
-    <section id="projects" >
-      <div className={styles.main}>
+    <section id="projects" className={styles.main}>
+      <div className={styles.mainContent}>
         <div className={styles.title}>
           <h1 className={styles.subtitle2}>
             Projects

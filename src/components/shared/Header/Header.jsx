@@ -57,7 +57,7 @@ export default function Header() {
             activeClass="nav_links_active"
             spy={true}
             smooth={true}
-            offset={-120}
+            offset={-96}
             duration={500}
             className={`nav_links`}>
             <TbCode className={`nav_icon`}/>
@@ -68,7 +68,7 @@ export default function Header() {
             activeClass="nav_links_active"
             spy={true}
             smooth={true}
-            offset={-120}
+            offset={-96}
             duration={500}
             className={`nav_links`}>
             <TbPhone className={`nav_icon`}/>

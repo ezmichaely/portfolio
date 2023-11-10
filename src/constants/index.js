@@ -41,7 +41,7 @@ export const footerDetails = [
   },
 ];
 
-export const copyRights = 'Copyright ⓒ 2023 | EMTY. All Rights Reserved';
+export const copyRights = 'Copyright ⓒ 2023 | EZY. All Rights Reserved';
 
 export const socials = [
   {

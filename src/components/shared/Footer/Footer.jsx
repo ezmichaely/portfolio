@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import {
-  logo_emty, logo_face,
+  logo_ezyDark, logo_face,
   facebook, gmail, github, linkedin
 } from '@/assets/images';
 import styles from './footer.module.css';
@@ -32,8 +32,8 @@ export default function Footer() {
           <div onClick={handleLogo} className={styles.brand}>
             <Image src={logo_face} alt="logo_face" priority
               height={80} />
-            <Image src={logo_emty} alt="logo_emty" priority
-              className={styles.logo_emty} />
+            <Image src={logo_ezyDark} alt="logo_ezyDark" priority
+              className={styles.logo_ezyDark} />
           </div>
 
           <div className={styles.details}>

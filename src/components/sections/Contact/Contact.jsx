@@ -4,8 +4,8 @@ import { ContactForm } from '@/components/shared';
 
 export default function Contact() {
   return (
-    <section id="contact" >
-      <div className={styles.main}>
+    <section id="contact" className={styles.main}>
+      <div className={styles.mainContent}>
         <div className={styles.title}>
           <h1 className={styles.subtitle2}>
             Contact me
