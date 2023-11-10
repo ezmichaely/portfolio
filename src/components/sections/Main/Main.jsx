@@ -38,7 +38,7 @@ export default function Home() {
             </div>
 
             <div className={styles.resume}>
-              <a href="/EZ_MICHAEL_YUCOR-CV.pdf" > Resume / CV </a>
+              <a href="/EZ_MICHAEL_YUCOR-CV.pdf" target="_blank"> Resume / CV </a>
             </div>
           </div>
 
