@@ -30,7 +30,7 @@
 
 .web, .ux {
   @apply w-full
-  flex justify-start items-start flex-col gap-y-8
+  flex justify-start items-start flex-col gap-y-3
   /* grid grid-cols-4 */
 }
 
@@ -41,10 +41,10 @@
 }
 
 .web h3, .ux h3 {
-  @apply relative uppercase
+  @apply relative uppercase leading-none
   text-2xl font-markpro text-mirage-dark
 
-  w-fit py-2 px-0
+  w-fit py-1 px-0
   after:content-[""] after:bg-mirage-dark after:h-[2px] after:w-full
   after:absolute after:bottom-0 after:left-0 after:origin-right
   after:scale-x-100
