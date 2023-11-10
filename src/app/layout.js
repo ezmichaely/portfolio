@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en"
       className={`
-        light
         ${inter.variable}
         ${beaufort.variable}
         ${markpro.variable}

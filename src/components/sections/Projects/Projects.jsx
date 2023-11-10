@@ -1,11 +1,10 @@
 import { projectsData } from '@/constants';
 import styles from './projects.module.css';
-import { ProjectCard } from '@/components/shared';
+import { ProjectCard, ImageGallery } from '@/components/shared';
 import Link from 'next/link'
 
 
 export default function Projects() {
-  // console.log(projects)
   return (
     <section id="projects" className={styles.main}>
       <div className={styles.mainContent}>
@@ -15,20 +14,20 @@ export default function Projects() {
           </h1>
         </div>
 
-        {/* <ProjectCard /> */}
-        <div className={styles.second}>
-          {projectsData.map((data) => (
-            <Link key={data.name}  href={data.url} target='_blank'
-              className='w-full bg-white p-4 rounded'>
-              {/* <Image src={props.logo} alt={props.key} height={300} /> */}
-              <div>
-                <h4 className='font-beaufort text-2xl font-bold text-mirage-dark'>
-                  {data.name}
-                </h4>
-              </div>
-            </Link>
-            // <ProjectCard key={data.name} details={data} />
-          ))}
+        <div className={styles.web}>
+          <h3>WEB DEVELOPMENT</h3>
+          <div className={styles.webContent}>
+            {projectsData.map((data) => (
+              <ProjectCard key={data.key} details={data} />
+            ))}
+          </div>
+        </div>
+
+        <div className={styles.ux}>
+          <h3>Graphics Design</h3>
+          <div className={styles.uxContent}>
+            <ImageGallery />
+          </div>
         </div>
       </div>
     </section>

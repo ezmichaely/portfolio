@@ -3,8 +3,6 @@
   py-16
   w-screen bg-accent
   lg:min-h-[calc(100vh_-_96px)]
-
-  /* border border-red-500 */
 }
 
 .mainContent {
@@ -16,7 +14,6 @@
   gap-y-6
   lg:gap-y-16
   mb-12 lg:mb-0
-  /* border border-red-500 */
 }
 
 
@@ -31,7 +28,28 @@
   @apply text-blues-dark  uppercase
 }
 
-.second {
-  @apply w-full grid grid-cols-1 gap-6
-  lg:grid-cols-2
+.web, .ux {
+  @apply w-full
+  flex justify-start items-start flex-col gap-y-8
+  /* grid grid-cols-4 */
+}
+
+
+.webContent {
+  @apply w-full
+  grid md:grid-cols-2 lg:grid-cols-3 gap-4
+}
+
+.web h3, .ux h3 {
+  @apply relative uppercase
+  text-2xl font-markpro text-mirage-dark
+
+  w-fit py-2 px-0
+  after:content-[""] after:bg-mirage-dark after:h-[2px] after:w-full
+  after:absolute after:bottom-0 after:left-0 after:origin-right
+  after:scale-x-100
+}
+
+.uxContent {
+  @apply w-full p-4 bg-blues-dark
 }

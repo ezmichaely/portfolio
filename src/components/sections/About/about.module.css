@@ -54,13 +54,12 @@
 
 .detailsContainer {
   @apply
-  text-xl flex flex-col
+  flex flex-col
   gap-y-10
 }
 
 .pText {
-  @apply text-left
-  /* border */
+  @apply text-left text-2xl
 }
 
 .third {
@@ -98,5 +97,5 @@
 }
 
 .stacksDiv p {
-  @apply font-inter text-lg uppercase
+  @apply font-inter text-sm font-medium tracking-wide uppercase
 }

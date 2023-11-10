@@ -1,6 +1,22 @@
 import {
-  facebook, gmail, github, linkedin, html5, css3, javascript, bootstrap, sass, tailwindcss, react, svelte, nextjs, node, jquery, typescript, cplusplus, java, php, laravel, python, xampp, mariadb, mysql, awsDynamodb, vscode, git, postman, figma, photoshop,
-  // illustrator
+  facebook, gmail, github, linkedin, html5, css3, javascript, bootstrap, sass, tailwindcss, react, svelte, nextjs, node, jquery, typescript, cplusplus, java, php, laravel, python, xampp, mariadb, mysql, awsDynamodb, vscode, git, postman, figma, photoshop, githubLogo, mongodb, illustrator,
+
+  lodong, jungnanum, supermanDairy,
+  //
+
+  bvp,
+  desFiesta,
+  desXmas1, desXmas2,
+  dwightTarp, dwightTshirt,
+  infoSteamos, infoWin10,
+  logo_ducking, logo_farmigs,
+  logo_francyn, logo_rems,
+  logo_tayoktok,
+  tarpBday, tarpFiesta,
+  tayok_drinks, tayok_menu,
+  tayok_opening, tayok_sessionistas,
+  tayok_tshirt, tayok_vibes,
+
 } from '@/assets/images';
 
 export const routers = [
@@ -22,7 +38,7 @@ export const routers = [
   {
     title: 'CONTACT',
     url: '/contact',
-    icon: '<TbPhone />'
+    icon: 'TbPhone'
   },
 ]
 
@@ -81,22 +97,22 @@ export const about = [
 
 
 export const techStacks = [
-  // {
-  //   key: 'html5',
-  //   name: 'HTML5',
-  //   url: 'https://www.w3.org/html/',
-  //   icon: html5,
-  //   height: 60,
-  //   width: 60,
-  // },
-  // {
-  //   key: 'css3',
-  //   name: 'CSS3',
-  //   url: 'https://www.w3schools.com/css/',
-  //   icon: css3,
-  //   height: 60,
-  //   width: 60,
-  // },
+  {
+    key: 'html5',
+    name: 'HTML5',
+    url: 'https://www.w3.org/html/',
+    icon: html5,
+    height: 60,
+    width: 60,
+  },
+  {
+    key: 'css3',
+    name: 'CSS3',
+    url: 'https://www.w3schools.com/css/',
+    icon: css3,
+    height: 60,
+    width: 60,
+  },
   {
     key: 'js',
     name: 'JAVASCRIPT',
@@ -131,7 +147,7 @@ export const techStacks = [
   },
   {
     key: 'reactjs',
-    name: 'REACT JS',
+    name: 'REACTJS',
     url: 'https://reactjs.org/',
     icon: react,
     height: 30,
@@ -147,7 +163,7 @@ export const techStacks = [
   // },
   {
     key: 'nextjs',
-    name: 'NEXT JS',
+    name: 'NEXTJS',
     url: 'https://nextjs.org/',
     icon: nextjs,
     height: 30,
@@ -217,14 +233,14 @@ export const techStacks = [
   //   height: 30,
   //   width: 30,
   // },
-  // {
-  //   key: 'xampp',
-  //   name: 'XAMPP',
-  //   url: 'https://www.apachefriends.org/',
-  //   icon: xampp,
-  //   height: 30,
-  //   width: 30,
-  // },
+  {
+    key: 'xampp',
+    name: 'XAMPP',
+    url: 'https://www.apachefriends.org/',
+    icon: xampp,
+    height: 30,
+    width: 30,
+  },
   // {
   //   key: 'mariadb',
   //   name: 'MariaDB',
@@ -241,14 +257,14 @@ export const techStacks = [
     height: 30,
     width: 40,
   },
-  // {
-  //   key: 'mongodb',
-  //   name: 'MongoDB',
-  //   url: 'https://www.mongodb.com/',
-  //   icon: mongo,
-  //   height: 35,
-  //   width: 18,
-  // },
+  {
+    key: 'mongodb',
+    name: 'MongoDB',
+    url: 'https://www.mongodb.com/',
+    icon: mongodb,
+    height: 35,
+    width: 18,
+  },
   // {
   //   key: 'aws_dynamodb',
   //   name: 'AWS dynamoDB',
@@ -257,14 +273,14 @@ export const techStacks = [
   //   height: 30,
   //   width: 30,
   // },
-  {
-    key: 'vscode',
-    name: 'VSCODE',
-    url: 'https://code.visualstudio.com/',
-    icon: vscode,
-    height: 30,
-    width: 30,
-  },
+  // {
+  //   key: 'vscode',
+  //   name: 'VSCODE',
+  //   url: 'https://code.visualstudio.com/',
+  //   icon: vscode,
+  //   height: 30,
+  //   width: 30,
+  // },
   {
     key: 'git',
     name: 'GIT',
@@ -273,14 +289,14 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  // {
-  //   key: 'github_desktop',
-  //   name: 'GITHUB DESKTOP',
-  //   url: 'https://desktop.github.com/',
-  //   icon: 'https://desktop.github.com/images/desktop-icon.svg',
-  //   height: 30,
-  //   width: 30,
-  // },
+  {
+    key: 'github_desktop',
+    name: 'GITHUB DESKTOP',
+    url: 'https://desktop.github.com/',
+    icon: githubLogo,
+    height: 30,
+    width: 30,
+  },
   {
     key: 'postman',
     name: 'POSTMAN',
@@ -305,14 +321,14 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  // {
-  //   key: 'illustrator',
-  //   name: 'Illustrator',
-  //   url: 'https://www.adobe.com/in/products/illustrator.html',
-  //   icon: 'https://cdn.worldvectorlogo.com/logos/adobe-illustrator-cc-icon.svg',
-  //   height: 30,
-  //   width: 30,
-  // },
+  {
+    key: 'illustrator',
+    name: 'Illustrator',
+    url: 'https://www.adobe.com/in/products/illustrator.html',
+    icon: illustrator,
+    height: 30,
+    width: 30,
+  },
 ]
 
 
@@ -320,73 +336,82 @@ export const projectsData = [
   {
     key: 'lodong',
     name: 'Lodong.co.kr',
-    // logo: '',
-    // desc: '',
-    // url: 'lodong',
+    img: lodong,
+    desc: 'A landing page for a tech company',
     url: 'https://lodongsite.vercel.app',
-    // stack: [
-    //   // { name: 'HTML5', icon: '' },
-    //   // { name: 'CSS3', icon: '' },
-    //   // { name: 'TailwindCSS', icon: '' },
-    //   // { name: 'SCSS', icon: '' },
-    //   // { name: 'JS', icon: '' },
-    //   // { name: 'Spring Boot', icon: '' }
-    // ]
+    stack: ['HTML5', 'NEXT.JS', 'Tailwind CSS'],
+    github: ''
   },
   {
     key: 'jungnanum',
     name: 'Jungnanum',
-    url: 'http://210.99.223.38:20004/'
+    img: jungnanum,
+    desc: 'A landing page with complete an admin management system. This facilitated the addition of products and incorporated a personality test questionnaire.',
+    url: 'http://210.99.223.38:20004/',
+    stack: ['HTML5', 'CSS3', 'BOOTSTRAP', 'JAVASCRIPT'],
+    github: ''
   },
   {
-    key: 'garbagecollection',
-    name: 'Garbage Collection',
-    url: 'https://lodongsite.vercel.app',
-    // logo: '',
-    // desc: '',
-    // site: '',
-    // stack: [
-    //   // { name: 'HTML5', icon: '' },
-    //   // { name: 'CSS3', icon: '' },
-    //   // { name: 'Bootstrap', icon: '' },
-    //   // { name: 'SCSS', icon: '' },
-    //   // { name: 'JS', icon: '' },
-    //   // { name: 'PHP', icon: '' },
-    //   // { name: 'MySQL', icon: '' },
-    // ]
+    key: 'supermandiary',
+    name: 'Superman Diary',
+    img: supermanDairy,
+    desc: 'This system encompassed communication management, constructor and technician team oversight, order and contract management, technician scheduling, and a content management system. It even featured a raffle management system to award prizes to various tenants.',
+    url: 'https://godofhouse.co.kr/',
+    stack: ['REACT JS', 'EXPRESS JS', 'NODE JS', 'FIREBASE', 'SOCKET.IO'],
+    github: ''
   },
-  {
-    key: 'bhcm',
-    name: 'Brgy. Health Center Management',
-    url: 'https://lodongsite.vercel.app',
-    // logo: '',
-    // desc: '',
-    // site: '',
-    // stack: [
-    //   // { name: 'HTML5', icon: '' },
-    //   // { name: 'CSS3', icon: '' },
-    //   // { name: 'Bootstrap', icon: '' },
-    //   // { name: 'JS', icon: '' },
-    //   // { name: 'Ajax', icon: '' },
-    //   // { name: 'Jquery', icon: '' },
-    //   // { name: 'PHP', icon: '' },
-    //   // { name: 'MySQL', icon: '' },
-    // ]
-  },
-  {
-    key: 'norsuelcms',
-    name: 'NORSU-eLCMS',
-    url: 'https://lodongsite.vercel.app',
-    // logo: '',
-    // desc: '',
-    // site: '',
-    // stack: [
-    //   // { name: 'HTML5', icon: '' },
-    //   // { name: 'CSS3', icon: '' },
-    //   // { name: 'Bootstrap', icon: '' },
-    //   // { name: 'JS', icon: '' },
-    //   // { name: 'PHP', icon: '' },
-    //   // { name: 'MySQL', icon: '' },
-    // ]
-  },
+  // {
+  //   key: 'garbagecollection',
+  //   name: 'Garbage Collection',
+  //   img: lodong,
+  //   desc: '',
+  //   url: 'http://210.99.223.38:20004/',
+  //   stack: ['HTML5', 'CSS3', 'BOOTSTRAP', 'JAVASCRIPT', 'PHP', 'MYSQL'],
+  //   github: ''
+  // },
+  // {
+  //   key: 'bhcm',
+  //   name: 'Brgy. Health Center Management',
+  //   img: lodong,
+  //   desc: '',
+  //   url: 'http://210.99.223.38:20004/',
+  //   stack: ['HTML5', 'CSS3', 'BOOTSTRAP', 'JAVASCRIPT', 'PHP', 'MYSQL'],
+  //   github: ''
+  // },
+  // {
+  //   key: 'norsuelcms',
+  //   name: 'NORSU-eLCMS',
+  //   img: lodong,
+  //   desc: '',
+  //   url: 'http://210.99.223.38:20004/',
+  //   stack: ['HTML5', 'CSS3', 'BOOTSTRAP', 'JAVASCRIPT', 'PHP', 'MYSQL'],
+  //   github: ''
+  // },
+]
+
+
+export const galleryDesigns = [
+  // { src: bvp, key: 'bvp' },
+  { src: desFiesta, key: 'desFiesta' },
+  // { src: desXmas1, key: 'desXmas1' },
+  // { src: desXmas2, key: 'desXmas2' },
+  { src: dwightTarp, key: 'dwightTarp' },
+  { src: dwightTshirt, key: 'dwightTshirt' },
+  { src: infoSteamos, key: 'infoSteamos' },
+  // { src: infoWin10, key: 'infoWin10' },
+  { src: logo_ducking, key: 'logo_ducking' },
+  { src: logo_farmigs, key: 'logo_farmigs' },
+  // { src: logo_francyn, key: 'logo_francyn' },
+  { src: logo_rems, key: 'logo_rems' },
+  // { src: logo_tayoktok, key: 'logo_tayoktok' },
+  // { src: tarpBday, key: 'tarpBday' },
+  // { src: tarpFiesta, key: 'tarpFiesta' },
+  // { src: tayok_drinks, key: 'tayok_drinks' },
+  { src: tayok_menu, key: 'tayok_menu' },
+  { src: tayok_opening, key: 'tayok_opening' },
+  // { src: tayok_tshirt, key: 'tayok_tshirt' },
+  { src: tayok_sessionistas, key: 'tayok_sessionistas' },
+  { src: tayok_vibes, key: 'tayok_vibes' },
+
+
 ]

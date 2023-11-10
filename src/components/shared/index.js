@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 import StackCard from "./StackCard/StackCard"
 import ContactForm from './ContactForm/ContactForm'
 import ScrollTop from './ScrollTop/ScrollTop'
+import ImageGallery from './ImageGallery/ImageGallery'
 
 export {
   Header,
@@ -11,5 +12,6 @@ export {
   ProjectCard,
   StackCard,
   ContactForm,
-  ScrollTop
+  ScrollTop,
+  ImageGallery
 }

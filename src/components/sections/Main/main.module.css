@@ -9,11 +9,11 @@
   @apply ease-linear duration-200
   max-w-screen-2xl mx-auto
   w-full
-  px-6 lg:px-14
+  px-0 lg:px-14
   flex justify-start items-center flex-col
   gap-y-6
   lg:gap-y-16
-  mb-12 lg:mb-0
+
   /* border border-red-500 */
 }
 
@@ -24,8 +24,6 @@
     lg:justify-start flex-col
     gap-2
     mt-10 lg:mt-0
-
-    /* border border-red-600 */
 }
 
 .subtitle1 {
@@ -48,10 +46,16 @@
   @apply w-full flex justify-between items-center flex-col-reverse
   lg:justify-between lg:flex-row relative
   /* border border-red-600; */
+
 }
 
 .second_left {
-  @apply flex justify-center items-center flex-col gap-6;
+  @apply flex justify-center items-center flex-col gap-6
+  bg-white lg:bg-transparent
+  w-full lg:w-auto
+  pb-12 lg:pb-0
+
+  /* border */
 }
 
 .web_dev {

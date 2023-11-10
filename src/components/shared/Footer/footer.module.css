@@ -1,5 +1,5 @@
 .footer {
-  @apply bg-accent
+  @apply bg-[#E8EAEE]
   border-t-4 border-blues-light flex items-center w-screen min-h-fit py-6;
 }
 

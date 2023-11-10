@@ -1,34 +1,54 @@
 import Link from 'next/link'
-import { redirect } from 'next/navigation'
+import Image from 'next/image'
+import styles from './projectCard.module.css'
 
 
-
-export default function ProjectCard({details}) {
-  // console.log(details);
-  // const onRedirects = () => {
-  //   // async redirects () {
-  //     return redirect([
-  //       {
-  //         source: details.href,
-  //         destination: details.url,
-  //         permanent: true,
-  //       },
-  //     ]);
-  //   // },
-  // }
-
-
-
+export default function ProjectCard({ details }) {
   return (
-    <Link href={details.url} target='_blank'
-      className='w-full bg-white p-4 rounded'>
-      {/* <Image src={props.logo} alt={props.key} height={300} /> */}
-      <div>
-        <h4 className='font-beaufort text-2xl font-bold text-mirage-dark'>
-          {details.name}
-        </h4>
-      </div>
+    <div className={styles.card}>
+      <div className={styles.cardContent}>
+        <div className={styles.imgHolder}>
+          <Image src={details.img} alt={details.name} />
+          <div className={styles.imgDesc}>
+            <h4> {details.name} </h4>
+          </div>
+        </div>
 
-    </Link>
+        <div className={styles.descriptions}>
+          <div className={styles.descTop}>
+            {/* <h4> {details.name} </h4> */}
+            <p>{details.desc}</p>
+          </div>
+
+          <div className={styles.descBot}>
+            <div className={styles.links}>
+              {details.url &&
+                <Link href={details.url} target='_blank'>
+                LIVE SITE
+                </Link>
+              }
+
+              {details.github &&
+                <Link href={details.github} target='_blank'>
+                  GITHUB
+                </Link>
+              }
+            </div>
+            <div className={styles.stacks}>
+              <h5>TECH USED:</h5>
+
+              <div className={styles.tech}>
+                {details.stack.map((data, i) => (
+                  <div key={i} className={styles.techContent}>
+                    {data}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
   )
 }
