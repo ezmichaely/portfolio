@@ -1,0 +1,22 @@
+.main {
+  @apply w-full
+  flex justify-start items-center flex-col
+  gap-y-6
+  lg:gap-y-16
+}
+
+.title {
+  @apply font-beaufort font-bold text-center
+    flex justify-center flex-col
+    text-5xl lg:text-6xl
+    gap-8
+}
+
+.subtitle2 {
+  @apply text-pink-500 tracking-widest
+}
+
+.second {
+  @apply w-full grid grid-cols-1 gap-6
+  lg:grid-cols-2
+}

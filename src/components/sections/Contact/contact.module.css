@@ -1,0 +1,38 @@
+.main {
+  @apply w-full h-full
+  flex justify-start items-center flex-col
+  gap-y-6
+  lg:gap-y-16
+}
+
+.title {
+    @apply font-beaufort font-bold text-center
+    flex justify-center flex-col
+    text-5xl lg:text-6xl
+    gap-8
+}
+
+.subtitle2 {
+  @apply text-pink-500 tracking-widest
+}
+
+.second {
+  @apply w-full flex justify-between items-center flex-col
+  lg:justify-between lg:flex-row relative gap-14
+  /* border border-red-600; */
+}
+
+.secondLeft {
+  @apply w-full
+  lg:w-1/2
+  flex justify-start items-start flex-col gap-y-10;
+}
+
+.h3 {
+  @apply font-beaufort font-bold text-3xl lg:text-[40px] leading-tight
+}
+
+.p {
+  @apply font-markpro font-bold text-plum-neon text-lg lg:text-2xl tracking-widest
+}
+

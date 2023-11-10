@@ -1,0 +1,61 @@
+.header {
+  @apply bg-header w-screen
+  flex items-center
+  border-b-4 border-pink-500
+  h-24 max-h-24
+  select-none
+  fixed top-0 left-0
+  z-20;
+}
+
+.container {
+  @apply w-screen max-w-screen-2xl mx-auto px-6 lg:px-14
+  flex flex-row items-center justify-between;
+}
+
+.brand {
+  @apply flex items-end w-fit flex-row
+  cursor-pointer;
+}
+
+.logo_emty {
+  @apply ml-2 hidden sm:flex sm:duration-500 ;
+}
+
+.navbar {
+  @apply flex justify-end items-center flex-row gap-4 lg:gap-8 duration-200;
+}
+
+.nav_links {
+  @apply cursor-pointer
+    relative uppercase font-semibold tracking-widest md:text-lg
+    h-10 w-10 flex items-center justify-center text-3xl rounded-full
+  hover:bg-white hover:text-pink-500 hover:duration-300
+
+    md:w-fit md:py-2 md:px-0
+    md:before:content-[""] md:before:bg-pink-500 md:before:h-1 md:before:w-full
+    md:before:absolute md:before:top-0 md:before:left-0 md:before:origin-left
+    md:before:duration-300 md:before:scale-x-0
+
+    md:after:content-[""] md:after:bg-pink-500 md:after:h-1 md:after:w-full
+    md:after:absolute md:after:bottom-0 md:after:left-0 md:after:origin-right
+    md:after:duration-300 md:after:scale-x-0
+
+    md:hover:after:scale-x-100
+    md:hover:bg-transparent md:hover:text-white;
+}
+
+.nav_links_active {
+  @apply bg-white text-pink-500
+    /* md:before:scale-x-100  */
+    md:after:scale-x-100
+    md:bg-transparent md:text-white;
+}
+
+.nav_icon {
+  @apply duration-300 md:hidden drop-shadow-md;
+}
+
+.nav_title {
+  @apply font-markpro duration-300 hidden md:flex;
+}
