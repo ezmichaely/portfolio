@@ -9,7 +9,7 @@
 }
 
 .imgHolder {
-  @apply flex justify-center items-center
+  @apply flex justify-start items-start
   min-w-full
   bg-blues-dark shadow-lg
   h-[250px] overflow-hidden
