@@ -3,7 +3,7 @@
   @apply
   w-screen bg-[#DDDDDD]
   lg:min-h-[calc(100vh_-_96px)]
-  overflow-x-hidden lg:overflow-x-visible
+  overflow-x-hidden
 }
 
 .mainContent {
@@ -28,11 +28,12 @@
 }
 
 .subtitle1 {
-  @apply text-5xl lg:text-6xl text-blues-dark whitespace-normal;
+  @apply text-4xl sm:text-5xl lg:text-6xl text-blues-dark whitespace-normal;
 }
 
 .subtitle2 {
   @apply text-5xl lg:text-7xl text-blues-light tracking-normal
+  2xl:whitespace-nowrap
 }
 
 .title h4 {
@@ -55,6 +56,7 @@
   bg-white lg:bg-transparent
   w-full lg:w-auto
   pb-12 lg:pb-0
+  z-20
 
   /* border */
 }
@@ -106,12 +108,13 @@
   @apply ease-linear duration-200
   relative
   flex
-  justify-start
-  /* justify-center */
+  justify-start z-10
+  /* justify-center
+  lg:justify-start */
    /* border; */
    /* border border-red-400 */
-  lg:-ml-24
-  xl:-mr-60
+  lg:-ml-60
+  3xl:ml-0
 }
 
 .heroImage {
