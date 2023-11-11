@@ -3,6 +3,7 @@
   @apply
   w-screen bg-[#DDDDDD]
   lg:min-h-[calc(100vh_-_96px)]
+  overflow-x-hidden lg:overflow-x-visible
 }
 
 .mainContent {

@@ -30,7 +30,7 @@
 }
 
 .navbar {
-  @apply flex justify-end items-center flex-row gap-6 lg:gap-8 duration-200;
+  @apply flex justify-end items-center flex-row gap-4 sm:gap-6 lg:gap-8 duration-200;
 }
 
 .nav_links {
