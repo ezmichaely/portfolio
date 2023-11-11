@@ -45,7 +45,7 @@ export default function Home() {
 
           <div className={styles.profile_container}>
             {/* <div className={`${styles.morphing_shape}`} /> */}
-            <Image src={heroImage} alt="hero" className={styles.heroImage} />
+            <Image src={heroImage} alt="hero" className={styles.heroImage} priority />
           </div>
         </div>
       </div>
