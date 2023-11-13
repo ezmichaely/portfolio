@@ -90,7 +90,7 @@
   object-fit: contain !important; */
   @apply object-contain w-fit
   min-h-[50px] h-[50px]
-  bg-mirage-dark shadow-lg
+  /* bg-mirage-dark */
 
   /* min-w-[60px] */
   /* border border-lime-600 */
