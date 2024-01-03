@@ -375,15 +375,15 @@ export const techStacks = [
 ];
 
 export const projectsData = [
-  {
-    key: "lodong",
-    name: "Lodong.co.kr",
-    img: lodong,
-    desc: "A landing page for a tech company",
-    url: "https://lodongsite.vercel.app",
-    stack: ["HTML5", "NEXT.JS", "Tailwind CSS"],
-    github: "",
-  },
+  // {
+  //   key: "lodong",
+  //   name: "Lodong.co.kr",
+  //   img: lodong,
+  //   desc: "A landing page for a tech company",
+  //   url: "https://lodongsite.vercel.app",
+  //   stack: ["HTML5", "NEXT.JS", "Tailwind CSS"],
+  //   github: "",
+  // },
   {
     key: "jungnanum",
     name: "Jungnanum",
