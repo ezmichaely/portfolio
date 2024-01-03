@@ -1,9 +1,7 @@
-
 .main {
-  @apply
-  w-screen bg-[#DDDDDD]
+  @apply w-screen bg-[#DDDDDD]
   lg:min-h-[calc(100vh_-_96px)]
-  overflow-x-hidden
+  overflow-x-hidden;
 }
 
 .mainContent {
@@ -15,7 +13,7 @@
   gap-y-6
   lg:gap-y-16
 
-  /* border border-red-500 */
+  /* border border-red-500 */;
 }
 
 .title {
@@ -24,7 +22,7 @@
     flex justify-center
     lg:justify-start flex-col
     gap-2
-    mt-10 lg:mt-0
+    mt-10 lg:mt-0;
 }
 
 .subtitle1 {
@@ -33,22 +31,21 @@
 
 .subtitle2 {
   @apply text-5xl lg:text-7xl text-blues-light tracking-normal
-  2xl:whitespace-nowrap
+  2xl:whitespace-nowrap;
 }
 
 .title h4 {
-  @apply text-2xl text-mirage-dark
+  @apply text-2xl text-mirage-dark;
 }
 
 .title h4 span:nth-of-type(2) {
-  @apply whitespace-nowrap
+  @apply whitespace-nowrap;
 }
 
 .second {
   @apply w-full flex justify-between items-center flex-col-reverse
   lg:justify-between lg:flex-row relative
-  /* border border-red-600; */
-
+  /* border border-red-600; */;
 }
 
 .second_left {
@@ -58,12 +55,12 @@
   pb-12 lg:pb-0
   z-20
 
-  /* border */
+  /* border */;
 }
 
 .web_dev {
   @apply w-fit flex justify-center items-center flex-col
-  mt-8 lg:mt-0
+  mt-8 lg:mt-0;
 }
 
 /* .web {
@@ -88,20 +85,20 @@
 .resume {
   @apply w-full flex justify-center
   lg:justify-start
-  items-center
+  items-center;
 }
 
 .resume a {
   @apply bg-blues-dark py-4 px-6 rounded-xl border-2 border-blues-light
   uppercase font-markpro tracking-wider
-  hover:bg-blues-light
+  hover:bg-blues-light;
 }
 
 .socials {
   @apply w-full flex justify-center
   lg:justify-start
   items-center flex-row gap-8
-  /* border border-red-500 */
+  /* border border-red-500 */;
 }
 
 .profile_container {
@@ -113,8 +110,8 @@
   lg:justify-start */
    /* border; */
    /* border border-red-400 */
-  lg:-ml-60
-  3xl:ml-0
+  /* lg:-ml-60 */
+  3xl:ml-0;
 }
 
 .heroImage {
@@ -124,7 +121,7 @@
   lg:min-h-[calc(100vh_-_96px)]
   xl:h-[740px]
   xl:min-w-fit
-  xl:w-fit
+  xl:w-fit;
 }
 
 .morphing_shape {
@@ -134,7 +131,7 @@
   @apply bg-profile bg-cover
   h-[280px] w-[280px]
   lg:h-360 lg:w-360
-  border-4 border-plum-neon
+  border-4 border-plum-neon;
 }
 
 @keyframes morph {

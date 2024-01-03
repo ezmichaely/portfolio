@@ -1,10 +1,9 @@
 .main {
-  @apply
-  pt-16
+  @apply pt-16
   w-screen bg-mirage-dark
-  lg:min-h-[calc(100vh_-_96px)]
+  /* lg:min-h-[calc(100vh_-_96px)] */
 
-  /* border border-red-500 */
+  /* border border-red-500 */;
 }
 
 .mainContent {
@@ -16,38 +15,36 @@
   gap-y-6
   lg:gap-y-16
   /* mb-12 lg:mb-0 */
-  /* border border-red-500 */
+  /* border border-red-500 */;
 }
 
-
 .title {
-    @apply font-markpro font-bold text-center
+  @apply font-markpro font-bold text-center
     flex justify-center flex-col
     text-5xl lg:text-6xl
-    /* gap-8 */
+    /* gap-8 */;
 }
 
 .subtitle2 {
-  @apply text-accent  uppercase
+  @apply text-accent  uppercase;
 }
 
 .second {
   @apply w-full flex justify-between items-center flex-col
-  lg:justify-between lg:flex-row relative gap-14
-  /* border border-red-600; */
+   lg:flex-row relative gap-14
+  /* border border-red-600; */;
 }
 
 .secondLeft {
   @apply w-full
-  lg:w-1/2
-  flex justify-start items-start flex-col gap-y-10;
+  /* lg:w-1/2 */
+  flex justify-center items-center flex-col gap-y-3;
 }
 
 .h3 {
-  @apply font-inter font-bold text-3xl lg:text-[40px] leading-tight
+  @apply font-inter font-bold text-3xl lg:text-[40px] leading-tight;
 }
 
 .p {
-  @apply font-markpro font-bold text-[#FEBE67] text-lg lg:text-2xl tracking-widest
+  @apply font-markpro font-bold text-[#FEBE67] text-lg lg:text-2xl tracking-widest;
 }
-
