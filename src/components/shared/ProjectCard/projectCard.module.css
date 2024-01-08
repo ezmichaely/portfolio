@@ -6,8 +6,8 @@
 
 .cardContent {
   @apply w-full h-full
-  /* flex justify-start items-stretch gap-4 flex-col */
-  flex justify-between items-start gap-4 flex-col
+  flex justify-start items-stretch gap-4 flex-col
+  /* flex justify-between items-start gap-4 flex-col */
 }
 
 /* .cardDiv {
