@@ -5,8 +5,14 @@
 }
 
 .cardContent {
-  @apply w-full flex justify-start items-stretch gap-4 flex-col
+  @apply w-full h-full
+  /* flex justify-start items-stretch gap-4 flex-col */
+  flex justify-between items-start gap-4 flex-col
 }
+
+/* .cardDiv {
+  @apply w-full h-full flex jus
+} */
 
 .imgHolder {
   @apply flex justify-start items-start
