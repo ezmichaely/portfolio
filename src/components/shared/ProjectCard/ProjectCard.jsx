@@ -7,14 +7,14 @@ export default function ProjectCard({ details }) {
   return (
     <div className={styles.card}>
       <div className={styles.cardContent}>
-        <div className="">
+        {/* <div className=""> */}
           <div className={styles.imgHolder}>
             <Image src={details.img} alt={details.name} />
             <div className={styles.imgDesc}>
               <h4> {details.name} </h4>
             </div>
           </div>
-        </div>
+        {/* </div> */}
 
         <div className={styles.descriptions}>
           <div className={styles.descTop}>
