@@ -27,9 +27,10 @@ export default function ImageSplide() {
   const options2 = {
     rewind: true,
     rewindByDrag: true,
-    width: "100vw",
+    // width: "100vw",
     perPage: 1,
     autoplay: true,
+    autoWidth: true,
   };
 
   return (
