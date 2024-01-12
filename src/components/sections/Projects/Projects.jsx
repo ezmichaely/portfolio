@@ -1,6 +1,6 @@
 import { projectsData } from '@/constants';
 import styles from './projects.module.css';
-import { ProjectCard, ImageGallery } from '@/components/shared';
+import { ProjectCard, ImageSplide } from '@/components/shared';
 import Link from 'next/link'
 
 
@@ -26,7 +26,7 @@ export default function Projects() {
         <div className={styles.ux}>
           <h3>Graphics Design</h3>
           <div className={styles.uxContent}>
-            <ImageGallery />
+            <ImageSplide />
           </div>
         </div>
       </div>

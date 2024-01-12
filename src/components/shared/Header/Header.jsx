@@ -8,6 +8,7 @@ import {
 import {
   TbCode, TbPhone, TbSmartHome, TbUserHeart
 } from 'react-icons/tb';
+
 import './header.css';
 import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin.js";

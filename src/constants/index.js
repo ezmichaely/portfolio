@@ -375,15 +375,15 @@ export const techStacks = [
 ];
 
 export const projectsData = [
-  // {
-  //   key: "lodong",
-  //   name: "Lodong.co.kr",
-  //   img: lodong,
-  //   desc: "A landing page for a tech company",
-  //   url: "https://lodongsite.vercel.app",
-  //   stack: ["HTML5", "NEXT.JS", "Tailwind CSS"],
-  //   github: "",
-  // },
+  {
+    key: "lodong",
+    name: "Lodong.co.kr",
+    img: lodong,
+    desc: "A landing page for a tech company",
+    url: "https://lodongsite.vercel.app",
+    stack: ["HTML5", "NEXT.JS", "Tailwind CSS"],
+    github: "",
+  },
   {
     key: "jungnanum",
     name: "Jungnanum",
@@ -425,7 +425,7 @@ export const projectsData = [
   //   name: 'NORSU-eLCMS',
   //   img: lodong,
   //   desc: '',
-  //   url: 'http://210.99.223.38:20004/',
+  //   url: '',
   //   stack: ['HTML5', 'CSS3', 'BOOTSTRAP', 'JAVASCRIPT', 'PHP', 'MYSQL'],
   //   github: ''
   // },

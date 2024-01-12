@@ -1,4 +1,4 @@
-import {Providers} from "./providers";
+// import {Providers} from "./providers";
 
 import '@/assets/globals.css';
 import { beaufort, markpro, inter } from '@/assets/fonts';
@@ -14,19 +14,11 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
+  const css = ` ${inter.variable} ${beaufort.variable} ${markpro.variable}`;
   return (
-    <html lang="en"
-      className={`
-        ${inter.variable}
-        ${beaufort.variable}
-        ${markpro.variable}
-      `} >
-
-      <body >
-        {/* <Providers>
-          {children}
-        </Providers> */}
-
+    <html lang="en" className={css} suppressHydrationWarning>
+      <body>
         <Header />
         {children}
         <Footer />
