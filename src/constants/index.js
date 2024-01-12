@@ -110,11 +110,11 @@ export const socials = [
     url: "https://github.com/ezmichaely/",
     icon: github,
   },
-  {
-    title: "facebook",
-    url: "https://www.facebook.com/ezmichaely/",
-    icon: facebook,
-  },
+  // {
+  //   title: "facebook",
+  //   url: "https://www.facebook.com/ezmichaely/",
+  //   icon: facebook,
+  // },
   {
     title: "gmail",
     url: "mailto:ezmichaely@gmail.com",
