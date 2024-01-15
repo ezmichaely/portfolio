@@ -57,6 +57,7 @@ import {
   tayok_sessionistas,
   tayok_tshirt,
   tayok_vibes,
+  norsuElcms,
 } from "@/assets/images";
 
 export const routers = [
@@ -377,9 +378,9 @@ export const techStacks = [
 export const projectsData = [
   {
     key: "lodong",
-    name: "Lodong.co.kr",
+    name: "Lodong Co. Ltd.",
     img: lodong,
-    desc: "A landing page for a tech company",
+    desc: "A landing page for a tech company where they show case there finished projects.",
     url: "https://lodongsite.vercel.app",
     stack: ["HTML5", "NEXT.JS", "Tailwind CSS"],
     github: "",
@@ -400,7 +401,16 @@ export const projectsData = [
     desc: "This system encompassed communication management, constructor and technician team oversight, order and contract management, technician scheduling, and a content management system. It even featured a raffle management system to award prizes to various tenants.",
     url: "https://godofhouse.co.kr/",
     // stack: ["REACT.JS", "EXPRESS.S", "NODE.JS", "FIREBASE", "SOCKET.IO"],
-    stack: ["HTML5", "CSS3", "BOOTSTRAP", "JAVASCRIPT", "JQUERY", "FIREBASE", "SOCK.JS", "SPRING BOOT"],
+    stack: [
+      "HTML5",
+      "CSS3",
+      "BOOTSTRAP",
+      "JAVASCRIPT",
+      "JQUERY",
+      "FIREBASE",
+      "SOCK.JS",
+      "SPRING BOOT",
+    ],
     github: "",
   },
   // {
@@ -421,15 +431,15 @@ export const projectsData = [
   //   stack: ['HTML5', 'CSS3', 'BOOTSTRAP', 'JAVASCRIPT', 'PHP', 'MYSQL'],
   //   github: ''
   // },
-  // {
-  //   key: 'norsuelcms',
-  //   name: 'NORSU-eLCMS',
-  //   img: lodong,
-  //   desc: '',
-  //   url: '',
-  //   stack: ['HTML5', 'CSS3', 'BOOTSTRAP', 'JAVASCRIPT', 'PHP', 'MYSQL'],
-  //   github: ''
-  // },
+  {
+    key: "norsuelcms",
+    name: "NORSU-eLCMS",
+    img: norsuElcms,
+    desc: "This project was created as our capstone project in my college. It comprises a messaging system, content management, class management, and more.",
+    url: "",
+    stack: ["HTML5", "CSS3", "BOOTSTRAP", "JAVASCRIPT", "PHP", "MYSQL"],
+    github: "https://github.com/ezmichaely/norsu_elcms",
+  },
 ];
 
 export const galleryDesigns = [

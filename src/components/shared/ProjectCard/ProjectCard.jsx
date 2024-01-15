@@ -26,6 +26,7 @@ export default function ProjectCard({ details }) {
                 <Link href={details.url} target="_blank">
                   LIVE SITE
                 </Link>
+
               )}
 
               {details.github && (

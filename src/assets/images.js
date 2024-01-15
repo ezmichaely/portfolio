@@ -49,6 +49,7 @@ import xampp from '~/stacks/xampp.svg'
 import lodong from '~/projects/lodongSite.png'
 import jungnanum from '~/projects/jungnanum.png'
 import supermanDairy from '~/projects/supermanDairy.png'
+import norsuElcms from "~/projects/norsuElcms.png";
 
 
 import bvp from '~/designs/bvp.png'
@@ -85,7 +86,7 @@ export {
   node, photoshop, php, postman, python, react, sass, svelte,
   tailwindcss, typescript, vscode, xampp, mongodb, illustrator,
 
-  lodong, jungnanum, supermanDairy,
+  lodong, jungnanum, supermanDairy, norsuElcms,
 
 
   bvp,
