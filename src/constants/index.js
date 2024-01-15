@@ -399,7 +399,8 @@ export const projectsData = [
     img: supermanDairy,
     desc: "This system encompassed communication management, constructor and technician team oversight, order and contract management, technician scheduling, and a content management system. It even featured a raffle management system to award prizes to various tenants.",
     url: "https://godofhouse.co.kr/",
-    stack: ["REACT.JS", "EXPRESS.S", "NODE.JS", "FIREBASE", "SOCKET.IO"],
+    // stack: ["REACT.JS", "EXPRESS.S", "NODE.JS", "FIREBASE", "SOCKET.IO"],
+    stack: ["HTML5", "CSS3", "BOOTSTRAP", "JAVASCRIPT", "JQUERY", "FIREBASE", "SOCK.JS", "SPRING BOOT"],
     github: "",
   },
   // {
