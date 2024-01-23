@@ -1,0 +1,69 @@
+.heroContainer {
+  @apply col-span-2 lg:col-span-1 
+  order-1 lg:order-2 h-full
+}
+
+.heroContent {
+  @apply w-full h-[500] lg:h-full
+  flex justify-start xs:justify-center lg:justify-start 
+  items-start lg:items-end flex-row 
+  
+  /* border border-red-500  */
+}
+
+.heroBox {
+  @apply w-fit h-[500] lg:h-full
+  flex justify-center lg:justify-start 
+  items-end flex-row 
+  /* border border-green-600  */
+  lg:-ml-[200px] xl:-ml-[100px] 2xl:ml-0
+}
+
+.heroImageContainer {
+  @apply ease-linear duration-200
+  relative w-full
+  flex justify-center items-end z-20
+  3xl:ml-0
+}
+
+.heroImage {
+  @apply ease-linear duration-200
+  h-[500px] min-w-fit w-auto
+  /* lg:h-[800px] */
+  lg:h-auto 
+  /* lg:min-h-[500px] */
+  lg:min-h-[calc(100vh_-_96px)]
+  xl:h-[740px] xl:min-w-fit xl:w-fit
+  
+  -ml-[320px] lg:-ml-[600px]
+  pt-20 z-20
+}
+
+.parallelogram1 {
+  clip-path: polygon( 54.829% 0%,99.857% 0%,45.028% 100%,0% 100%,54.829% 0% );
+  @apply bg-lightWhite z-10
+  min-w-[300px] lg:min-w-[600px] 
+  h-[500px] lg:h-full
+}
+
+.parallelogram2 {
+  clip-path: polygon( 54.829% 0%,99.857% 0%,45.028% 100%,0% 100%,54.829% 0% );
+  @apply bg-lightBlue z-10
+  min-w-[300px] lg:min-w-[600px] 
+  h-[500px] lg:h-full
+  -ml-[165px] lg:-ml-[330px]
+}
+
+.parallelogram3 {
+  clip-path: polygon( 54.829% 0%,99.857% 0%,45.028% 100%,0% 100%,54.829% 0% );
+  @apply bg-darkBlue z-30 
+  min-w-[300px] lg:min-w-[600px] 
+  h-[500px] lg:h-full
+  -ml-[165px] lg:-ml-[333px]
+}
+
+
+.homeOverlayBg {
+  @apply h-full w-full absolute bottom-0 left-0 z-30 
+  lg:bg-hero bg-bottom
+}

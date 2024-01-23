@@ -20,6 +20,7 @@ const config = {
     },
     extend: {
       screens: {
+        'xs': '430px',
         "3xl": "1920px"
       },
       fontFamily: {
@@ -27,7 +28,7 @@ const config = {
         robotoSlab: ['var(--font-robotoSlab)'],
       },
       backgroundImage: {
-        hero: 'linear-gradient(180deg, rgba(26, 31, 51, 0.00) 52%, #1A1F33 100%);',
+        hero: 'linear-gradient(180deg, rgba(26, 31, 51, 0) 60%, #1A1F33 120%)',
         topEdge: 'url("/svg/EdgePaperTop.svg")',
         botEdge: 'url("/svg/EdgePaperBot.svg")',
       },

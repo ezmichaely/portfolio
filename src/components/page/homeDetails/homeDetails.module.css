@@ -1,0 +1,50 @@
+.homeDetailsContainer {
+  @apply col-span-2 lg:col-span-1 
+  order-2 lg:order-1 h-full 
+  /* border */
+
+  bg-darkBlue 
+  lg:bg-transparent z-40
+
+  pb-32 lg:pb-0
+}
+
+.homeDetailsContent {
+  @apply w-full h-full 
+  pl-[1rem] lg:pl-[2rem] xl:pl-[4rem] 
+  flex justify-center items-start flex-col 
+  gap-y-8 py-8 
+}
+
+.details {
+  @apply w-full space-y-4 
+  text-center lg:text-left
+  /* border border-red-600 */
+}
+
+.greet {
+  @apply font-poppins font-bold text-5xl lg:text-6xl
+   text-lightWhite whitespace-nowrap
+}
+
+.name {
+  @apply font-poppins font-bold text-6xl lg:text-7xl
+  text-sun xl:whitespace-nowrap
+}
+
+.position {
+  @apply text-lightWhite whitespace-nowrap font-bold text-4xl font-robotoSlab
+}
+
+.btnDownload {
+  /* -webkit-clip-path:polygon(16px 0, 100% 0, 100% 50px, calc(100% - 20px) 48px, calc(100% - 20px) 2000%, 0 2000%, 0 16px);
+  clip-path: polygon(16px 0, 100% 0, 100% 50px, calc(100% - 20px) 48px, calc(100% - 20px) 2000%, 0 2000%, 0 16px); */
+  @apply w-fit  bg-sun text-moon hover:bg-sun/90 cursor-pointer px-8 font-robotoSlab font-bold
+}
+
+.resumeDownload {
+  @apply text-moon text-lg whitespace-nowrap
+    relative uppercase font-bold tracking-widest
+    flex items-center justify-center
+    py-2 
+}

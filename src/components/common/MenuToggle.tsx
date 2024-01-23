@@ -9,7 +9,7 @@ import { colors } from "@/constants/colors";
 
 
 const MenuToggle = ({ toggle, isOpen }: any) => {
-  console.log(isOpen)
+  // console.log(isOpen)
   const viewBox = `${isOpen ? '0 0 18 17' : '0 0 20 15'}`;
   const width = `${isOpen ? 18 : 20}`;
   const height = `${isOpen ? 17 : 15}`;
@@ -44,7 +44,7 @@ const MenuToggle = ({ toggle, isOpen }: any) => {
 
   const [menuTl] = useState(gsap.timeline({ paused: true }));
   const menuBars: any = {};
-  
+
   useEffect(() => {
     menuTl
       .to(menuBars.topBar, {
@@ -66,20 +66,22 @@ const MenuToggle = ({ toggle, isOpen }: any) => {
     menuTl.reversed(!menuTl.reversed());
   };
 
+  console.log(menuTl)
+
   return (
     <button onClick={toggleMenuTimeline} className='h-full flex justify-center items-center'>
       <svg width={width} height={height} viewBox={viewBox} fill="none">
-      
-        <Rect 
-          x={`${isOpen ? "2.98962" : "0"}`} 
-          y={`${isOpen ? "0.368286" : "0"}`} 
-          transform={`${isOpen ? "rotate(45 2.98962 0.368286)" : "rotate(0)"}`} 
+
+        <Rect
+          x={`${isOpen ? "2.98962" : "0"}`}
+          y={`${isOpen ? "0.368286" : "0"}`}
+          transform={`${isOpen ? "rotate(45 2.98962 0.368286)" : "rotate(0)"}`}
           variants={{
             open: { opacity: 1 },
             closed: { opacity: 1 },
           }}
           transition={{ duration: 0.1 }}
-          ref={(e: any) => (menuBars["topBar"] = e)}
+          ref={(e: any) => (menuBars.topBar = e)}
         />
 
         <Rect y="6"
@@ -88,18 +90,18 @@ const MenuToggle = ({ toggle, isOpen }: any) => {
             closed: { opacity: 1 },
           }}
           transition={{ duration: 0.1 }}
-          ref={(e: any) => (menuBars["middleBar"] = e)}
+          ref={(e: any) => (menuBars.middleBar = e)}
         />
 
         <Rect x={`${isOpen ? "0.868286" : "0"}`}
-          y={`${isOpen ? "14.5104" : "12"}`} 
-          transform={`${isOpen ? "rotate(-45 0.868286 14.5104)" : "rotate(0)"}`} 
+          y={`${isOpen ? "14.5104" : "12"}`}
+          transform={`${isOpen ? "rotate(-45 0.868286 14.5104)" : "rotate(0)"}`}
           variants={{
             open: { opacity: 1 },
             closed: { opacity: 1 },
           }}
           transition={{ duration: 0.1 }}
-          ref={(e: any) => (menuBars["bottomBar"] = e)}
+          ref={(e: any) => (menuBars.bottomBar = e)}
         />
       </svg>
     </button>

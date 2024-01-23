@@ -18,7 +18,7 @@ export default function RootLayout(props: {
 
   const cssFonts = `${poppins.variable} ${robotoSlab.variable}`;
   return (
-    <html lang="en" className={cssFonts}>
+    <html lang="en" className={cssFonts} suppressHydrationWarning>
       <body>
         <Header />
         <main>
