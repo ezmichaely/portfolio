@@ -1,0 +1,21 @@
+.homeSection {
+  @apply min-h-fit bg-moon 
+  /* border border-transparent */
+}
+
+.homeContainer {
+  @apply h-full w-full relative 
+}
+
+.homeContent {
+  @apply 
+  w-full 
+  grid grid-cols-2 gap-x-8
+  max-w-screen-2xl mx-auto
+}
+
+.homeOverlayBg {
+  @apply h-full w-full absolute bottom-0 left-0 z-30 
+  lg:bg-hero bg-bottom
+}
+

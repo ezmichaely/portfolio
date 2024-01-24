@@ -1,0 +1,209 @@
+.menu {
+    -webkit-clip-path:polygon(16px 0,100% 0,100% 30px,calc(100% - 18px) 48px,calc(100% - 18px) 2000%,0 2000%,0 16px);
+    clip-path: polygon(16px 0,100% 0,100% 30px,calc(100% - 18px) 48px,calc(100% - 18px) 2000%,0 2000%,0 16px);
+    margin-top: 36px;
+    position: relative
+}
+
+.menu:lang(ar) {
+    -webkit-clip-path: polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 2000%,18px 2000%,18px 48px,0 30px);
+    clip-path: polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 2000%,18px 2000%,18px 48px,0 30px)
+}
+
+.menu:before {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1
+}
+
+.menu-list {
+    align-items: center;
+    background: rgba(0,0,0,.6);
+    border: 1px solid #fcee0a;
+    display: flex;
+    height: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 24px
+}
+
+.menu-list:lang(ar) {
+    padding: 0 24px 0 0
+}
+
+.menu-list:before {
+    border-right: 18px solid transparent;
+    border-top: 18px solid #fcee0a;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0
+}
+
+.menu-list:lang(ar):before {
+    border-left: 18px solid transparent;
+    border-right: none;
+    left: auto;
+    right: 0
+}
+
+.menu-item {
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-family: BlenderProBook,sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    height: 100%;
+    line-height: 110%;
+    padding: 0 25px;
+    position: relative;
+    text-transform: uppercase
+}
+
+.menu-item a {
+    color: inherit;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap
+}
+
+.menu-item.menu-item-buy {
+    background: #fcee0a;
+    color: #000;
+    font-family: BlenderProBold,sans-serif;
+    font-weight: 700;
+    min-width: 168px;
+    text-align: center
+}
+
+.menu-item.menu-item-buy a {
+    width: 100%
+}
+
+.menu-item.menu-item-lang {
+    background-image: linear-gradient(90deg,hsla(0,0%,100%,.25) 2px,transparent 0,transparent)
+}
+
+.menu-item.menu-item-lang>img {
+    margin-right: 8px
+}
+
+.menu-item.menu-item-lang .menu-sub-list {
+    -webkit-columns: 2;
+    column-count: 2;
+    left: auto;
+    right: 0
+}
+
+.menu-item.menu-item-lang .menu-sub-list:lang(ar) {
+    left: 0;
+    right: auto
+}
+
+.menu-item.menu-item-lang:hover>img {
+    -webkit-filter: invert(100%);
+    filter: invert(100%)
+}
+
+.menu-item.menu-item-lang:hover .menu-sub-list {
+    display: block
+}
+
+.menu-item:hover {
+    background: #fcee0a;
+    color: #000
+}
+
+.menu-item:hover .menu-sub:after {
+    border-top: 6px solid #000
+}
+
+.menu-item:hover .menu-sub-list,.menu-sub {
+    display: flex
+}
+
+.menu-sub {
+    align-items: center;
+    position: relative
+}
+
+.menu-sub:after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid #fff;
+    content: "";
+    display: block;
+    height: 6px;
+    margin-left: 4px;
+    position: relative;
+    width: 8px
+}
+
+.menu-sub:lang(ar):after {
+    margin-left: 0;
+    margin-right: 4px
+}
+
+.menu-sub-list {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    background: rgba(0,0,0,.6);
+    border: 1px solid #fcee0a;
+    border-top: 8px solid #fcee0a;
+    box-shadow: 0 1px 3px rgba(0,0,0,.25),0 2px 16px rgba(0,0,0,.25);
+    -webkit-clip-path: inset(0 -16px -16px -16px);
+    clip-path: inset(0 -16px -16px -16px);
+    display: none;
+    flex-direction: column;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    min-width: -webkit-fill-available;
+    min-width: -moz-available;
+    padding: 10px 0;
+    position: absolute;
+    top: calc(100% - 4px)
+}
+
+.menu-sub-list:lang(ar) {
+    left: auto;
+    right: 0
+}
+
+.menu-sub-list li {
+    align-items: center;
+    background: transparent;
+    color: #fff;
+    display: flex;
+    height: 44px;
+    padding-right: 24px
+}
+
+.menu-sub-list li:before {
+    background: #fcee0a;
+    content: "";
+    height: 1px;
+    margin-right: 11px;
+    width: 12px
+}
+
+.menu-sub-list li:lang(ar) {
+    padding-left: 24px;
+    padding-right: 0
+}
+
+.menu-sub-list li:lang(ar):before {
+    margin-left: 11px;
+    margin-right: 0
+}
+
+.menu-sub-list li:hover {
+    color: #fcee0a
+}

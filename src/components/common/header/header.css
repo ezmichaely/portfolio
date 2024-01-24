@@ -1,0 +1,78 @@
+header {
+  @apply font-robotoSlab
+}
+
+.header {
+  @apply w-screen flex justify-between py-4 select-none
+  fixed top-0 left-0 z-40 ease-linear duration-300
+}
+
+.brand {
+  @apply whitespace-nowrap text-2xl font-semibold tracking-wider text-sun drop-shadow-xl
+}
+
+.navbar {
+  @apply w-fit hidden lg:flex justify-start items-center overflow-hidden
+}
+
+.navbarList {
+  -webkit-clip-path:polygon(16px 0, 100% 0, 100% 50px, calc(100% - 20px) 48px, calc(100% - 20px) 2000%, 0 2000%, 0 16px);
+  clip-path: polygon(16px 0, 100% 0, 100% 50px, calc(100% - 20px) 48px, calc(100% - 20px) 2000%, 0 2000%, 0 16px);
+
+
+  /* outline: 2px solid #your-border-color; */
+  @apply w-fit h-fit flex justify-end items-center flex-row gap-8 duration-200 bg-primary px-8 
+  
+
+}
+
+.navLink {
+  @apply cursor-pointer text-white text-lg
+    relative uppercase font-semibold tracking-widest
+    flex items-center justify-center py-2
+
+    md:w-fit md:px-0
+
+    /* md:before:content-[""] md:before:bg-sun md:before:h-[2px] md:before:w-full
+    md:before:absolute md:before:top-0 md:before:left-0 md:before:origin-left
+    md:before:duration-300 md:before:scale-x-0 */
+
+    md:after:content-[""] md:after:bg-sun md:after:h-[2px] md:after:w-full
+    md:after:absolute md:after:bottom-0 md:after:left-0 md:after:origin-right
+    md:after:duration-300 md:after:scale-x-0
+
+    /* md:hover:before:scale-x-100 */
+    md:hover:after:scale-x-100
+    md:hover:bg-transparent
+}
+
+.navLinkActive {
+  @apply text-white
+  /* md:before:scale-x-100  */
+  md:after:scale-x-100
+  md:bg-transparent
+}
+
+.navbarDownload {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%, 0 16px);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%, 0 16px);
+  @apply bg-sun text-moon hover:bg-sun/90 cursor-pointer px-8
+}
+
+
+.resumeDownload {
+  @apply text-moon text-lg whitespace-nowrap
+    relative uppercase font-bold tracking-widest
+    flex items-center justify-center
+    py-2
+}
+
+.navLinkMobile {
+  @apply font-robotoSlab text-xl font-bold py-2 w-full text-center
+   bg-darkBlue text-white hover:bg-lightBlue cursor-pointer
+}
+
+.navbarMobileDownload {
+  @apply bg-sun text-moon font-robotoSlab
+  hover:bg-sun/90 cursor-pointer px-8
+}
