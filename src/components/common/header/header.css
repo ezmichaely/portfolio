@@ -18,7 +18,11 @@ header {
 .navbarList {
   -webkit-clip-path:polygon(16px 0, 100% 0, 100% 50px, calc(100% - 20px) 48px, calc(100% - 20px) 2000%, 0 2000%, 0 16px);
   clip-path: polygon(16px 0, 100% 0, 100% 50px, calc(100% - 20px) 48px, calc(100% - 20px) 2000%, 0 2000%, 0 16px);
-  @apply w-fit h-fit flex justify-end items-center flex-row gap-8 duration-200 bg-primary px-8
+
+
+  /* outline: 2px solid #your-border-color; */
+  @apply w-fit h-fit flex justify-end items-center flex-row gap-8 duration-200 bg-primary px-8 
+  
 
 }
 
@@ -50,9 +54,9 @@ header {
 }
 
 .navbarDownload {
-  -webkit-clip-path:polygon(16px 0, 100% 0, 100% 50px, calc(100% - 20px) 48px, calc(100% - 20px) 2000%, 0 2000%, 0 16px);
-  clip-path: polygon(16px 0, 100% 0, 100% 50px, calc(100% - 20px) 48px, calc(100% - 20px) 2000%, 0 2000%, 0 16px);
-  @apply rotate-180 bg-sun text-moon hover:bg-sun/90 cursor-pointer px-8
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%, 0 16px);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%, 0 16px);
+  @apply bg-sun text-moon hover:bg-sun/90 cursor-pointer px-8
 }
 
 
@@ -60,14 +64,15 @@ header {
   @apply text-moon text-lg whitespace-nowrap
     relative uppercase font-bold tracking-widest
     flex items-center justify-center
-    py-2 rotate-180
+    py-2
 }
 
 .navLinkMobile {
-  @apply font-robotoSlab text-xl font-bold py-2 w-full text-center bg-darkBlue text-white hover:bg-lightBlue cursor-pointer
+  @apply font-robotoSlab text-xl font-bold py-2 w-full text-center
+   bg-darkBlue text-white hover:bg-lightBlue cursor-pointer
 }
 
 .navbarMobileDownload {
-  @apply rotate-180 bg-sun text-moon  font-robotoSlab
+  @apply bg-sun text-moon font-robotoSlab
   hover:bg-sun/90 cursor-pointer px-8
 }

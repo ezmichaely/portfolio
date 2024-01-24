@@ -1,5 +1,6 @@
 .homeSection {
   @apply min-h-fit bg-moon 
+  /* border border-transparent */
 }
 
 .homeContainer {

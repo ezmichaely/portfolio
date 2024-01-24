@@ -2,7 +2,7 @@
 
 // import { motion, useCycle } from "framer-motion";
 import { useState, useEffect } from 'react';
-import { MenuToggle } from "@/components";
+import { MenuToggle, ResumeBtn, ResumeCV } from "@/components";
 import { Link } from 'react-scroll';
 import { useMediaQuery } from "@/hooks/useMediaQuery";
 import './header.css'
@@ -10,12 +10,9 @@ import {
   Sheet,
   SheetClose,
   SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
-import Menu from '@/assets/svg/shapes/Menu';
+import Menu from '@/assets/svg/shape/Menu';
 import { colors } from '@/constants/colors';
 
 const Header = () => {
@@ -36,9 +33,8 @@ const Header = () => {
   return (
     <header className={`${headerChange} header bg-moon/50 backdrop-blur-lg`}>
       <div className="container max-w-screen-2xl flex justify-between items-center gap-8">
-        <div className={`brand`}>
-          {`<ezmichaely />`}
-        </div>
+
+        <div className={`brand`}> {`<ezmichaely />`} </div>
 
         <div className='navbar'>
           <nav className='navbarList'>
@@ -68,11 +64,7 @@ const Header = () => {
           </nav>
 
           <div className="navbarDownload">
-            <a href="/EZ_MICHAEL_YUCOR_CV.pdf"
-              className={`resumeDownload`}
-              rel="noopener noreferrer" download>
-              RESUME / CV
-            </a>
+            <ResumeBtn classnames='resumeDownload' />
           </div>
 
         </div>
@@ -122,11 +114,7 @@ const Header = () => {
                   </SheetClose>
 
                   <div className="navbarMobileDownload">
-                    <a href="/EZ_MICHAEL_YUCOR_CV.pdf"
-                      rel="noopener noreferrer"
-                      className={`resumeDownload`}>
-                      RESUME / CV
-                    </a>
+                    <ResumeBtn classnames='resumeDownload' />
                   </div>
                 </nav>
 

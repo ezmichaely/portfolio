@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Header, Footer } from "@/components";
 import { poppins, robotoSlab } from "@/assets/fonts";
+import { Analytics } from '@vercel/analytics/react';
 import "@/assets/globals.css";
 
 
@@ -28,6 +29,7 @@ export default function RootLayout(props: {
           {props.contact}
         </main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
