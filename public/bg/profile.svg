@@ -1,8 +1,0 @@
-<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
-  <defs>
-    <clipPath id="shape">
-      <path id="blob" d="M462,308.5Q432,367,390.5,416.5Q349,466,283,472Q217,478,158,451Q99,424,55.5,372Q12,320,19.5,252Q27,184,63,130Q99,76,159,55.5Q219,35,281.5,39.5Q344,44,383.5,91.5Q423,139,457.5,194.5Q492,250,462,308.5Z" fill="none" stroke-width="7px" stroke="#d1d8e0"></path>
-    </clipPath>
-  </defs>
-  <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" xlink:href="https://raw.githubusercontent.com/ezmichaely/portfolio_/main/public/images/bg/profile.jpg?token=GHSAT0AAAAAACHMSEDWHYEUQ5THN75DSEQIZIPATSQ" preserveAspectRatio="none"></image>
-</svg>
