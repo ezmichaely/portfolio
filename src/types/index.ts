@@ -1,12 +1,15 @@
-import { ReactComponentElement } from "react";
 
 
 export interface SvgProps {
   width?: number,
   height?: number,
-  size?: number, 
+  size?: number,
   color?: string,
   className?: string,
+  stroke?: boolean,
+  theme?: 'dark' | 'light',
+  shape?: 'square' | 'rectangle',
+  radius?: number
 }
 
 export interface ResumeBtnProps {
@@ -16,5 +19,10 @@ export interface ResumeBtnProps {
 export interface SocialLinkProps {
   title?: string,
   path?: string,
+  icon?: React.ReactNode
+}
+
+export interface SkillProps {
+  title?: string,
   icon?: React.ReactNode
 }

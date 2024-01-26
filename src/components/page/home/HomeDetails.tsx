@@ -1,16 +1,14 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import styles from './homeDetails.module.css'
 import HomeTypeWriter from './HomeTypeWriter';
 import { ResumeBtn, SocialLInk } from '@/components';
 import { socialLinks } from '@/constants';
-import { icons } from 'lucide-react';
+
 
 const HomeDetails = () => {
 
   const resumeBtnCss = `text-moon text-lg whitespace-nowrap relative uppercase font-bold tracking-widest flex items-center justify-center py-2`;
 
-  
+
   return (
     <div className={styles.homeDetailsContainer}>
       <div className={styles.homeDetailsContent}>
@@ -25,7 +23,7 @@ const HomeDetails = () => {
             <SocialLInk key={index} title={data.title} path={data.path} icon={data.icon} />
           ))}
         </div>
-        
+
         <div className={styles.btnDownloadContainer}>
           <div className={styles.btnDownload}>
             <ResumeBtn classnames={resumeBtnCss} />

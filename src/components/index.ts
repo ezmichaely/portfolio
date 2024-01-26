@@ -11,13 +11,20 @@ import HomeDetails from "@/components/page/home/HomeDetails";
 import HomeTypeWriter from "@/components/page/home/HomeTypeWriter";
 import SocialLInk from "./page/home/SocialLInk";
 
+
+
+import Skills from '@/components/page/about/Skills'
+
 export {
   ResumeCV, ResumeBtn,
   Header, Footer,
-  
+
   MenuToggle,
 
   HomeImage, HomeDetails,
   SocialLInk,
-  HomeTypeWriter
+  HomeTypeWriter,
+
+
+  Skills,
 }

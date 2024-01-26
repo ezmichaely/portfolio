@@ -1,7 +1,7 @@
 import { SvgProps } from "@/types"
 
-const EdgePaper = ({ width, height, size, color }: SvgProps) => {
-
+const EdgePaper = (
+  { width, height, size, color, stroke, className, theme }: SvgProps) => {
   const svgWidth = `${size ? size : width ? width : '100%'}`;
   const svgHeight = `${size ? size : height ? height : '100%'}`;
 

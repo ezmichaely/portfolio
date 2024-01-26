@@ -18,7 +18,7 @@ const HomeTypeWriter = () => {
       cursorStyle='|'
       typeSpeed={50}
       deleteSpeed={50}
-      delaySpeed={2000}
+      delaySpeed={800}
     />
   )
 }
