@@ -7,18 +7,18 @@ const HomeTypeWriter = () => {
     <Typewriter
       words={[
         '<Frontend Developer />',
-        '<Web Designer />',
         // '<Web Developer />',
+        // '<Web Designer />',
+        '<Graphics Designer />',
         '<UX Designer />',
-        // '<UI Designer />',
         '<Manga Reader />'
       ]}
       cursor
       loop={true}
-      cursorStyle='_'
-      typeSpeed={100}
-      deleteSpeed={100}
-      delaySpeed={1000}
+      cursorStyle='|'
+      typeSpeed={50}
+      deleteSpeed={50}
+      delaySpeed={2000}
     />
   )
 }
