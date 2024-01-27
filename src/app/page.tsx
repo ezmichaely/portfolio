@@ -1,9 +1,21 @@
+import {
+  AboutSection, ContactSection,
+  HomeSection, ProjectsSection,
+  ScrollToTop
+} from '@/components'
 import React from 'react'
 
-const page = () => {
+const HomePage = () => {
   return (
-    <div>page</div>
+    <>
+      <HomeSection />
+      <AboutSection />
+      <ProjectsSection />
+      <ContactSection />
+
+      <ScrollToTop />
+    </>
   )
 }
 
-export default page
+export default HomePage

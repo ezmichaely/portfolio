@@ -1,0 +1,44 @@
+.aboutSection {
+  @apply w-full
+}
+
+.topEdge {
+  @apply -mt-[70px] w-full bg-topEdge bg-no-repeat lg:bg-repeat bg-auto bg-left-bottom h-[78px] z-30
+}
+
+.botEdge {
+  @apply w-full bg-botEdge bg-no-repeat lg:bg-repeat bg-auto bg-left-bottom h-[78px] drop-shadow-lg
+}
+
+.aboutContainer {
+  @apply bg-lightBlue py-8 w-full
+}
+
+.content {
+  @apply max-w-screen-2xl mx-auto text-lightWhite w-full px-4 lg:px-8
+}
+
+.title {
+  @apply font-poppins text-5xl font-bold tracking-wide text-center text-sun
+}
+
+.details {
+  @apply grid grid-cols-2 gap-8 my-8
+}
+
+.profile {
+  @apply col-span-2 lg:col-span-1  w-full h-full flex items-start justify-center
+}
+
+.paragraphs {
+  @apply col-span-2 lg:col-span-1 space-y-6
+  text-white font-light text-xl lg:text-justify
+}
+
+.paragraphs p {
+  @apply lg:indent-5
+}
+
+.paragraphs p span {
+  @apply text-sun
+}

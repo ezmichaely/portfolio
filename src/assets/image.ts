@@ -1,4 +1,5 @@
 import heroImage from '~/img/hero.webp';
+import profileImage from '~/img/prof5.png'
 import edgePaper from '~/svg/shape/EdgePaperTop.svg';
 
 
@@ -10,11 +11,11 @@ import supermandiary from '~/web/supermandairy.webp';
 
 import bvp from '~/design/bvp.webp';
 import desXmas2 from '~/design/desXmas2.webp';
-// import 
+// import
 
 
 
 export {
-  heroImage,
+  heroImage, profileImage,
 
 }

@@ -1,30 +1,41 @@
 import Header from "@/components/common/header/Header";
 import Footer from "@/components/common/footer/Footer";
-import ResumeCV from "@/components/common/header/ResumeCV";
 
 import ResumeBtn from "@/components/button/ResumeBtn";
-
-import MenuToggle from "@/components/common/MenuToggle";
-
-import HomeImage from "@/components/page/home/HomeImage";
-import HomeDetails from "@/components/page/home/HomeDetails";
-import HomeTypeWriter from "@/components/page/home/HomeTypeWriter";
-import SocialLInk from "./page/home/SocialLInk";
+import MenuToggle from "@/components/button/MenuToggle";
+import ScrollToTop from "./button/ScrollToTop/ScrollToTop";
 
 
+import HomeSection from "@/components/section/home/HomeSection";
+import AboutSection from "@/components/section/about/AboutSection";
+import ProjectsSection from "@/components/section/projects/ProjectSection";
+import ContactSection from "@/components/section/contact/ContactSection";
 
-import Skills from '@/components/page/about/Skills'
+import HomeImage from "@/components/section/home/HomeImage";
+import HomeDetails from "@/components/section/home/HomeDetails";
+import HomeTypeWriter from "@/components/section/home/HomeTypeWriter";
+import SocialLInk from "@/components/section/home/SocialLInk";
+
+
+import ProfileImage from "@/components/section/about/ProfileImage";
+import Skills from '@/components/section/about/Skills';
+import Badges from "./section/about/Badges";
 
 export {
-  ResumeCV, ResumeBtn,
+  ResumeBtn,
   Header, Footer,
-
   MenuToggle,
+  ScrollToTop,
+
+
+  HomeSection, AboutSection,
+  ProjectsSection, ContactSection,
 
   HomeImage, HomeDetails,
   SocialLInk,
   HomeTypeWriter,
 
 
-  Skills,
+  Skills, ProfileImage,
+  Badges,
 }

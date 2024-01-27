@@ -1,8 +1,7 @@
 "use client"
 
-// import { motion, useCycle } from "framer-motion";
 import { useState, useEffect } from 'react';
-import { MenuToggle, ResumeBtn, ResumeCV } from "@/components";
+import { ResumeBtn } from "@/components";
 import { Link } from 'react-scroll';
 import { useMediaQuery } from "@/hooks/useMediaQuery";
 import './header.css'
@@ -17,8 +16,6 @@ import { colors } from '@/constants/colors';
 
 const Header = () => {
   const mediaQuery = useMediaQuery(1024);
-
-  const [isOpen, setIsOpen] = useState(false);
   const [headerChange, setHeaderChange] = useState('shadow-none');
 
   useEffect(() => {
