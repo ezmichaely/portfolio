@@ -1,6 +1,6 @@
 import { SvgProps } from "@/types"
 
-const UnrealEngine = ({ width, height, size, color, stroke, className, theme }: SvgProps) => {
+const UnrealEngine = ({ width, height, size, color, className, stroke, theme, shape, radius }: SvgProps) => {
   const svgWidth = `${size ? size : width ? width : '100%'}`;
   const svgHeight = `${size ? size : height ? height : '100%'}`;
 

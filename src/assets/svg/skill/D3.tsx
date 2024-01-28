@@ -1,14 +1,14 @@
 import { SvgProps } from "@/types"
 
-const D3 = ({ width, height, size, color, stroke, className, theme }: SvgProps) => {
+const D3 = ({ width, height, size, color, className, stroke, theme, shape, radius }: SvgProps) => {
   const svgWidth = `${size ? size : width ? width : '100%'}`;
   const svgHeight = `${size ? size : height ? height : '100%'}`;
 
   return (
-    <svg width={svgWidth} height={svgHeight} className={className}>
-
-
-    </svg>
+    <svg width={svgWidth} height={svgHeight} className={className} viewBox="0 0 101 101" fill="none">
+        <rect x="0.828125" y="0.132812" width="100" height="100" rx={radius} fill="#1A1F33" />
+        <path d="M54.2449 50.1312C54.2449 33.81 40.9844 20.5781 24.6224 20.5781H19.5781V33.5686H24.625C33.7944 33.5686 41.2266 40.9836 41.2266 50.1312C41.2266 59.2793 33.7944 66.6941 24.625 66.6941H19.5781V79.6848H24.625C40.982 79.6848 54.2449 66.4527 54.2449 50.1312ZM82.0781 38.6036C82.0781 28.6479 73.9867 20.5781 64.0105 20.5781H43.177C48.3035 23.7813 52.5082 28.2575 55.3801 33.5686H64.0105C66.7945 33.5686 69.0574 35.8236 69.0574 38.6036C69.0574 41.3836 66.7945 43.6387 64.0105 43.6387H58.9637C59.7785 47.9309 59.7785 52.3371 58.9637 56.6289H64.0105C66.7918 56.6289 69.0574 58.8816 69.0574 61.6645C69.0574 64.4469 66.7945 66.6992 64.0105 66.6992H55.3801C52.5082 72.0102 48.3035 76.4867 43.177 79.6895H64.0105C68.232 79.6895 72.3203 78.2141 75.5676 75.5199C83.232 69.1543 84.2813 57.7902 77.8984 50.1367C80.5984 46.8969 82.077 42.8168 82.0781 38.6036Z" fill="#F9A03C" />
+      </svg>
   )
 }
 

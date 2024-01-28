@@ -1,14 +1,16 @@
 import { SvgProps } from "@/types"
 
-const MongoDB = ({ width, height, size, color, stroke, className, theme }: SvgProps) => {
+const MongoDB = ({ width, height, size, color, className, stroke, theme, shape, radius }: SvgProps) => {
   const svgWidth = `${size ? size : width ? width : '100%'}`;
   const svgHeight = `${size ? size : height ? height : '100%'}`;
 
   return (
-    <svg width={svgWidth} height={svgHeight} className={className}>
-
-
-    </svg>
+    <svg width={svgWidth} height={svgHeight} className={className}  viewBox="0 0 101 101" fill="none">
+        <rect x="0.248047" y="0.269531" width="100" height="100" rx={radius} fill="#023430" />
+        <path d="M67.1574 42.2973C63.0414 24.1405 54.4633 19.3069 52.275 15.8901C51.3727 14.3849 50.5731 12.8203 49.8824 11.207C49.7668 12.82 49.5543 13.8362 48.1832 15.0594C45.4305 17.5138 33.739 27.0412 32.755 47.6711C31.8383 66.9063 46.8957 78.7668 48.8848 79.993C50.4145 80.7457 52.2774 80.009 53.1863 79.318C60.4445 74.3367 70.3617 61.0563 67.1652 42.2973" fill="#10AA50" />
+        <path d="M50.5055 69.75C50.1266 74.5109 49.8551 77.2773 48.8926 79.998C48.8926 79.998 49.5242 84.5305 49.968 89.3316H51.5379C51.9125 85.9508 52.484 82.5945 53.2504 79.2801C51.218 78.2801 50.5836 73.9277 50.5055 69.75Z" fill="#B8C4C2" />
+        <path d="M53.2488 79.2828C51.1949 78.3339 50.6008 73.8898 50.5094 69.75C51.0172 62.9207 51.1652 56.0695 50.9531 49.2246C50.8453 45.6332 51.0039 15.9596 50.0684 11.6152C50.7086 13.0866 51.4457 14.5137 52.2758 15.887C54.4641 19.3065 63.0449 24.1401 67.1582 42.2968C70.3625 61.0238 60.4992 74.2691 53.2488 79.2828Z" fill="#12924F" />
+      </svg>
   )
 }
 

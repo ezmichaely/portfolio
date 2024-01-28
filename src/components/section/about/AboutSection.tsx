@@ -26,7 +26,7 @@ const AboutSection = () => {
         </div>
 
 
-        <div className={styles.skills}>
+        <div className={styles.skillsAndTech}>
           <Skills />
         </div>
       </div>

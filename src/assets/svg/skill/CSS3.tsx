@@ -1,18 +1,17 @@
 import { SvgProps } from "@/types"
 
-const CSS3 = ({ width, height, size, color, stroke, className, theme }: SvgProps) => {
+const CSS3 = ({ width, height, size, color, className, stroke, theme, shape, radius }: SvgProps) => {
   const svgWidth = `${size ? size : width ? width : '100%'}`;
   const svgHeight = `${size ? size : height ? height : '100%'}`;
 
   return (
-    <svg width={svgWidth} height={svgHeight} className={className} viewBox="0 0 71 71" fill="none">
-      <path d="M10.6267 62.7688L5.12842 1.09717H65.5472L60.0434 62.7595L35.3012 69.619L10.6267 62.7688Z" fill="#1572B6" />
-      <path d="M35.3384 64.3764L55.3316 58.8332L60.0353 6.13965H35.3384V64.3764Z" fill="#33A9DC" />
-      <path d="M35.3384 28.483H45.3473L46.0385 20.7377H35.3384V13.1738H54.3051L54.1235 15.2033L52.2642 36.0469H35.3384V28.483Z" fill="white" />
-      <path d="M35.3832 48.1268L35.3498 48.1366L26.9263 45.8622L26.3876 39.8296H18.7959L19.8552 51.7061L35.3487 56.0062L35.3832 55.9963V48.1268Z" fill="#EBEBEB" />
-      <path d="M44.7041 35.7271L43.793 45.8563L35.3569 48.1335V56.003L50.863 51.7056L50.9768 50.4276L52.2926 35.7271H44.7041Z" fill="white" />
-      <path d="M35.364 13.1738V20.7377H17.094L16.9425 19.038L16.598 15.2033L16.417 13.1738H35.364ZM35.3383 28.4841V36.048H27.0209L26.8694 34.3483L26.5243 30.5136L26.3439 28.4841H35.3383Z" fill="#EBEBEB" />
-    </svg>
+    <svg width={svgWidth} height={svgHeight} className={className} viewBox="0 0 101 101" fill="none">
+        <rect x="0.984375" y="0.269531" width="100" height="100" rx={radius} fill="#0277BD" />
+        <path d="M21.9824 40.1953L23.1007 52.6727H51.0228V40.1953H21.9824Z" fill="#EBEBEB" />
+        <path d="M51.0215 14.9414H50.9785H19.7344L20.8686 27.4189H51.0215V14.9414Z" fill="#EBEBEB" />
+        <path d="M51.0205 85.5828V72.6012L50.9658 72.6156L37.0698 68.8637L36.1815 58.9121H29.4291H23.6562L25.4043 78.5035L50.9631 85.5988L51.0205 85.5828Z" fill="#EBEBEB" />
+        <path d="M66.343 52.673L64.8945 68.8551L50.9785 72.6113V85.5922L76.5578 78.5031L76.7453 76.3949L79.6773 43.5465L79.9816 40.1957L82.2344 14.9414H50.9785V27.4189H68.5602L67.425 40.1957H50.9785V52.673H66.343Z" fill="white" />
+      </svg>
   )
 }
 

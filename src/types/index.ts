@@ -9,8 +9,11 @@ export interface SvgProps {
   stroke?: boolean,
   theme?: 'dark' | 'light',
   shape?: 'square' | 'rectangle',
-  radius?: number
+  radius?: number,
+  style?: React.CSSProperties
 }
+
+// export interface ExtendedSvgProps extends React.SVGProps<SVGSVGElement>, SvgProps { }
 
 export interface ResumeBtnProps {
   classnames?: string;
@@ -22,7 +25,7 @@ export interface SocialLinkProps {
   icon?: React.ReactNode
 }
 
-export interface SkillProps {
-  title?: string,
+export interface SkillsAndTechProps {
   icon?: React.ReactNode
+  title?: string,
 }

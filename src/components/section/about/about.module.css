@@ -42,3 +42,41 @@
 .paragraphs p span {
   @apply text-sun
 }
+
+.skillsAndTech {
+  @apply w-screen bg-darkBlue py-8
+}
+
+
+.skillContainer {
+  @apply w-full max-w-screen-2xl mx-auto px-4 lg:px-8 
+}
+
+.skillContainer h3 {
+  @apply mb-4 text-white text-3xl font-medium text-center
+}
+
+.skillContent {
+  @apply grid grid-cols-8 gap-8
+}
+
+.skillDiv {
+  @apply col-span-8 lg:col-span-4 bg-white p-4 rounded-3xl border-2 border-moon drop-shadow-xl
+}
+
+.skillDiv h5 {
+  @apply text-moon text-xl font-bold mb-2
+}
+
+.skillSection {
+  @apply w-full flex justify-start items-start flex-row flex-wrap gap-5
+}
+
+.skillCard {
+  @apply flex justify-center items-center flex-col gap-y-2 
+  w-fit border-[2px] border-sun py-2 px-4 rounded-xl bg-moon hover:bg-moon/50
+}
+
+.skillCard p {
+  @apply text-sun font-medium
+}

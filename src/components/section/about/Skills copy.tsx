@@ -6,7 +6,7 @@ const Skills = () => {
     <div className={styles.skillContainer}>
       <h3>Skills and Technologies</h3>
 
-      {/* <div className={styles.skillContent}>
+      <div className={styles.skillContent}>
 
         <div className={styles.skillDiv}>
           <h5>Frontend Development</h5>
@@ -56,10 +56,7 @@ const Skills = () => {
             ))}
           </div>
         </div>
-      </div> */}
-
-
-
+      </div>
     </div>
   )
 }

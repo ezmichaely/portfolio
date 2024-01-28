@@ -29,8 +29,8 @@ const config = {
       },
       backgroundImage: {
         hero: 'linear-gradient(180deg, rgba(26, 31, 51, 0) 60%, #1A1F33 120%)',
-        topEdge: 'url("/svg/shape/EdgePaperTop.svg")',
-        botEdge: 'url("/svg/shape/EdgePaperBot.svg")',
+        topEdge: 'url("/svg/EdgePaperTop.svg")',
+        botEdge: 'url("/svg/EdgePaperBot.svg")',
       },
       colors: {
         darkBlue: '#00367A',

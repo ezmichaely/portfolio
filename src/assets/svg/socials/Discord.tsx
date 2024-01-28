@@ -7,7 +7,6 @@ const Discord = (
 
 
   return (
-
     <>
       {stroke ?
         <svg width={svgWidth} height={svgHeight} className={className} viewBox="0 0 32 32" fill="none">

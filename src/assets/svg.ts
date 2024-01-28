@@ -15,95 +15,101 @@ import TwitterX from "@/assets/svg/socials/TwitterX";
 import Whatsapp from "@/assets/svg/socials/Whatsapp";
 
 
-import AdobeAfterEffects from "./svg/skill/AdobeAfterEffects";
-import AdobeIllustrator from "./svg/skill/AdobeIllustrator";
-import AdobePhotoshop from "./svg/skill/AdobePhotoshop";
-import AdobePremiere from "./svg/skill/AdobePremiere";
-import AdobeXD from "./svg/skill/AdobeXD";
-import Anaconda from "./svg/skill/Anaconda";
-import AngularJS from "./svg/skill/AngularJS";
-import Apollo from "./svg/skill/Apollo";
-import AutoCAD from "./svg/skill/AutoCAD";
-import AWS from "./svg/skill/AWS";
-import Bootstrap from "./svg/skill/Bootstrap";
-import C from "./svg/skill/C";
-import Canva from "./svg/skill/Canva";
-import ChatGPT from "./svg/skill/ChatGPT";
-import CodeIgniter from "./svg/skill/CodeIgniter";
-import Codux from "./svg/skill/Codux";
-import Contentful from "./svg/skill/Contentful";
-import Cplusplus from "./svg/skill/Cplusplus";
-import CSharp from "./svg/skill/CSharp";
-import CSS3 from "./svg/skill/CSS3";
-import D3 from "./svg/skill/D3";
-import Dart from "./svg/skill/Dart";
-import Deno from "./svg/skill/Deno";
-import Django from "./svg/skill/Django";
-import Docker from "./svg/skill/Docker";
-import DotNet from "./svg/skill/DotNet";
-import DynamoDB from "./svg/skill/DynamoDB";
-import Electron from "./svg/skill/Electron";
-import ExpressJS from "./svg/skill/ExpressJS";
-import FastAPI from "./svg/skill/FastAPI";
-import Figma from "./svg/skill/Figma";
-import FileZilla from "./svg/skill/FileZilla";
-import Filmora from "./svg/skill/Filmora";
-import Firebase from "./svg/skill/Firebase";
-import Flask from "./svg/skill/Flask";
-import Flutter from "./svg/skill/Flutter";
-import FramerMotion from "./svg/skill/FramerMotion";
-import Git from "./svg/skill/Git";
-import GithubDesktop from "./svg/skill/GithubDesktop";
-import GraphQL from "./svg/skill/GraphQL";
-import Gsap from "./svg/skill/Gsap";
-import Heroko from "./svg/skill/Heroko";
-import Hostinger from "./svg/skill/Hostinger";
+import AdobeAfterEffects from "@/assets/svg/skill/AdobeAfterEffects";
+import AdobeIllustrator from "@/assets/svg/skill/AdobeIllustrator";
+import AdobePhotoshop from "@/assets/svg/skill/AdobePhotoshop";
+import AdobePremiere from "@/assets/svg/skill/AdobePremiere";
+import AdobeXD from "@/assets/svg/skill/AdobeXD";
+import Anaconda from "@/assets/svg/skill/Anaconda";
+import AndroidStudio from "@/assets/svg/skill/AndroidStudio";
+import AngularJS from "@/assets/svg/skill/AngularJS";
+import Apollo from "@/assets/svg/skill/Apollo";
+import AutoCAD from "@/assets/svg/skill/AutoCAD";
+import AWS from "@/assets/svg/skill/AWS";
+import Bootstrap from "@/assets/svg/skill/Bootstrap";
+import C from "@/assets/svg/skill/C";
+import Canva from "@/assets/svg/skill/Canva";
+import ChatGPT from "@/assets/svg/skill/ChatGPT";
+import CodeIgniter from "@/assets/svg/skill/CodeIgniter";
+import Codepen from "@/assets/svg/skill/Codepen";
+import Codux from "@/assets/svg/skill/Codux";
+import Contentful from "@/assets/svg/skill/Contentful";
+import Cplusplus from "@/assets/svg/skill/Cplusplus";
+import CSharp from "@/assets/svg/skill/CSharp";
+import CSS3 from "@/assets/svg/skill/CSS3";
+import D3 from "@/assets/svg/skill/D3";
+import Dart from "@/assets/svg/skill/Dart";
+import Deno from "@/assets/svg/skill/Deno";
+import Django from "@/assets/svg/skill/Django";
+import Docker from "@/assets/svg/skill/Docker";
+import DotNet from "@/assets/svg/skill/DotNet";
+import DynamoDB from "@/assets/svg/skill/DynamoDB";
+import Electron from "@/assets/svg/skill/Electron";
+import ExpressJS from "@/assets/svg/skill/ExpressJS";
+import FastAPI from "@/assets/svg/skill/FastAPI";
+import Figma from "@/assets/svg/skill/Figma";
+import FileZilla from "@/assets/svg/skill/FileZilla";
+import Filmora from "@/assets/svg/skill/Filmora";
+import Firebase from "@/assets/svg/skill/Firebase";
+import Flask from "@/assets/svg/skill/Flask";
+import Flutter from "@/assets/svg/skill/Flutter";
+import FramerMotion from "@/assets/svg/skill/FramerMotion";
+import Git from "@/assets/svg/skill/Git";
+import GithubDesktop from "@/assets/svg/skill/GithubDesktop";
+import GraphQL from "@/assets/svg/skill/GraphQL";
+import Gsap from "@/assets/svg/skill/Gsap";
+import Heroko from "@/assets/svg/skill/Heroko";
+import Hostinger from "@/assets/svg/skill/Hostinger";
 import HTML5 from '@/assets/svg/skill/HTML5'
-import Java from "./svg/skill/Java";
-import Javascript from "./svg/skill/Javascript";
-import JavaSpringBoot from "./svg/skill/JavaSpringBoot";
-import Jenskin from "./svg/skill/Jenskin";
-import JQuery from "./svg/skill/JQuery";
-import Kotlin from "./svg/skill/Kotlin";
-import Laragon from "./svg/skill/Laragon";
-import Laravel from "./svg/skill/Laravel";
-import LeonardoAI from "./svg/skill/LeonardoAI";
-import MarkDown from "./svg/skill/MarkDown";
-import MaterialUI from "./svg/skill/MaterialUI";
-import MidJourney from "./svg/skill/MidJourney";
-import MongoDB from "./svg/skill/MongoDB";
-import MySQL from "./svg/skill/MySQL";
-import NestJS from "./svg/skill/NestJS";
-import NextJS from "./svg/skill/NextJS";
-import NodeJS from "./svg/skill/NodeJS";
-import NuxtJS from "./svg/skill/NuxtJS";
-import PHP from "./svg/skill/PHP";
-import PostgresSQL from "./svg/skill/PostgresSQL";
-import Postman from "./svg/skill/Postman";
-import Prisma from "./svg/skill/Prisma";
-import Python from "./svg/skill/Python";
-import ReactJS from "./svg/skill/ReactJS";
-import ReactNative from "./svg/skill/ReactNative";
-import Redux from "./svg/skill/Redux";
-import RestAPI from "./svg/skill/RestAPI";
-import Sass from "./svg/skill/Sass";
-import Scala from "./svg/skill/Scala";
-import Spline from "./svg/skill/Spline";
-import SQLite from "./svg/skill/SQLite";
-import StylesComponents from "./svg/skill/StyledComponents";
-import Supabase from "./svg/skill/Supabase";
-import SvelteJS from "./svg/skill/SvelteJS";
-import TailwindCSS from "./svg/skill/TailwindCSS";
-import ThreeJS from "./svg/skill/ThreeJS";
-import Typescript from "./svg/skill/Typescript";
-import Unity from "./svg/skill/Unity";
-import UnrealEngine from "./svg/skill/UnrealEngine";
-import Vercel from "./svg/skill/Vercel";
-import ViteJS from "./svg/skill/ViteJS";
-import VSCode from "./svg/skill/VSCode";
-import VueJS from "./svg/skill/VueJS";
-import WordPress from "./svg/skill/WordPress";
-import Xampp from "./svg/skill/Xampp";
+import Java from "@/assets/svg/skill/Java";
+import Javascript from "@/assets/svg/skill/Javascript";
+import JavaSpringBoot from "@/assets/svg/skill/JavaSpringBoot";
+import Jenskin from "@/assets/svg/skill/Jenskin";
+import JQuery from "@/assets/svg/skill/JQuery";
+import Kotlin from "@/assets/svg/skill/Kotlin";
+import Laragon from "@/assets/svg/skill/Laragon";
+import Laravel from "@/assets/svg/skill/Laravel";
+import LeonardoAI from "@/assets/svg/skill/LeonardoAI";
+import MarkDown from "@/assets/svg/skill/MarkDown";
+import MaterialUI from "@/assets/svg/skill/MaterialUI";
+import MidJourney from "@/assets/svg/skill/MidJourney";
+import MongoDB from "@/assets/svg/skill/MongoDB";
+import MySQL from "@/assets/svg/skill/MySQL";
+import NestJS from "@/assets/svg/skill/NestJS";
+import NextJS from "@/assets/svg/skill/NextJS";
+import NodeJS from "@/assets/svg/skill/NodeJS";
+import NuxtJS from "@/assets/svg/skill/NuxtJS";
+import PHP from "@/assets/svg/skill/PHP";
+import PostgresSQL from "@/assets/svg/skill/PostgresSQL";
+import Postman from "@/assets/svg/skill/Postman";
+import Prisma from "@/assets/svg/skill/Prisma";
+import Python from "@/assets/svg/skill/Python";
+import ReactJS from "@/assets/svg/skill/ReactJS";
+import ReactNative from "@/assets/svg/skill/ReactNative";
+import Redux from "@/assets/svg/skill/Redux";
+import RestAPI from "@/assets/svg/skill/RestAPI";
+import Sass from "@/assets/svg/skill/Sass";
+import Scala from "@/assets/svg/skill/Scala";
+import Shell from "@/assets/svg/skill/Shell";
+import Spline from "@/assets/svg/skill/Spline";
+import SQLite from "@/assets/svg/skill/SQLite";
+import StockOverflow from "@/assets/svg/skill/StockOverflow";
+import StylesComponents from "@/assets/svg/skill/StyledComponents";
+import Supabase from "@/assets/svg/skill/Supabase";
+import SvelteJS from "@/assets/svg/skill/SvelteJS";
+import SVG from "@/assets/svg/skill/SVG";
+import TailwindCSS from "@/assets/svg/skill/TailwindCSS";
+import ThreeJS from "@/assets/svg/skill/ThreeJS";
+import Typescript from "@/assets/svg/skill/Typescript";
+import Unity from "@/assets/svg/skill/Unity";
+import UnrealEngine from "@/assets/svg/skill/UnrealEngine";
+import Vercel from "@/assets/svg/skill/Vercel";
+import ViteJS from "@/assets/svg/skill/ViteJS";
+import VSCode from "@/assets/svg/skill/VSCode";
+import VueJS from "@/assets/svg/skill/VueJS";
+import WIX from "@/assets/svg/skill/WIX";
+import WordPress from "@/assets/svg/skill/WordPress";
+import Xampp from "@/assets/svg/skill/Xampp";
 
 
 export {
@@ -116,8 +122,8 @@ export {
 
   AdobeAfterEffects, AdobeIllustrator,
   AdobePhotoshop, AdobePremiere, AdobeXD,
-  Anaconda, AngularJS, Apollo, AutoCAD, AWS,
-  Bootstrap, C, Canva, ChatGPT, CodeIgniter,
+  Anaconda, AndroidStudio, AngularJS, Apollo, AutoCAD, AWS,
+  Bootstrap, C, Canva, ChatGPT, CodeIgniter, Codepen,
   Codux, Contentful, Cplusplus, CSharp, CSS3,
   D3, Dart, Deno, Django, Docker, DotNet, DynamoDB,
   Electron, ExpressJS, FastAPI, Figma, FileZilla,
@@ -128,9 +134,8 @@ export {
   MaterialUI, MidJourney, MongoDB, MySQL, NestJS,
   NextJS, NodeJS, NuxtJS, PHP, PostgresSQL, Postman,
   Prisma, Python, ReactJS, ReactNative, Redux, RestAPI,
-  Sass, Scala, Spline, SQLite, StylesComponents, Supabase, SvelteJS,
+  Sass, Scala, Shell, Spline, SQLite, StockOverflow,
+  StylesComponents, Supabase, SvelteJS, SVG,
   TailwindCSS, ThreeJS, Typescript, Unity, UnrealEngine,
-  VSCode, Vercel, ViteJS, VueJS, WordPress, Xampp
-
-
+  VSCode, Vercel, ViteJS, VueJS, WIX, WordPress, Xampp
 }
