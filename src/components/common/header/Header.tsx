@@ -13,8 +13,14 @@ import {
 } from "@/components/ui/sheet"
 import Menu from '@/assets/svg/shape/Menu';
 import { colors } from '@/constants/colors';
+import { gsap } from "gsap";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin.js";
 
 const Header = () => {
+
+  gsap.registerPlugin(ScrollToPlugin);
+
+
   const mediaQuery = useMediaQuery(1024);
   const [headerChange, setHeaderChange] = useState('shadow-none');
 
@@ -27,11 +33,17 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleScrollToTop = () => {
+    gsap.to(window, { duration: 0.5, scrollTo: (0) });
+  }
+
   return (
     <header className={`${headerChange} header bg-moon/50 backdrop-blur-lg`}>
       <div className="container max-w-screen-2xl flex justify-between items-center gap-8">
 
-        <div className={`brand`}> {`<ezmichaely />`} </div>
+        <button onClick={handleScrollToTop} className={`brand`}>
+          {`<ezmichaely />`}
+        </button>
 
         <div className='navbar'>
           <nav className='navbarList'>

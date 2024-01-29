@@ -46,52 +46,52 @@ export const socialLinks: SocialLinkProps[] = [
   {
     title: "github",
     path: "https://github.com/ezmichaely/",
-    icon: Github({ size: 42, stroke: true}),
+    icon: Github({ size: 50, radius: 6}),
   },
   {
     title: "linkedin",
     path: "https://www.linkedin.com/in/ezmichaely",
-    icon: LinkedIn({ size: 42, stroke: true }),
+    icon: LinkedIn({ size: 50, radius: 6 }),
   },
   {
     title: "facebook",
     path: "https://www.facebook.com/ezmichaely/",
-    icon: Facebook({ height: 42, stroke: true })
+    icon: Facebook({ height: 50, radius: 6 })
   },
   {
     title: "gmail",
     path: "mailto:ezmichaely@gmail.com",
-    icon: Gmail({ height: 42, stroke: true })
+    icon: Gmail({ height: 50, radius: 6 })
   },
   // {
   //   title: "skype",
   //   path: "https://join.skype.com/invite/vhwQYX4SmGPu",
-  //   icon: Skype({ height: 42, stroke: true })
+  //   icon: Skype({ height: 50, radius: 6})
   // },
   // {
   //   title: "discord",
   //   path: "https://discordapp.com/users/840139271791968266",
-  //   icon: Discord({ height: 42, stroke: true })
+  //   icon: Discord({ height: 50, radius: 6})
   // },
   // {
   //   title: "slack",
   //   path: "",
-  //   icon: Slack({ height: 42, stroke: true })
+  //   icon: Slack({ height: 50, radius: 6})
   // },
   // {
   //   title: "telegram",
   //   path: "https://t.me/ezmichaely",
-  //   icon: Telegram({ height: 42, stroke: true })
+  //   icon: Telegram({ height: 50, radius: 6})
   // },
   // {
   //   title: "twitter",
   //   path: "https://twitter.com/EzMichaely",
-  //   icon: TwitterX({ height: 42, stroke: true })
+  //   icon: TwitterX({ height: 50, radius: 6})
   // },
   // {
   //   title: "whatsapp",
   //   path: "https://wa.me/+639268311909",
-  //   icon: Whatsapp({ height: 42, stroke: true })
+  //   icon: Whatsapp({ height: 50, radius: 6})
   // },
 ]
 
