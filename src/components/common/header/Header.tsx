@@ -14,7 +14,7 @@ import {
 import Menu from '@/assets/svg/shape/Menu';
 import { colors } from '@/constants/colors';
 import { gsap } from "gsap";
-import { ScrollToPlugin } from "gsap/ScrollToPlugin.js";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
 const Header = () => {
 

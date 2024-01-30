@@ -13,12 +13,12 @@ const Laragon = ({ width, height, size, color, className, stroke, theme, shape, 
         <path d="M26.5684 45.8886C26.5684 45.8886 27.9062 40.1705 32.9548 40.5321C32.9548 40.5321 37.2456 40.6473 37.3975 46.5471C37.3975 46.551 34.0176 37.7242 26.5684 45.8886Z" fill="#006699" />
         <defs>
           <linearGradient id="paint0_linear_244_2529" x1="50.4879" y1="16.5986" x2="50.4879" y2="85.4002" gradientUnits="userSpaceOnUse">
-            <stop offset="0.018" stopC="#3BB6FF" />
-            <stop offset="0.302" stopC="#39AFFF" />
-            <stop offset="0.552" stopC="#36A3FF" />
-            <stop offset="0.717" stopC="#359FFF" />
-            <stop offset="0.832" stopC="#3398FF" />
-            <stop offset="0.964" stopC="#3297FF" />
+            <stop offset="0.018" stopColor="#3BB6FF" />
+            <stop offset="0.302" stopColor="#39AFFF" />
+            <stop offset="0.552" stopColor="#36A3FF" />
+            <stop offset="0.717" stopColor="#359FFF" />
+            <stop offset="0.832" stopColor="#3398FF" />
+            <stop offset="0.964" stopColor="#3297FF" />
           </linearGradient>
         </defs>
       </svg>

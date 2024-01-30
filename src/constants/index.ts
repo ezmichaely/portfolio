@@ -106,6 +106,25 @@ export const aboutParagraph = [
 ];
 
 
+// export const about = [
+//   {
+//     title: "intro",
+//     content:
+//       "👋 Hello! I'm EZ Michael Yucor, a web developer passionate about creating captivating and functional websites. Proficient in HTML, CSS, JavaScript, React, Node.js, and MongoDB, I offer end-to-end web solutions.",
+//     content2:
+//       "👋 Greetings! I'm EZ Michael Yucor, an enthusiastic web developer dedicated to crafting remarkable digital experiences. Proficient in HTML, CSS, and JavaScript, I specialize in designing visually captivating and highly functional websites. Whether it's harnessing the power of front-end frameworks like React or leveraging back-end tools such as Node.js and MongoDB, I possess the skills to provide end-to-end solutions.",
+//   },
+//   {
+//     title: "design",
+//     content:
+//       "🎨 With a focus on design, I create projects that function seamlessly and visually captivate users. My diverse portfolio highlights my commitment to collaboration, communication, and delivering exceptional results. Explore my work and let's discuss bringing your web development ideas to life!",
+//     content2:
+//       "🎨 Placing a strong emphasis on design, I ensure that each project not only operates seamlessly but also captivates users aesthetically. My portfolio showcases a diverse array of projects, underscoring my commitment to collaborative work, effective communication, and consistently delivering exceptional outcomes. Feel free to explore my work, and don't hesitate to reach out so we can discuss how we might bring your web development visions to reality!",
+//   },
+// ];
+
+
+
 export const frontEnd: SkillsAndTechProps[] = [
   {
     icon: HTML5({height: 50, radius: 20}),
@@ -269,3 +288,183 @@ export const toolsTech: SkillsAndTechProps[] = [
     title: 'VSCode',
   },
 ]
+
+
+
+// export const projectsData = [
+//   {
+//     key: "lodong",
+//     name: "Lodong Co. Ltd.",
+//     img: lodong,
+//     desc: "A landing page for a tech company where they show case there finished projects.",
+//     url: "https://lodongsite.vercel.app",
+//     stack: ["HTML5", "NEXT.JS", "Tailwind CSS"],
+//     github: "",
+//   },
+//   {
+//     key: "jungnanum",
+//     name: "Jungnanum",
+//     img: jungnanum,
+//     desc: "A landing page with complete an admin management system. This facilitated the addition of products and incorporated a personality test questionnaire.",
+//     url: "http://210.99.223.38:20004/",
+//     stack: ["HTML5", "CSS3", "BOOTSTRAP", "JAVASCRIPT"],
+//     github: "",
+//   },
+//   {
+//     key: "supermandiary",
+//     name: "Superman Diary",
+//     img: supermanDairy,
+//     desc: "This system encompassed communication management, constructor and technician team oversight, order and contract management, technician scheduling, and a content management system. It even featured a raffle management system to award prizes to various tenants.",
+//     url: "https://godofhouse.co.kr/",
+//     // stack: ["REACT.JS", "EXPRESS.S", "NODE.JS", "FIREBASE", "SOCKET.IO"],
+//     stack: [
+//       "HTML5",
+//       "CSS3",
+//       "BOOTSTRAP",
+//       "JAVASCRIPT",
+//       "JQUERY",
+//       "FIREBASE",
+//       "SOCK.JS",
+//       "SPRING BOOT",
+//     ],
+//     github: "",
+//   },
+//   // {
+//   //   key: 'garbagecollection',
+//   //   name: 'Garbage Collection',
+//   //   img: lodong,
+//   //   desc: '',
+//   //   url: 'http://210.99.223.38:20004/',
+//   //   stack: ['HTML5', 'CSS3', 'BOOTSTRAP', 'JAVASCRIPT', 'PHP', 'MYSQL'],
+//   //   github: ''
+//   // },
+//   // {
+//   //   key: 'bhcm',
+//   //   name: 'Brgy. Health Center Management',
+//   //   img: lodong,
+//   //   desc: '',
+//   //   url: 'http://210.99.223.38:20004/',
+//   //   stack: ['HTML5', 'CSS3', 'BOOTSTRAP', 'JAVASCRIPT', 'PHP', 'MYSQL'],
+//   //   github: ''
+//   // },
+//   {
+//     key: "norsuelcms",
+//     name: "NORSU-eLCMS",
+//     img: norsuElcms,
+//     desc: "This project was created as our capstone project in my college. It comprises a messaging system, content management, class management, and more.",
+//     url: "",
+//     stack: ["HTML5", "CSS3", "BOOTSTRAP", "JAVASCRIPT", "PHP", "MYSQL"],
+//     github: "https://github.com/ezmichaely/norsu_elcms",
+//   },
+// ];
+
+// export const galleryDesigns = [
+//   { src: bvp, key: "bvp" },
+//   { src: desFiesta, key: "desFiesta" },
+//   { src: desXmas1, key: "desXmas1" },
+//   { src: desXmas2, key: "desXmas2" },
+//   { src: dwightTarp, key: "dwightTarp" },
+//   { src: dwightTshirt, key: "dwightTshirt" },
+//   { src: infoSteamos, key: "infoSteamos" },
+//   { src: infoWin10, key: "infoWin10" },
+//   { src: logo_ducking, key: "logo_ducking" },
+//   { src: logo_farmigs, key: "logo_farmigs" },
+//   { src: logo_francyn, key: "logo_francyn" },
+//   { src: logo_rems, key: "logo_rems" },
+//   // { src: logo_tayoktok, key: 'logo_tayoktok' },
+//   // { src: tarpBday, key: "tarpBday" },
+//   // { src: tarpFiesta, key: "tarpFiesta" },
+//   // { src: tayok_drinks, key: 'tayok_drinks' },
+//   { src: tayok_menu, key: "tayok_menu" },
+//   { src: tayok_opening, key: "tayok_opening" },
+//   // { src: tayok_tshirt, key: 'tayok_tshirt' },
+//   // { src: tayok_sessionistas, key: 'tayok_sessionistas' },
+//   { src: tayok_vibes, key: "tayok_vibes" },
+// ];
+
+
+// export const footerDetails = [
+//   {
+//     title: "Name",
+//     content: "EZ MICHAEL YUCOR",
+//   },
+//   {
+//     title: "Contact",
+//     content: "+6392 6831 1909",
+//   },
+//   {
+//     title: "Email",
+//     content: "ezmichaely@gmail.com",
+//   },
+// ];
+
+// export const copyRights = "Copyright ⓒ 2023 | EZY. All Rights Reserved";
+
+
+
+// export const projectsData = [
+//   {
+//     key: "lodong",
+//     name: "Lodong Co. Ltd.",
+//     img: lodong,
+//     desc: "A landing page for a tech company where they show case there finished projects.",
+//     url: "https://lodongsite.vercel.app",
+//     stack: ["HTML5", "NEXT.JS", "Tailwind CSS"],
+//     github: "",
+//   },
+//   {
+//     key: "jungnanum",
+//     name: "Jungnanum",
+//     img: jungnanum,
+//     desc: "A landing page with complete an admin management system. This facilitated the addition of products and incorporated a personality test questionnaire.",
+//     url: "http://210.99.223.38:20004/",
+//     stack: ["HTML5", "CSS3", "BOOTSTRAP", "JAVASCRIPT"],
+//     github: "",
+//   },
+//   {
+//     key: "supermandiary",
+//     name: "Superman Diary",
+//     img: supermanDairy,
+//     desc: "This system encompassed communication management, constructor and technician team oversight, order and contract management, technician scheduling, and a content management system. It even featured a raffle management system to award prizes to various tenants.",
+//     url: "https://godofhouse.co.kr/",
+//     // stack: ["REACT.JS", "EXPRESS.S", "NODE.JS", "FIREBASE", "SOCKET.IO"],
+//     stack: [
+//       "HTML5",
+//       "CSS3",
+//       "BOOTSTRAP",
+//       "JAVASCRIPT",
+//       "JQUERY",
+//       "FIREBASE",
+//       "SOCK.JS",
+//       "SPRING BOOT",
+//     ],
+//     github: "",
+//   },
+//   // {
+//   //   key: 'garbagecollection',
+//   //   name: 'Garbage Collection',
+//   //   img: lodong,
+//   //   desc: '',
+//   //   url: 'http://210.99.223.38:20004/',
+//   //   stack: ['HTML5', 'CSS3', 'BOOTSTRAP', 'JAVASCRIPT', 'PHP', 'MYSQL'],
+//   //   github: ''
+//   // },
+//   // {
+//   //   key: 'bhcm',
+//   //   name: 'Brgy. Health Center Management',
+//   //   img: lodong,
+//   //   desc: '',
+//   //   url: 'http://210.99.223.38:20004/',
+//   //   stack: ['HTML5', 'CSS3', 'BOOTSTRAP', 'JAVASCRIPT', 'PHP', 'MYSQL'],
+//   //   github: ''
+//   // },
+//   {
+//     key: "norsuelcms",
+//     name: "NORSU-eLCMS",
+//     img: norsuElcms,
+//     desc: "This project was created as our capstone project in my college. It comprises a messaging system, content management, class management, and more.",
+//     url: "",
+//     stack: ["HTML5", "CSS3", "BOOTSTRAP", "JAVASCRIPT", "PHP", "MYSQL"],
+//     github: "https://github.com/ezmichaely/norsu_elcms",
+//   },
+// ];

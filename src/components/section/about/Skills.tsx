@@ -19,9 +19,9 @@ const Skills = () => {
         <div className="w-full md:w-2/3">
           <Tabs defaultValue="frontend" className="col-span-2">
 
-            <TabsList className="grid w-full grid-cols-3 font-robotoSlab font-bold tracking-wider">
+            <TabsList className="grid w-full grid-cols-4 font-robotoSlab font-bold tracking-wider bg-moon">
               <TabsTrigger value="frontend">FRONTEND</TabsTrigger>
-              {/* <TabsTrigger value="backend">BACKEND</TabsTrigger> */}
+              <TabsTrigger value="backend">BACKEND</TabsTrigger>
               <TabsTrigger value="graphics">GRAPHICS</TabsTrigger>
               <TabsTrigger value="tools">TOOLS</TabsTrigger>
             </TabsList>
@@ -41,7 +41,7 @@ const Skills = () => {
                 </div>
               </TabsContent>
 
-              {/* <TabsContent className='' value="backend">
+              <TabsContent className='' value="backend">
                 <div className={styles.skillDiv}>
                   <div className={styles.skillSection}>
                     {backEnd.map((data, index) => (
@@ -52,7 +52,7 @@ const Skills = () => {
                     ))}
                   </div>
                 </div>
-              </TabsContent> */}
+              </TabsContent>
 
               <TabsContent className='' value="graphics">
                 <div className={styles.skillDiv}>
