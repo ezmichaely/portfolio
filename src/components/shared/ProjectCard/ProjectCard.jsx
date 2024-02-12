@@ -1,7 +1,6 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import styles from './projectCard.module.css'
-
+import Link from "next/link";
+import Image from "next/image";
+import styles from "./projectCard.module.css";
 
 export default function ProjectCard({ details }) {
   return (
@@ -22,17 +21,25 @@ export default function ProjectCard({ details }) {
 
           <div className={styles.descBot}>
             <div className={styles.links}>
-              {details.url &&
-                <Link href={details.url} target='_blank'>
-                LIVE SITE
+              {details.url && (
+                <Link
+                  href={details.url}
+                  target="_blank"
+                  className={styles.live}
+                >
+                  LIVE SITE
                 </Link>
-              }
+              )}
 
-              {details.github &&
-                <Link href={details.github} target='_blank'>
+              {details.github && (
+                <Link
+                  href={details.github}
+                  target="_blank"
+                  className={styles.github}
+                >
                   GITHUB
                 </Link>
-              }
+              )}
             </div>
             <div className={styles.stacks}>
               <h5>TECH USED:</h5>
@@ -46,9 +53,8 @@ export default function ProjectCard({ details }) {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
-  )
+  );
 }
