@@ -1,0 +1,55 @@
+.main {
+  @apply
+  py-16
+  w-screen bg-accent
+  lg:min-h-[calc(100vh_-_96px)]
+}
+
+.mainContent {
+  @apply ease-linear duration-200
+  max-w-screen-2xl mx-auto
+  w-full
+  px-6 lg:px-14
+  flex justify-start items-center flex-col
+  gap-y-6
+  lg:gap-y-16
+  mb-12 lg:mb-0
+}
+
+
+.title {
+  @apply font-markpro font-bold text-center
+    flex justify-center flex-col
+    text-5xl lg:text-6xl
+    gap-8
+}
+
+.subtitle2 {
+  @apply text-blues-dark  uppercase
+}
+
+.web, .ux {
+  @apply w-full
+  flex justify-start items-start flex-col gap-y-3
+  /* grid grid-cols-4 */
+}
+
+
+.webContent {
+  @apply w-full
+  grid md:grid-cols-2 lg:grid-cols-3 gap-4
+}
+
+.web h3, .ux h3 {
+  @apply relative uppercase leading-none
+  text-2xl font-markpro text-mirage-dark
+
+  w-fit py-1 px-0
+  after:content-[""] after:bg-mirage-dark after:h-[2px] after:w-full
+  after:absolute after:bottom-0 after:left-0 after:origin-right
+  after:scale-x-100
+}
+
+.uxContent {
+  @apply w-full p-4 bg-blues-dark
+}

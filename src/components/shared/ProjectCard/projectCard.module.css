@@ -1,0 +1,98 @@
+.card {
+  @apply w-full bg-white p-4 rounded
+  border border-blues-light;
+}
+
+.cardContent {
+  @apply w-full flex justify-start items-stretch gap-4 flex-col;
+}
+
+.imgHolder {
+  @apply flex justify-center items-center
+  min-w-full
+  bg-blues-dark shadow-lg
+  h-[250px] overflow-hidden
+  border border-blues-dark
+  relative;
+}
+
+.imgHolder img {
+  @apply object-contain;
+}
+
+.imgDesc {
+  @apply absolute bottom-0 left-0 z-20
+  p-3 bg-blues-dark w-full
+
+  /* border */;
+}
+
+.imgDesc h4 {
+  @apply font-inter text-4xl font-bold text-white;
+}
+
+.descriptions {
+  @apply text-mirage-dark
+  flex justify-end items-start flex-col
+  /* lg:min-w-full */
+  gap-y-6 lg:gap-y-4
+  grow
+  /* border */
+
+  /* h-full */;
+}
+
+.descTop {
+  @apply grow min-h-[120px]
+  flex justify-start items-start flex-col gap-y-2;
+}
+
+/* .descTop h4 {
+  @apply font-inter text-4xl font-bold text-mirage-dark
+} */
+
+.descriptions p {
+  @apply text-mirage-dark text-base font-inter;
+}
+
+.descBot {
+  @apply w-full
+  flex justify-end items-start flex-col gap-y-6
+  /* border */
+  /* border border-red-500 */;
+}
+
+.links {
+  @apply flex justify-start items-start flex-row gap-x-2;
+}
+
+.live {
+  @apply border border-blues-light rounded py-2 px-3
+  font-markpro bg-blues-light text-white
+  hover:bg-white hover:text-mirage-dark;
+}
+
+.github {
+  @apply border border-blues-light rounded py-2 px-3
+  font-markpro bg-transparent text-blues-light
+  hover:bg-blues-light hover:text-white;
+}
+
+.stacks {
+  @apply w-full;
+}
+
+.stacks h5 {
+  @apply text-blues-dark font-markpro uppercase text-sm;
+}
+
+.tech {
+  @apply flex justify-start items-start flex-row gap-2 flex-wrap
+  /* border border-red-500  */
+  mt-2;
+}
+
+.techContent {
+  @apply border border-blues-dark rounded-full py-1 px-3
+  font-inter font-medium bg-blues-light/20 text-blues-dark uppercase text-xs;
+}

@@ -1,0 +1,101 @@
+
+.main {
+  @apply
+  py-16
+  w-screen bg-mirage-dark
+  lg:min-h-[calc(100vh_-_96px)]
+
+  /* border border-red-500 */
+}
+
+.mainContent {
+  @apply ease-linear duration-200
+  max-w-screen-2xl mx-auto
+  w-full
+  px-6 lg:px-14
+  flex justify-start items-center flex-col
+  gap-y-6
+  lg:gap-y-16
+  mb-12 lg:mb-0
+  /* border border-red-500 */
+}
+
+
+.title {
+    @apply font-markpro font-bold text-center
+    flex justify-center flex-col
+    text-5xl lg:text-6xl
+    gap-8
+}
+
+.subtitle2 {
+  @apply text-accent tracking-widest uppercase
+}
+
+
+.second {
+  @apply w-full flex justify-between items-center flex-col
+  gap-y-12
+  lg:gap-x-36
+  lg:justify-between
+  lg:flex-row relative;
+}
+
+.imgContainer {
+  @apply h-[250px]
+  /* border */
+}
+
+.img {
+  @apply h-[250px] lg:h-[300px]
+  object-contain
+  /* border */
+}
+
+.detailsContainer {
+  @apply
+  flex flex-col
+  gap-y-10
+}
+
+.pText {
+  @apply text-left text-2xl
+}
+
+.third {
+  @apply w-full mt-12
+}
+
+.title2 {
+  @apply text-2xl font-inter font-semibold text-accent mb-2
+}
+
+.stacksContainer {
+  @apply w-full flex justify-start items-center flex-row flex-wrap gap-4
+  overflow-x-hidden
+}
+
+.stacksDiv {
+  @apply
+  px-3 py-2 rounded
+  border border-blues-light
+  flex justify-center items-center flex-col gap-4
+}
+
+.stack_img {
+  /* max-height: 60px !important;
+  min-height: 60px !important;
+  width: auto !important;
+  border: 1px solid red;
+  object-fit: contain !important; */
+  @apply object-contain w-fit
+  min-h-[50px] h-[50px]
+  bg-mirage-dark shadow-lg
+
+  /* min-w-[60px] */
+  /* border border-lime-600 */
+}
+
+.stacksDiv p {
+  @apply font-inter text-sm font-medium tracking-wide uppercase
+}

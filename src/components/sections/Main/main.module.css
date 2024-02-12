@@ -1,0 +1,148 @@
+
+.main {
+  @apply
+  w-screen bg-[#DDDDDD]
+  lg:min-h-[calc(100vh_-_96px)]
+}
+
+.mainContent {
+  @apply ease-linear duration-200
+  max-w-screen-2xl mx-auto
+  w-full
+  px-0 lg:px-14
+  flex justify-start items-center flex-col
+  gap-y-6
+  lg:gap-y-16
+
+  /* border border-red-500 */
+}
+
+.title {
+  @apply font-markpro font-bold
+    text-center lg:text-left
+    flex justify-center
+    lg:justify-start flex-col
+    gap-2
+    mt-10 lg:mt-0
+}
+
+.subtitle1 {
+  @apply text-5xl lg:text-6xl text-blues-dark whitespace-normal;
+}
+
+.subtitle2 {
+  @apply text-5xl lg:text-7xl text-blues-light tracking-normal
+}
+
+.title h4 {
+  @apply text-2xl text-mirage-dark
+}
+
+.title h4 span:nth-of-type(2) {
+  @apply whitespace-nowrap
+}
+
+.second {
+  @apply w-full flex justify-between items-center flex-col-reverse
+  lg:justify-between lg:flex-row relative
+  /* border border-red-600; */
+
+}
+
+.second_left {
+  @apply flex justify-center items-center flex-col gap-6
+  bg-white lg:bg-transparent
+  w-full lg:w-auto
+  pb-12 lg:pb-0
+
+  /* border */
+}
+
+.web_dev {
+  @apply w-fit flex justify-center items-center flex-col
+  mt-8 lg:mt-0
+}
+
+/* .web {
+  background: linear-gradient(180deg, #4C16BF 0%, #C213EE 120%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px #fff;
+  @apply font-beaufort font-bold tracking-wide leading-none
+  text-[120px] lg:text-[200px]
+}
+
+.developer {
+  -webkit-text-stroke: 1px #fff;
+  text-shadow: rgb(255, 255, 255) 2px 0px 0px, rgb(255, 255, 255) 1.75517px 0.958851px 0px, rgb(255, 255, 255) 1.0806px 1.68294px 0px, rgb(255, 255, 255) 0.141474px 1.99499px 0px, rgb(255, 255, 255) -0.832294px 1.81859px 0px, rgb(255, 255, 255) -1.60229px 1.19694px 0px, rgb(255, 255, 255) -1.97998px 0.28224px 0px, rgb(255, 255, 255) -1.87291px -0.701566px 0px, rgb(255, 255, 255) -1.30729px -1.5136px 0px, rgb(255, 255, 255) -0.421592px -1.95506px 0px, rgb(255, 255, 255) 0.567324px -1.91785px 0px, rgb(255, 255, 255) 1.41734px -1.41108px 0px, rgb(255, 255, 255) 1.92034px -0.558831px 0px;
+
+  @apply text-plum-bluish font-beaufort font-bold tracking-widest text-center
+  text-[50px] lg:text-7xl
+  mt-0 lg:mt-3
+} */
+
+.resume {
+  @apply w-full flex justify-center
+  lg:justify-start
+  items-center
+}
+
+.resume a {
+  @apply bg-blues-dark py-4 px-6 rounded-xl border-2 border-blues-light
+  uppercase font-markpro tracking-wider
+  hover:bg-blues-light
+}
+
+.socials {
+  @apply w-full flex justify-center
+  lg:justify-start
+  items-center flex-row gap-8
+  /* border border-red-500 */
+}
+
+.profile_container {
+  @apply ease-linear duration-200
+  relative
+  flex
+  justify-start
+  /* justify-center */
+   /* border; */
+   /* border border-red-400 */
+  lg:-ml-24
+  xl:-mr-60
+}
+
+.heroImage {
+  @apply ease-linear duration-200
+  h-[400px] min-w-fit w-auto
+  lg:h-auto
+  lg:min-h-[calc(100vh_-_96px)]
+  xl:h-[740px]
+  xl:min-w-fit
+  xl:w-fit
+}
+
+.morphing_shape {
+  animation: morph 5s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+
+  @apply bg-profile bg-cover
+  h-[280px] w-[280px]
+  lg:h-360 lg:w-360
+  border-4 border-plum-neon
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+
+  to {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
