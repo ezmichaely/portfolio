@@ -238,10 +238,10 @@ export const backEnd: SkillsAndTechProps[] = [
     icon: MySQL({ height: 50, radius: 20 }),
     title: 'MySQL',
   },
-  {
-    icon: PostgresSQL({ height: 50, radius: 20 }),
-    title: 'PostgresSQL',
-  },
+  // {
+  //   icon: PostgresSQL({ height: 50, radius: 20 }),
+  //   title: 'PostgresSQL',
+  // },
   {
     icon: SQLite({ height: 50, radius: 20 }),
     title: 'SQLite',
