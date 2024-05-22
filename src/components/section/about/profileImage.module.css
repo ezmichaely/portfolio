@@ -1,40 +1,37 @@
 .profileContainer {
-  @apply w-full h-full flex justify-center items-start flex-col
+  @apply w-full h-full flex justify-center items-start flex-col;
 }
 
 .imageContainer {
-  @apply w-full flex justify-center items-start
+  @apply w-full flex justify-center items-start;
 }
 .profileContent {
   @apply relative
   w-[370px] h-[390px]
-  sm:w-[400px] sm:h-[420px]
+  sm:w-[400px] sm:h-[420px];
 }
 
 .profileImage {
   @apply relative z-20
   w-[370px] h-[390px]
-  sm:w-[400px] sm:h-[420px]
+  sm:w-[400px] sm:h-[420px];
 }
 
 .profileBg {
-  @apply
-  w-[370px] h-[370px]
+  @apply w-[370px] h-[370px]
   sm:w-[400px] sm:h-[400px]
   rounded-full bg-sun
-  absolute bottom-0 left-0 z-10
+  absolute bottom-0 left-0 z-10;
 }
-
 
 .badge {
-  @apply text-sun tracking-wider font-medium text-sm bg-moon py-2 px-4 hover:bg-moon/90 select-none
+  @apply text-sun tracking-wider font-medium text-sm bg-moon py-2 px-4 hover:bg-moon/90 select-none;
 }
 
-
 .badgesContainer {
-  @apply mt-8 block md:hidden lg:block xl:hidden
+  @apply mt-8 block md:hidden lg:block xl:hidden;
 }
 
 .badgesContent {
-  @apply w-full flex justify-center items-start flex-row flex-wrap gap-1
+  @apply w-full flex justify-center items-start flex-row flex-wrap gap-1;
 }

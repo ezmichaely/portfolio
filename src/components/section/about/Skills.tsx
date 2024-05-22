@@ -27,7 +27,7 @@ const Skills = () => {
             </TabsList>
 
 
-            <div className="min-h-[330px] ease-in duration-300">
+            <div className="min-h-[280px] ease-in duration-300">
               <TabsContent className='' value="frontend">
                 <div className={styles.skillDiv}>
                   <div className={styles.skillSection}>

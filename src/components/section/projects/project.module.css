@@ -1,0 +1,7 @@
+.container {
+  @apply py-10;
+}
+
+.title {
+  @apply font-poppins text-5xl font-bold tracking-wide text-center text-darkBlue uppercase;
+}

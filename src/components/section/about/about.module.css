@@ -1,87 +1,85 @@
 .aboutSection {
-  @apply w-full
+  @apply w-full;
 }
 
 .topEdge {
-  @apply -mt-[70px] w-full bg-topEdge bg-no-repeat lg:bg-repeat bg-auto bg-left-bottom h-[78px] z-30
+  @apply -mt-[70px] w-full bg-topEdge bg-no-repeat lg:bg-repeat bg-auto bg-left-bottom h-[78px] z-30;
 }
 
 .botEdge {
-  @apply w-full bg-botEdge bg-no-repeat lg:bg-repeat bg-auto bg-left-bottom h-[78px] drop-shadow-lg
+  @apply w-full bg-botEdge bg-no-repeat lg:bg-repeat bg-auto bg-left-bottom h-[78px] drop-shadow-lg;
 }
 
 .aboutContainer {
-  @apply bg-lightBlue py-8 w-full
+  @apply bg-lightBlue py-8 w-full;
 }
 
 .content {
-  @apply max-w-screen-2xl mx-auto text-lightWhite w-full px-4 lg:px-8
+  @apply max-w-screen-2xl mx-auto text-lightWhite w-full px-4 lg:px-8;
 }
 
 .title {
-  @apply font-poppins text-5xl font-bold tracking-wide text-center text-sun
+  @apply font-poppins text-5xl font-bold tracking-wide text-center text-sun;
 }
 
 .details {
-  @apply grid grid-cols-2 gap-8 my-8
+  @apply grid grid-cols-2 gap-8 my-8;
 }
 
 .profile {
-  @apply col-span-2 lg:col-span-1  w-full h-full flex items-start justify-center
+  @apply col-span-2 lg:col-span-1  w-full h-full flex items-start justify-center;
 }
 
 .paragraphs {
   @apply col-span-2 lg:col-span-1 space-y-6
-  text-white font-light text-xl lg:text-justify
+  text-white font-light text-xl lg:text-justify;
 }
 
 .paragraphs p {
-  @apply lg:indent-5
+  @apply lg:indent-5;
 }
 
 .paragraphs p span {
-  @apply text-sun
+  @apply text-sun;
 }
 
 .skillsAndTech {
-  @apply w-screen bg-darkBlue py-8
+  @apply w-screen bg-lightBlue py-8;
 }
 
-
 .skillContainer {
-  @apply w-full max-w-screen-2xl mx-auto px-4 lg:px-8 
+  @apply w-full max-w-screen-2xl mx-auto px-4 lg:px-8;
 }
 
 .skillContainer h3 {
-  @apply mb-4 text-white text-3xl font-medium text-center
+  @apply mb-4 text-white text-3xl font-medium text-center;
 }
 
 .skillContent {
-  @apply grid grid-cols-8 gap-8
+  @apply grid grid-cols-8 gap-8;
 }
 
 .skillDiv {
   @apply col-span-8 lg:col-span-4 py-4
-  /* bg-moon 
-  border-2 border-moon drop-shadow-xl */
+  /* bg-moon
+  border-2 border-moon drop-shadow-xl */;
 }
 
 .skillDiv h5 {
-  @apply text-moon text-xl font-bold mb-2 text-center
+  @apply text-moon text-xl font-bold mb-2 text-center;
 }
 
 .skillSection {
-  @apply 
-  /* w-full flex justify-center items-start flex-row flex-wrap gap-5 */
-  grid grid-cols-12 gap-6
+  @apply /* w-full flex justify-center items-start flex-row flex-wrap gap-5 */
+  grid grid-cols-12 gap-6;
 }
 
 .skillCard {
   @apply col-span-4 md:col-span-3 xl:col-span-2
-  flex justify-start items-center flex-col gap-y-2 
-  /* border-[2px] border-sun py-2 px-4 rounded-xl bg-moon hover:bg-moon/50 */
+  flex justify-start items-center flex-col gap-y-2
+  /* border-[2px] border-sun py-2 px-4 rounded-xl bg-moon hover:bg-moon/50 */;
 }
 
 .skillCard p {
-  @apply text-sun font-medium w-full text-center
+  @apply text-sun font-medium w-full text-center;
 }
