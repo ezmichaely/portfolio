@@ -23,12 +23,12 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className={styles.ux}>
+        {/* <div className={styles.ux}>
           <h3>Graphics Design</h3>
           <div className={styles.uxContent}>
             <ImageGallery />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

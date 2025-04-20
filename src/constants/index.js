@@ -103,7 +103,7 @@ export const copyRights = "Copyright ⓒ 2023 | EZY. All Rights Reserved";
 export const socials = [
   {
     title: "linkedin",
-    url: "https://www.linkedin.com/in/ez-michael-yucor-283068204/",
+    url: "https://www.linkedin.com/in/ezmichaely",
     icon: linkedin,
   },
   {
@@ -144,7 +144,7 @@ export const techStacks = [
   {
     key: "html5",
     name: "HTML5",
-    url: "https://www.w3.org/html/",
+    // url: "https://www.w3.org/html/",
     icon: html5,
     height: 60,
     width: 60,
@@ -152,7 +152,7 @@ export const techStacks = [
   {
     key: "css3",
     name: "CSS3",
-    url: "https://www.w3schools.com/css/",
+    // url: "https://www.w3schools.com/css/",
     icon: css3,
     height: 60,
     width: 60,
@@ -160,7 +160,7 @@ export const techStacks = [
   {
     key: "js",
     name: "JAVASCRIPT",
-    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/",
+    // url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/",
     icon: javascript,
     height: 60,
     width: 60,
@@ -168,7 +168,7 @@ export const techStacks = [
   {
     key: "bootstrap",
     name: "BOOTSTRAP",
-    url: "https://getbootstrap.com/",
+    // url: "https://getbootstrap.com/",
     icon: bootstrap,
     height: 34,
     width: 40,
@@ -176,7 +176,7 @@ export const techStacks = [
   {
     key: "sass",
     name: "SASS",
-    url: "https://sass-lang.com/",
+    // url: "https://sass-lang.com/",
     icon: sass,
     height: 30,
     width: 35,
@@ -184,7 +184,7 @@ export const techStacks = [
   {
     key: "tailwind",
     name: "TAILWIND",
-    url: "https://tailwindcss.com/",
+    // url: "https://tailwindcss.com/",
     icon: tailwindcss,
     height: 35,
     width: 38,
@@ -192,7 +192,7 @@ export const techStacks = [
   {
     key: "reactjs",
     name: "REACTJS",
-    url: "https://reactjs.org/",
+    // url: "https://reactjs.org/",
     icon: react,
     height: 30,
     width: 30,
@@ -208,7 +208,7 @@ export const techStacks = [
   {
     key: "nextjs",
     name: "NEXTJS",
-    url: "https://nextjs.org/",
+    // url: "https://nextjs.org/",
     icon: nextjs,
     height: 30,
     width: 30,
@@ -224,7 +224,7 @@ export const techStacks = [
   {
     key: "jquery",
     name: "JQUERY",
-    url: "https://jquery.com/",
+    // url: "https://jquery.com/",
     icon: jquery,
     height: 30,
     width: 110,
@@ -232,7 +232,7 @@ export const techStacks = [
   {
     key: "typescript",
     name: "TYPESCRIPT",
-    url: "https://www.typescriptlang.org/",
+    // url: "https://www.typescriptlang.org/",
     icon: typescript,
     height: 30,
     width: 30,
@@ -240,7 +240,7 @@ export const techStacks = [
   {
     key: "cpp",
     name: "C++",
-    url: "https://www.w3schools.com/cpp/",
+    // url: "https://www.w3schools.com/cpp/",
     icon: cplusplus,
     height: 30,
     width: 30,
@@ -256,19 +256,19 @@ export const techStacks = [
   {
     key: "php",
     name: "PHP",
-    url: "https://www.php.net/",
+    // url: "https://www.php.net/",
     icon: php,
     height: 30,
     width: 50,
   },
-  {
-    key: "laravel",
-    name: "Laravel",
-    url: "https://laravel.com/",
-    icon: laravel,
-    height: 30,
-    width: 30,
-  },
+  // {
+  //   key: "laravel",
+  //   name: "Laravel",
+  //   // url: "https://laravel.com/",
+  //   icon: laravel,
+  //   height: 30,
+  //   width: 30,
+  // },
   // {
   //   key: 'python',
   //   name: 'Python',
@@ -277,14 +277,14 @@ export const techStacks = [
   //   height: 30,
   //   width: 30,
   // },
-  {
-    key: "xampp",
-    name: "XAMPP",
-    url: "https://www.apachefriends.org/",
-    icon: xampp,
-    height: 30,
-    width: 30,
-  },
+  // {
+  //   key: "xampp",
+  //   name: "XAMPP",
+  //   url: "https://www.apachefriends.org/",
+  //   icon: xampp,
+  //   height: 30,
+  //   width: 30,
+  // },
   // {
   //   key: 'mariadb',
   //   name: 'MariaDB',
@@ -296,7 +296,7 @@ export const techStacks = [
   {
     key: "mysql",
     name: "MySQL",
-    url: "https://www.mysql.com/",
+    // url: "https://www.mysql.com/",
     icon: mysql,
     height: 30,
     width: 40,
@@ -333,18 +333,18 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  {
-    key: "github_desktop",
-    name: "GITHUB DESKTOP",
-    url: "https://desktop.github.com/",
-    icon: githubLogo,
-    height: 30,
-    width: 30,
-  },
+  // {
+  //   key: "github_desktop",
+  //   name: "GITHUB DESKTOP",
+  //   url: "https://desktop.github.com/",
+  //   icon: githubLogo,
+  //   height: 30,
+  //   width: 30,
+  // },
   {
     key: "postman",
     name: "POSTMAN",
-    url: "https://postman.com/",
+    // url: "https://postman.com/",
     icon: postman,
     height: 30,
     width: 30,
@@ -352,7 +352,7 @@ export const techStacks = [
   {
     key: "figma",
     name: "FIGMA",
-    url: "https://www.figma.com/",
+    // url: "https://www.figma.com/",
     icon: figma,
     height: 30,
     width: 30,
@@ -360,7 +360,7 @@ export const techStacks = [
   {
     key: "photoshop",
     name: "Photoshop",
-    url: "https://www.photoshop.com/en",
+    // url: "https://www.photoshop.com/en",
     icon: photoshop,
     height: 30,
     width: 30,
@@ -368,7 +368,7 @@ export const techStacks = [
   {
     key: "illustrator",
     name: "Illustrator",
-    url: "https://www.adobe.com/in/products/illustrator.html",
+    // url: "https://www.adobe.com/in/products/illustrator.html",
     icon: illustrator,
     height: 30,
     width: 30,
@@ -385,15 +385,15 @@ export const projectsData = [
     stack: ["HTML5", "NEXT.JS", "Tailwind CSS"],
     github: "https://github.com/ezmichaely/lodongsite_",
   },
-  {
-    key: "jungnanum",
-    name: "Jungnanum",
-    img: jungnanum,
-    desc: "A landing page with complete an admin management system. This facilitated the addition of products and incorporated a personality test questionnaire. (already submitted to client using vanilla js, practice converting it in nextjs (unfinished))",
-    url: "https://jungnanum-git-main-ezmichaely.vercel.app/register",
-    stack: ["HTML5", "CSS3", "BOOTSTRAP", "SASS", "JAVASCRIPT"],
-    github: "https://github.com/ezmichaely/ld.jungnanum",
-  },
+  // {
+  //   key: "jungnanum",
+  //   name: "Jungnanum",
+  //   img: jungnanum,
+  //   desc: "A landing page with complete an admin management system. This facilitated the addition of products and incorporated a personality test questionnaire. (already submitted to client using vanilla js, practice converting it in nextjs (unfinished))",
+  //   url: "https://jungnanum-git-main-ezmichaely.vercel.app/register",
+  //   stack: ["HTML5", "CSS3", "BOOTSTRAP", "SASS", "JAVASCRIPT"],
+  //   github: "https://github.com/ezmichaely/ld.jungnanum",
+  // },
   {
     key: "supermandiary",
     name: "Superman Diary",
@@ -452,6 +452,6 @@ export const galleryDesigns = [
   { src: tayok_menu, key: "tayok_menu" },
   { src: tayok_opening, key: "tayok_opening" },
   // { src: tayok_tshirt, key: 'tayok_tshirt' },
-  { src: tayok_sessionistas, key: "tayok_sessionistas" },
-  { src: tayok_vibes, key: "tayok_vibes" },
+  // { src: tayok_sessionistas, key: "tayok_sessionistas" },
+  // { src: tayok_vibes, key: "tayok_vibes" },
 ];
