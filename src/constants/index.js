@@ -206,6 +206,14 @@ export const techStacks = [
   //   width: 30,
   // },
   {
+    key: "jquery",
+    name: "JQUERY",
+    // url: "https://jquery.com/",
+    icon: jquery,
+    height: 30,
+    width: 110,
+  },
+  {
     key: "nextjs",
     name: "NEXTJS",
     // url: "https://nextjs.org/",
@@ -222,14 +230,6 @@ export const techStacks = [
   //   width: 30,
   // },
   {
-    key: "jquery",
-    name: "JQUERY",
-    // url: "https://jquery.com/",
-    icon: jquery,
-    height: 30,
-    width: 110,
-  },
-  {
     key: "typescript",
     name: "TYPESCRIPT",
     // url: "https://www.typescriptlang.org/",
@@ -237,14 +237,14 @@ export const techStacks = [
     height: 30,
     width: 30,
   },
-  {
-    key: "cpp",
-    name: "C++",
-    // url: "https://www.w3schools.com/cpp/",
-    icon: cplusplus,
-    height: 30,
-    width: 30,
-  },
+  // {
+  //   key: "cpp",
+  //   name: "C++",
+  //   // url: "https://www.w3schools.com/cpp/",
+  //   icon: cplusplus,
+  //   height: 30,
+  //   width: 30,
+  // },
   // {
   //   key: 'java',
   //   name: 'JAVA',
